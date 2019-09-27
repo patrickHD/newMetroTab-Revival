@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "instala"
+   },
+   "Installed": {
+      "message": "instalat"
+   },
+   "RestoreDefault": {
+      "message": "Restaurare implicită"
+   },
+   "acerca_agradece": {
+      "message": "Mulțumiri"
+   },
+   "acerca_apoyo": {
+      "message": "Suport tehnic"
+   },
+   "acerca_contact": {
+      "message": "Dacă aveți întrebări, vă rugăm să ne contactați pe adresa de e-mail:"
+   },
+   "acerca_idiompers": {
+      "message": "La traducerile din new metroTab au contribuit următorii oameni:"
+   },
+   "acerca_infoapi": {
+      "message": "Amintiți-vă că puteți utiliza, de asemenea, API-ul pentru a crea o dală live (în direct) proprie."
+   },
+   "acerca_informar": {
+      "message": "Cerere suport"
+   },
+   "acerca_informarinstr": {
+      "message": "Pentru a raporta o problemă sau a sugera noi caracteristici, vă rugăm să folosiți acest formular:"
+   },
+   "action_cambiarss": {
+      "message": "Schimbare fluxuri RSS"
+   },
+   "action_changebgcolor": {
+      "message": "Schimbare culoare fundal"
+   },
+   "action_changeicon": {
+      "message": "Schimbare iconiță"
+   },
+   "action_changesize": {
+      "message": "Schimbare dimensiune"
+   },
+   "action_colorpick": {
+      "message": "Alegere culoare..."
+   },
+   "action_copylink": {
+      "message": "Copiere URL"
+   },
+   "action_delete": {
+      "message": "Ștergere"
+   },
+   "action_deselect": {
+      "message": "Ștergere selecție"
+   },
+   "action_editurl": {
+      "message": "Editare URL"
+   },
+   "action_icondeletion": {
+      "message": "Eliminare iconiță"
+   },
+   "action_incsscolor": {
+      "message": "Introducere culoare CSS"
+   },
+   "action_liveactiv": {
+      "message": "Activare dală live"
+   },
+   "action_livedesac": {
+      "message": "Dezactivare dală live"
+   },
+   "action_opennewtab": {
+      "message": "Deschidere link în filă nouă"
+   },
+   "action_opennewwin": {
+      "message": "Deschidere în fereastră nouă"
+   },
+   "action_rename": {
+      "message": "Schimbare etichetă"
+   },
+   "action_sizelarge": {
+      "message": "Mare"
+   },
+   "action_sizenormal": {
+      "message": "Normal"
+   },
+   "action_sizesmall": {
+      "message": "Mic"
+   },
+   "action_sizewide": {
+      "message": "Lat"
+   },
+   "action_transparent": {
+      "message": "Făcut transparent"
+   },
+   "action_uninstallapp": {
+      "message": "Dezinstalare aplicație (app)"
+   },
+   "activar": {
+      "message": "Activare"
+   },
+   "addt_avisoxhr": {
+      "message": "Voi încerca să încarc informațiile rămase de pe site."
+   },
+   "addt_bgcolor": {
+      "message": "Culoare fundal"
+   },
+   "addt_crear": {
+      "message": "Creare dală"
+   },
+   "addt_customico": {
+      "message": "Iconiță personalizată"
+   },
+   "addt_etiqueta": {
+      "message": "Etichetă"
+   },
+   "addt_link": {
+      "message": "Link"
+   },
+   "addt_rssurl": {
+      "message": "Flux RSS URL"
+   },
+   "addt_tamano": {
+      "message": "Lățime"
+   },
+   "addt_tipxhrico": {
+      "message": "Sfat: folosiți o iconiță cu fundal transparent."
+   },
+   "aext_descr": {
+      "message": "Personalized new tab Metro UI. It provides several features such as speed dialing, notifications for facebook or twitter"
+   },
+   "aext_name": {
+      "message": "new metroTab"
+   },
+   "aext_short_name": {
+      "message": "new metroTab"
+   },
+   "allsites": {
+      "message": "TOATE SITE-URILE"
+   },
+   "apar_ajustbg": {
+      "message": "Ajustare imagine fundal la dimensiunea ecranului"
+   },
+   "apar_ajustbgwarn": {
+      "message": "Ajustarea fundalului poate afecta finețea animațiilor."
+   },
+   "apar_animarapertura": {
+      "message": "Animare când se dă un clic pe dală"
+   },
+   "apar_animartiles": {
+      "message": "Animare dale când se deschide o filă nouă"
+   },
+   "apar_animartileswarn": {
+      "message": "Atenție! Ar putea avea un comportament ciudat uneori."
+   },
+   "apar_h3anim": {
+      "message": "Animații"
+   },
+   "apar_h3customcss": {
+      "message": "CSS personalizat"
+   },
+   "apar_h3detalles": {
+      "message": "Detalii"
+   },
+   "apar_h3tiles": {
+      "message": "Culori"
+   },
+   "apar_h3usuario": {
+      "message": "Utilizatori"
+   },
+   "apar_miniscrollbar": {
+      "message": "Utilizare bară de defilare mică"
+   },
+   "apar_newtabh1": {
+      "message": "Titlu principal"
+   },
+   "apar_opennewtab": {
+      "message": "Deschide toate linkurile dalelor în file noi."
+   },
+   "apar_opennewtabwarn": {
+      "message": "Aceasta dezactivează animația la deschiderea dalelor"
+   },
+   "apar_parallaxbg": {
+      "message": "Activare imagine fundal defilând"
+   },
+   "apar_smoothscroll": {
+      "message": "Utilizare defilare fină"
+   },
+   "apar_tambase": {
+      "message": "Dimensiunea de bază a dalei"
+   },
+   "apar_tambasehelp": {
+      "message": "Dimensiunea lată de bază a unei dale este de  4 x 2. Valoarea implicită este de 60."
+   },
+   "apar_tilegrad": {
+      "message": "Utilizare culoare plină pentru dale."
+   },
+   "apar_usuariobig": {
+      "message": "Nume"
+   },
+   "apar_usuarioimg": {
+      "message": "Avatar"
+   },
+   "apar_usuariosmall": {
+      "message": "Poreclă"
+   },
+   "auth_approved": {
+      "message": "Autorizare aprobată."
+   },
+   "auth_denied": {
+      "message": "Autorizare interzisă. Verificați-vă numele și parola utilizator."
+   },
+   "auth_required": {
+      "message": "Autorizare necesară"
+   },
+   "autorizar": {
+      "message": "Autorizare"
+   },
+   "back": {
+      "message": "înapoi"
+   },
+   "camara_ajustes": {
+      "message": "Ajustări"
+   },
+   "camara_captura": {
+      "message": "Capturare"
+   },
+   "clima_actualcondic": {
+      "message": "Condiții curente"
+   },
+   "clima_actualhumeda": {
+      "message": "Umiditate relativă"
+   },
+   "clima_actualprecip": {
+      "message": "Precipitații"
+   },
+   "clima_actualpresio": {
+      "message": "Presiune atmosferică"
+   },
+   "clima_actualradiac": {
+      "message": "Radiații UV"
+   },
+   "clima_actualviento": {
+      "message": "Vânt"
+   },
+   "clima_proveedor": {
+      "message": "Informații meteo furnizate de către"
+   },
+   "ctxbloque_nombBloque": {
+      "message": "Editare grup nume"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "Introducere nou flux RSS URL"
+   },
+   "ctxinstr_inputurl": {
+      "message": "Introducere URL nou pentru dală"
+   },
+   "ctxinstr_nombloque": {
+      "message": "Introducere nume grup. Pentru a-l șterge, lăsați-l gol"
+   },
+   "data_error": {
+      "message": "Importul format de date de eroare!"
+   },
+   "date_months": {
+      "message": "Ianuarie/Februarie/Martie/Aprilie/Mai/Iunie/Iulie/August/Septembrie/Octombrie/Noiembrie/Decembrie"
+   },
+   "date_weekdays": {
+      "message": "Duminică/Luni/Marți/Miercuri/Joi/Vineri/Sâmbătă"
+   },
+   "experimental": {
+      "message": "Experimental"
+   },
+   "games": {
+      "message": "JOCURI"
+   },
+   "h1tile_calendario": {
+      "message": "Calendar"
+   },
+   "h1tile_camara": {
+      "message": "Cameră"
+   },
+   "h1tile_clima": {
+      "message": "Meteo"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "Ceas în lume"
+   },
+   "h1tile_rssfeed": {
+      "message": "Flux RSS"
+   },
+   "hotsites": {
+      "message": "SITE-URI HOT"
+   },
+   "ingresarcolor": {
+      "message": "Introducere culoare fundal nouă pentru dală \u003Cnewline>Poate fi un nume de culoare, o valoare RGB(), HSL() sau una hexazecimală."
+   },
+   "ingresaretiqueta": {
+      "message": "Introducere etichetă nouă pentru dală"
+   },
+   "invalid_url": {
+      "message": "URL invalid"
+   },
+   "ioconfig_expconfig": {
+      "message": "Exportare culori și setări opționale"
+   },
+   "ioconfig_exptile": {
+      "message": "Exportare listă dale"
+   },
+   "ioconfig_h3in": {
+      "message": "Import setări"
+   },
+   "ioconfig_h3out": {
+      "message": "Export setări"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "Pentru comoditatea utilizatorului, culorile și setările opționale sunt exportate în fișiere separate."
+   },
+   "ioconfig_infoexptile": {
+      "message": "Puteți exporta lista completă a dalelor curente, inclusiv cu iconițele lor."
+   },
+   "ioconfig_infoimp": {
+      "message": "Puteți încărca fișierul listă de dale și fișierul de setări exportate anterior dintr-un alt browser în această formă."
+   },
+   "listo": {
+      "message": "OK"
+   },
+   "livet_avisogmail": {
+      "message": "Dacă apare o fereastră de dialog care solicită numele de utilizator și parola pentru GMail, este din cauza dalei live GMail. \u003Cnewline>Funcția dată de GMail și care nu necesită acreditări. \u003Cnewline>Dacă doriți să nu mai apară această fereastră, vă conectați la GMail sau dezactivați dala live GMail."
+   },
+   "livet_climaaddress": {
+      "message": "Locație"
+   },
+   "livet_climasist": {
+      "message": "Sistem de măsurare"
+   },
+   "livet_climaubic": {
+      "message": "Selectare locație"
+   },
+   "livet_climaubicph": {
+      "message": "Locație (or cod poștal pentru SUA)"
+   },
+   "livet_estado": {
+      "message": "Activatare notificări"
+   },
+   "livet_h2optgeneral": {
+      "message": "Opțiuni generale"
+   },
+   "livet_querevisar": {
+      "message": "Elemente verificate"
+   },
+   "livet_rssauthask": {
+      "message": "Pentru a configura în mod corect acest RSS cititor (RSS reader), new metroTab are nevoie de o cheie de autorizare. Pentru a obține aceasta, este nevoie de un nume utilizator și de o parolă. Nu vă faceți griji, nici unul dintre ele sunt salvate, ele sunt folosite doar pentru a obține cheia de autorizare."
+   },
+   "livet_rssreader": {
+      "message": "Cititor implicit"
+   },
+   "livet_rssreaderaviso": {
+      "message": "Pe moment, dala live Flux RSS funcționează numai cu Digg Reader and InoReader. În versiunile viitoare, vor fi citite și cu AOL Reader, Feedly, etc."
+   },
+   "livet_tiempo": {
+      "message": "Timp de așteptare (în secunde) înainte de a se încărca dale live"
+   },
+   "load_file": {
+      "message": "Încărcare din fișier ..."
+   },
+   "load_url": {
+      "message": "Încărcare din URL ..."
+   },
+   "load_urlerror": {
+      "message": "Link-ul introdus este invalid sau nu există. \u003Cnewline>Verificați-l sau încercați mai târziu.."
+   },
+   "menu_addt": {
+      "message": "Adăugare dală"
+   },
+   "menu_bkmr": {
+      "message": "Scurtături (Bookmarks)"
+   },
+   "menu_pcr": {
+      "message": "File închise"
+   },
+   "menu_rest": {
+      "message": "Cloud tiles"
+   },
+   "myapps": {
+      "message": "APLICATIILE MELE"
+   },
+   "nav_acercade": {
+      "message": "Despre"
+   },
+   "nav_apariencia": {
+      "message": "Apariție"
+   },
+   "nav_changelog": {
+      "message": "Modificări"
+   },
+   "nav_ioconfig": {
+      "message": "Import/Export setări"
+   },
+   "nav_livetiles": {
+      "message": "Dale Live"
+   },
+   "nav_opcional": {
+      "message": "Caracteristici opționale"
+   },
+   "newtabh1": {
+      "message": "filă nouă"
+   },
+   "no": {
+      "message": "Închidere"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "opcion_aceptar": {
+      "message": "OK"
+   },
+   "opcion_cancelar": {
+      "message": "Anulare"
+   },
+   "opcional_activbkmr": {
+      "message": "Ecran scurtături"
+   },
+   "opcional_activpcrh2": {
+      "message": "File închise recent"
+   },
+   "opcional_avisobkmr": {
+      "message": "Caracteristică experimentală. Este posibil să apară pierderi de memorie care necesită repornirea extensiei.\u003Cnewline>Vă rugăm să nu trimiteți rapoarte de eroare pentru această caracteristică. Încă."
+   },
+   "opcional_pcrnum": {
+      "message": "Nr. de pagini reținute"
+   },
+   "opcional_pcrsesiones": {
+      "message": "Nu reține paginile între sesiunile browser-ului"
+   },
+   "opcional_touchsupport": {
+      "message": "Suport Touchscreen (atingere ecran)"
+   },
+   "opcional_touchsupwarn": {
+      "message": "Opțiunea este dezactivată în mod implicit, deoarece este încă în mod experimental și nu există vreun monitor touchscreen pentru testare. Pentru moment, ea funcționează doar pentru a defila pe ecran."
+   },
+   "opcionesh1": {
+      "message": "Opțiuni"
+   },
+   "password": {
+      "message": "Parolă"
+   },
+   "quickSearchAppTitle": {
+      "message": "Căutare rapidă"
+   },
+   "recommended": {
+      "message": "Personalizez cele mai populare titluri. Vreți să le adaug?"
+   },
+   "search": {
+      "message": "căutare..."
+   },
+   "share": {
+      "message": "Împarte-l"
+   },
+   "shopping": {
+      "message": "SHOPPING"
+   },
+   "show_scrollbar": {
+      "message": "Bare de defilare ascunde"
+   },
+   "sistema_ingles": {
+      "message": "Imperial (Englezesc)"
+   },
+   "sistema_metrico": {
+      "message": "Metric"
+   },
+   "successRestoreDefault": {
+      "message": "Restaurare implicită cu success!"
+   },
+   "titulo_apariencia": {
+      "message": "Editare apariție"
+   },
+   "ubicacion_anadir": {
+      "message": "Adăugare locație"
+   },
+   "ubicacion_buscar": {
+      "message": "Căutare locație"
+   },
+   "username": {
+      "message": "Nume utilizator"
+   },
+   "vistaprevia": {
+      "message": "Previzualizare"
+   },
+   "warn_manytabs": {
+      "message": "Sunteți pe cale să deschideți un nr. de \u003Cnum> file. Sigur doriți să continuați?"
+   },
+   "weatherAppTitle": {
+      "message": "Meteo"
+   }
+}

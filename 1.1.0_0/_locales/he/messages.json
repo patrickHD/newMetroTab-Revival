@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "להתקין"
+   },
+   "Installed": {
+      "message": "מותקן"
+   },
+   "RestoreDefault": {
+      "message": "שחזר ברירת מחדל"
+   },
+   "acerca_agradece": {
+      "message": "תודות"
+   },
+   "acerca_apoyo": {
+      "message": "תמכו בי"
+   },
+   "acerca_contact": {
+      "message": "אם יש לך שאלות, אנא שלח אלינו:"
+   },
+   "acerca_idiompers": {
+      "message": "אלו האנשים שתרגמו את התוסף:"
+   },
+   "acerca_infoapi": {
+      "message": "זכרו שאתם יכולים להשתמש ב-API על מנת ליצור אריחים-חיים בעצמכם."
+   },
+   "acerca_informar": {
+      "message": "בקשו תמיכה"
+   },
+   "acerca_informarinstr": {
+      "message": "על מנת לדווח על תקלה או להציע תוספות חדשות, אנא השתמשו בטופס הזה:"
+   },
+   "action_cambiarss": {
+      "message": "שנה כתובת RSS"
+   },
+   "action_changebgcolor": {
+      "message": "שנה צבע רקע"
+   },
+   "action_changeicon": {
+      "message": "שנה צלמית"
+   },
+   "action_changesize": {
+      "message": "שנה גודל"
+   },
+   "action_colorpick": {
+      "message": "בחר צבע..."
+   },
+   "action_copylink": {
+      "message": "העתק כתובת קישור"
+   },
+   "action_delete": {
+      "message": "למחוק"
+   },
+   "action_deselect": {
+      "message": "נקה בחירה"
+   },
+   "action_editurl": {
+      "message": "עריכת כתובת URL"
+   },
+   "action_icondeletion": {
+      "message": "הסר צלמית"
+   },
+   "action_incsscolor": {
+      "message": "ייבא צבע CSS..."
+   },
+   "action_liveactiv": {
+      "message": "הפעל אריח-חי"
+   },
+   "action_livedesac": {
+      "message": "כבה אריח-חי"
+   },
+   "action_opennewtab": {
+      "message": "פתח קישור בכרטיסיה חדשה"
+   },
+   "action_opennewwin": {
+      "message": "פתח בחלון חדש"
+   },
+   "action_rename": {
+      "message": "שנה כותרת"
+   },
+   "action_sizelarge": {
+      "message": "גדול"
+   },
+   "action_sizenormal": {
+      "message": "רגיל"
+   },
+   "action_sizesmall": {
+      "message": "קטן"
+   },
+   "action_sizewide": {
+      "message": "רחב"
+   },
+   "action_transparent": {
+      "message": "ללא רקע (שקוף)"
+   },
+   "action_uninstallapp": {
+      "message": "הסר תוסף"
+   },
+   "activar": {
+      "message": "הפעל"
+   },
+   "addt_avisoxhr": {
+      "message": "אני אשתדל לטעון את שאר המידע מהאתר."
+   },
+   "addt_bgcolor": {
+      "message": "צבע הרקע"
+   },
+   "addt_crear": {
+      "message": "צור אריח"
+   },
+   "addt_customico": {
+      "message": "בחר תמונה אחרת"
+   },
+   "addt_etiqueta": {
+      "message": "כותרת"
+   },
+   "addt_link": {
+      "message": "כתובת אתר"
+   },
+   "addt_rssurl": {
+      "message": "כתובת RSS"
+   },
+   "addt_tamano": {
+      "message": "רוחב"
+   },
+   "addt_tipxhrico": {
+      "message": "עיצה: השתמשו בתמונה מסוג .png של סמל לבן ורקע שקוף."
+   },
+   "aext_descr": {
+      "message": "דף פתיחה אישי המבוסס על תצורת מטרו."
+   },
+   "aext_name": {
+      "message": "metroTab החדש"
+   },
+   "aext_short_name": {
+      "message": "metroTab החדש"
+   },
+   "allsites": {
+      "message": "כל אתרים"
+   },
+   "apar_ajustbg": {
+      "message": "התאם את תמונת הרקע לגודל המסך"
+   },
+   "apar_ajustbgwarn": {
+      "message": "התאמת הרקע עלולה לפגום באיכות האנימציה."
+   },
+   "apar_animarapertura": {
+      "message": "הנפש כאשר אריח נלחץ"
+   },
+   "apar_animartiles": {
+      "message": "הנפש אריחים כאשר חלון חדש נפתח"
+   },
+   "apar_animartileswarn": {
+      "message": "שים לב: עשוי להתנהג מוזר מדי פעם."
+   },
+   "apar_h3anim": {
+      "message": "הנפשות"
+   },
+   "apar_h3customcss": {
+      "message": "קוד CSS אישי"
+   },
+   "apar_h3detalles": {
+      "message": "פרטים"
+   },
+   "apar_h3tiles": {
+      "message": "צבעים"
+   },
+   "apar_h3usuario": {
+      "message": "משתמש"
+   },
+   "apar_miniscrollbar": {
+      "message": "השתמש בפס-גלילה צר"
+   },
+   "apar_newtabh1": {
+      "message": "כותרת ראשית"
+   },
+   "apar_opennewtab": {
+      "message": "פתח את כל הקישורים של האריחים בכרטיסיות חדשות."
+   },
+   "apar_opennewtabwarn": {
+      "message": "זה מבטל את ההנפשות כאשר האריחים נפתחים."
+   },
+   "apar_parallaxbg": {
+      "message": "הפעל גלילת תמונת רקע"
+   },
+   "apar_smoothscroll": {
+      "message": "השתמש בגלילה חלקה"
+   },
+   "apar_tambase": {
+      "message": "הגודל הבסיסי של האריחים"
+   },
+   "apar_tambasehelp": {
+      "message": "גודלו של אריח רחב הוא 2x4 גדלים בסיסיים. ערך ברירת המחדל הוא 60."
+   },
+   "apar_tilegrad": {
+      "message": "השתמש בצבע אחיד (ללא שינוי הצללה) באריחים."
+   },
+   "apar_usuariobig": {
+      "message": "שם"
+   },
+   "apar_usuarioimg": {
+      "message": "תמונה (אוואטר)"
+   },
+   "apar_usuariosmall": {
+      "message": "כינוי"
+   },
+   "auth_approved": {
+      "message": "הרשאת חיבור אושרה."
+   },
+   "auth_denied": {
+      "message": "הרשאת חיבור נכשלה, אנא בדוק את שם המשתמש והסיסמה."
+   },
+   "auth_required": {
+      "message": "נדרשת הרשאת חיבור."
+   },
+   "autorizar": {
+      "message": "התחבר"
+   },
+   "back": {
+      "message": "בחזרה"
+   },
+   "camara_ajustes": {
+      "message": "התאמות"
+   },
+   "camara_captura": {
+      "message": "צילום"
+   },
+   "clima_actualcondic": {
+      "message": "המצב הנוכחי"
+   },
+   "clima_actualhumeda": {
+      "message": "לחות יחסית"
+   },
+   "clima_actualprecip": {
+      "message": "משקעים"
+   },
+   "clima_actualpresio": {
+      "message": "לחץ אטמוספרי"
+   },
+   "clima_actualradiac": {
+      "message": "קרינה אולטרה-סגולה (UV)"
+   },
+   "clima_actualviento": {
+      "message": "רוח"
+   },
+   "clima_proveedor": {
+      "message": "מזג האוויר מסופק ע\"י"
+   },
+   "ctxbloque_nombBloque": {
+      "message": "ערוך שם קבוצה"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "הכנס כתובת RSS חדשה"
+   },
+   "ctxinstr_inputurl": {
+      "message": "קלט כתובת ה-URL החדשה של האריח"
+   },
+   "ctxinstr_nombloque": {
+      "message": "הזן את שם הקבוצה. כדי למחוק אותה, השאר אותו ריק."
+   },
+   "data_error": {
+      "message": "יבוא שגיאת פורמט נתונים!"
+   },
+   "date_months": {
+      "message": "ינואר/פברואר/מרץ/אפריל/מאי/יוני/יולי/אוגוסט/ספטמבר/אוקטובר/נובמבר/דצמבר"
+   },
+   "date_weekdays": {
+      "message": "ראשון/שני/שלישי/רביעי/חמישי/שישי/שבת"
+   },
+   "experimental": {
+      "message": "ניסיוני"
+   },
+   "games": {
+      "message": "גאדג'טים"
+   },
+   "h1tile_calendario": {
+      "message": "לוח שנה"
+   },
+   "h1tile_camara": {
+      "message": "מצלמה"
+   },
+   "h1tile_clima": {
+      "message": "מזג האוויר"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "שעון עולמי"
+   },
+   "h1tile_rssfeed": {
+      "message": "עדכוני RSS"
+   },
+   "hotsites": {
+      "message": "אתרי HOT"
+   },
+   "ingresarcolor": {
+      "message": "הזן את צבע הרקע החדש לאריח.\u003Cnewline>ניתן לרשום שם של צבע או קוד צבע בצורה של rgb(), hsl() או קוד הקסדצימלי."
+   },
+   "ingresaretiqueta": {
+      "message": "הזן את הכותרת החדשה לאריח"
+   },
+   "invalid_url": {
+      "message": "כתובת אתר לא-תקנית."
+   },
+   "ioconfig_expconfig": {
+      "message": "ייצא הגדרות צבעים ואפשרויות"
+   },
+   "ioconfig_exptile": {
+      "message": "ייצא רשימת אריחים"
+   },
+   "ioconfig_h3in": {
+      "message": "ייבא הגדרות"
+   },
+   "ioconfig_h3out": {
+      "message": "ייצא הגדרות"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "לנוחיותכם, הגדרות צבעים ואפשרויות מיוצאות בקובץ נפרד."
+   },
+   "ioconfig_infoexptile": {
+      "message": "ניתן לייצא רשימה של כל האריחים הקיימים, כולל הסמלים שלהם."
+   },
+   "ioconfig_infoimp": {
+      "message": "ניתן לטעון את קבצי רשימת האריחים וההגדרות שיוצאו מדפדפן אחר בעמוד זה."
+   },
+   "listo": {
+      "message": "אישור"
+   },
+   "livet_avisogmail": {
+      "message": "אם מופיעה הודעה המבקשת שם משתמש וסיסמה לשירות ג'ימייל, זה עקב השימוש באריח-חי של ג'ימייל. \u003Cnewline>הקוד של אריח זה לוקח מידע מתוך העמוד של ג'ימייל, ולכן יש צורך בגישה. במידה ואינכם מחוברים לשירות, תתבקשו להזין את הפרטים.\u003Cnewline>אם ברצונכם להפסיק זאת, כבו את האריח-חי של ג'ימייל."
+   },
+   "livet_climaaddress": {
+      "message": "מקום"
+   },
+   "livet_climasist": {
+      "message": "שיטת מדידה"
+   },
+   "livet_climaubic": {
+      "message": "בחר מיקום"
+   },
+   "livet_climaubicph": {
+      "message": "עיר (או מיקוד אם בארה\"ב)"
+   },
+   "livet_estado": {
+      "message": "הפעל התראות"
+   },
+   "livet_h2optgeneral": {
+      "message": "הגדרות כלליות"
+   },
+   "livet_querevisar": {
+      "message": "אלמנטים לבדיקה"
+   },
+   "livet_rssauthask": {
+      "message": "על מנת להגדיר את קורא ה-RSS, יש צורך בהרשאה. על מנת לקבל זאת, יש צורך בשם המשתמש והסיסמה שלכם. אל דאגה, אף אחד מהם אינו נשמר, ונעשה בהם שימוש אך ורק על מנת לקבל הרשאה זו."
+   },
+   "livet_rssreader": {
+      "message": "קורא ברירת מחדל"
+   },
+   "livet_rssreaderaviso": {
+      "message": "כרגע, אריח RSS עובד רק עם Digg Reader ו-InoReader. בעתיד אשתדל להוסיף גם את Aol Reader, Feedly ואחרים."
+   },
+   "livet_tiempo": {
+      "message": "המתן (בשניות) לפני טעינת אריחים-חיים"
+   },
+   "load_file": {
+      "message": "טען מקובץ..."
+   },
+   "load_url": {
+      "message": "טען מקישור..."
+   },
+   "load_urlerror": {
+      "message": "כתובת הקישור שהוזנה אינה תקינה או לא קיימת.\u003Cnewline>בדוק שנית או נסה שוב מאוחר יותר."
+   },
+   "menu_addt": {
+      "message": "הוסף אריח"
+   },
+   "menu_bkmr": {
+      "message": "סימניות"
+   },
+   "menu_pcr": {
+      "message": "כרטיסיות שנסגרו"
+   },
+   "menu_rest": {
+      "message": "Cloud tiles"
+   },
+   "myapps": {
+      "message": "\tהיישומים שלי"
+   },
+   "nav_acercade": {
+      "message": "אודות"
+   },
+   "nav_apariencia": {
+      "message": "מראה"
+   },
+   "nav_changelog": {
+      "message": "יומן שינויים"
+   },
+   "nav_ioconfig": {
+      "message": "הגדרות ייבוא/ייצוא"
+   },
+   "nav_livetiles": {
+      "message": "אריחים-חיים"
+   },
+   "nav_opcional": {
+      "message": "אפשרויות נוספות"
+   },
+   "newtabh1": {
+      "message": "כרטיסיה חדשה"
+   },
+   "no": {
+      "message": "לסגור"
+   },
+   "ok": {
+      "message": "אישור"
+   },
+   "opcion_aceptar": {
+      "message": "אישור"
+   },
+   "opcion_cancelar": {
+      "message": "ביטול"
+   },
+   "opcional_activbkmr": {
+      "message": "חלון סימניות"
+   },
+   "opcional_activpcrh2": {
+      "message": "כרטיסיות שנסגרו לאחרונה"
+   },
+   "opcional_avisobkmr": {
+      "message": "אפשרות ניסיונית מאוד. התוכנה עשויה לסבול מבעיות זכרון שידרשו לאתחל את התוסף.\u003Cnewline>אנא אל תשלחו דיווחים על שגיאות של אפשרות זו. בינתיים."
+   },
+   "opcional_pcrnum": {
+      "message": "מספר מירבי של דפים לשמירה בזכרון"
+   },
+   "opcional_pcrsesiones": {
+      "message": "אל תזכור דפים בין הפעלות של הדפדפן."
+   },
+   "opcional_touchsupport": {
+      "message": "תמיכה במסך-מגע"
+   },
+   "opcional_touchsupwarn": {
+      "message": "כבוי כברירת מחדל בגלל שזה עדיין נסיוני, אין לי מסך מגע על מנת לבדוק זאת. כרגע, זה עובד רק עם גלילת המסך."
+   },
+   "opcionesh1": {
+      "message": "אפשרויות"
+   },
+   "password": {
+      "message": "סיסמה"
+   },
+   "quickSearchAppTitle": {
+      "message": "חיפוש מהיר"
+   },
+   "recommended": {
+      "message": "אנחנו אישית כמה titls הפופולרי, האם אתה רוצה להוסיף אותם?"
+   },
+   "search": {
+      "message": "לחפש..."
+   },
+   "share": {
+      "message": "מניה"
+   },
+   "shopping": {
+      "message": "קניות"
+   },
+   "show_scrollbar": {
+      "message": "פסי גלילה הסתר"
+   },
+   "sistema_ingles": {
+      "message": "פרנהייט"
+   },
+   "sistema_metrico": {
+      "message": "צלסיוס"
+   },
+   "successRestoreDefault": {
+      "message": "שחזור הצלחה ברירת מחדל!"
+   },
+   "titulo_apariencia": {
+      "message": "ערוך תצוגה"
+   },
+   "ubicacion_anadir": {
+      "message": "הוספת מיקום"
+   },
+   "ubicacion_buscar": {
+      "message": "היכן לחפש"
+   },
+   "username": {
+      "message": "שם משתמש"
+   },
+   "vistaprevia": {
+      "message": "תצוגה מקדימה"
+   },
+   "warn_manytabs": {
+      "message": "אתה עומד לפתוח \u003Cnum> כרטיסיות. האם אתה בטוח שכדי להמשיך?"
+   },
+   "weatherAppTitle": {
+      "message": "מזג אוויר"
+   }
+}

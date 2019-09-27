@@ -1,0 +1,28 @@
+{
+	"background": {
+		"persistent": false,
+		"scripts": ["js/jquery.min.js", "js/q.min.js", "js/q.tiledb.js", "js/background.js", "js/tilebkp.js", "js/tilemodel.js"]
+	},
+	"chrome_url_overrides": {
+		"newtab": "inicio.html"
+	},
+	"content_security_policy": "script-src 'self' https://*.google.com; object-src 'self'",
+	"default_locale": "en",
+	"description": "__MSG_aext_descr__x",
+	"icons": {
+		"128": "img/icon_128.png",
+		"16": "img/icon_16.png",
+		"24": "img/icon_24.png",
+		"48": "img/icon_48.png",
+		"64": "img/icon_64.png",
+		"96": "img/icon_96.png"
+	},
+	"manifest_version": 2,
+	"minimum_chrome_version": "25.0.0.0",
+	"name": "__MSG_aext_name__",
+	"optional_permissions": ["tabs", "bookmarks"],
+	"options_page": "opciones.html",
+	"permissions": ["management", "\u003Call_urls>", "storage", "unlimitedStorage", "clipboardWrite"],
+	"short_name": "__MSG_aext_short_name__X",
+	"version": "1.1.0"
+}

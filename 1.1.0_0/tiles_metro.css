@@ -1,0 +1,468 @@
+.tile {
+    display: inline-block;
+    position: relative;
+    margin: 4px;
+    font-family: "Segoe UI", "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    -webkit-transition-property: width, height;
+    -webkit-transition-duration: 0.3s, 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    color: #fff;
+}
+
+body.animable .tile {
+    -webkit-transition-property: none;
+}
+
+.tile.negro {
+    color: #000;
+}
+
+.tile.tam11 {
+    width: 52px;
+    height: 52px;
+}
+
+.tile.tam22 {
+    width: 112px;
+    height: 112px;
+}
+
+.tile.tam42 {
+    width: 232px;
+    height: 112px;
+}
+
+.tile.tam44 {
+    width: 232px;
+    height: 232px;
+}
+
+.tile:hover {
+    outline: rgba(255, 255, 255, 0.2) solid 3px;
+}
+
+.tile:active {
+    -webkit-transform: scale(0.95);
+}
+
+.tile .icono {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.tile .icono::after, .bkmrcarp:not(.seleccionado)::after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    z-index: 500;
+    outline: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+a.tile.notificacion div.icono {
+    background-image: none !important;
+}
+
+.tile .etiqueta {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding: 0.5em 0.8em;
+    font-size: 12px;
+    line-height: 1.1em;
+    color: inherit;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tile.tam11 .etiqueta {
+    display: none;
+}
+
+.tile .numero {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 200;
+    padding: 0.1em 0.5em;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    background: red;
+    border: 1px solid #f33;
+    border-radius: 20px;
+}
+
+/* ######### CUADROS DOBLES ######### */
+.tile.tam42 {
+    width: 232px;
+}
+
+.tile.tam42.show .etiqueta {
+    top: 0px;
+    right: 0px;
+    left: 110px; /*49%;*/
+    bottom: 0px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    font-size: 16px;
+    padding-left: 0px;
+}
+
+/* ########### NOTIFICADORES */
+
+.tile .comnumero {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    margin: 12px 14px 10px;
+    padding: 2px 4px;
+    min-width: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #d62222;
+}
+
+.tile .comnumero::after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    bottom: -8px;
+    border-color: #d62222 transparent;
+    border-width: 8px 10px 0 0;
+    border-style: solid;
+}
+
+.tile .comnumero img {
+    vertical-align: -2px;
+}
+
+.tile .fullslider {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: inherit;
+    overflow: hidden;
+}
+
+.fullslider:before {
+    content: '';
+    position: absolute;
+    z-index: 200;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tile.tam22 .fullslider:before {
+    __MSG_@@bidi_start_edge__ : 1px;
+    bottom: 1px;
+    width: 32px;
+    height: 32px;
+}
+
+.tile.tam42 .fullslider:before {
+    __MSG_@@bidi_start_edge__ : 4px;
+    bottom: 0;
+    width: 36px;
+    height: 36px;
+}
+
+.tile.tam44 .fullslider:before {
+    top: 6px;
+    __MSG_@@bidi_start_edge__ : 6px;
+    width: 42px;
+    height: 42px;
+    background-color: inherit;
+}
+
+.tile .fullslider .fullblock {
+    display: none;
+}
+
+.tile .fullslider .fullblock:first-child,
+.tile .fullslider .fullblock:nth-child(2) {
+    display: block;
+}
+
+.tile .fullslider:not(.unico) .fullblock:first-child {
+    -webkit-animation-name: achicar;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-delay: 6s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: cubic-bezier(.07, .85, .30, 1);
+    -webkit-animation-fill-mode: forwards;
+}
+
+.tile:hover .fullslider .fullblock:first-child {
+    -webkit-animation: none;
+}
+
+.tile .fullblock.foto {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-position: center 60%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@-webkit-keyframes achicar {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 0%;
+    }
+}
+
+.tile .enlace {
+    position: absolute;
+    top: 6px;
+    __MSG_@@bidi_end_edge__ : 6px;
+    z-index: 5000;
+    width: 42px;
+    height: 42px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(/img/externo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tile.tam22 .enlace {
+    width: 32px;
+    height: 32px;
+    background-size: 22px;
+}
+
+.tile:hover .enlace {
+    opacity: 1;
+}
+
+.tile .piefoto {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 4px 6px;
+    font-size: 11px;
+    overflow: hidden;
+}
+
+.tile.tam22 .piefoto {
+    padding-__MSG_@@bidi_start_edge__ : 34px;
+    -webkit-line-clamp: 2;
+    background-color: inherit;
+    line-height: 1.3em;
+}
+
+.tile.tam42 .piefoto {
+    padding-__MSG_@@bidi_start_edge__ : 42px;
+    -webkit-line-clamp: 2;
+    max-height: 28px;
+    background-color: inherit;
+    line-height: 14px;
+}
+
+.tile.tam44 .piefoto {
+    padding: 1.5em 0.7em 0.5em;
+    font-size: 1.3em;
+    line-height: 1em;
+    -webkit-line-clamp: 7;
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0));
+}
+
+.tile.negro.tam44 .piefoto {
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0));
+}
+
+.tile.tam22 .piefoto .subtitulo, .tile.tam42 .piefoto .subtitulo {
+    display: none;
+}
+
+.tile.tam44 .piefoto .subtitulo {
+    margin-top: 1em;
+    font-size: 0.6em;
+    line-height: 1.2em;
+}
+
+.tile .fullblock.card {
+    position: relative;
+    width: 100%;
+    background-color: inherit;
+    text-align: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+.tile.tam22 .fullblock.card .figura {
+    display: none;
+    width: 100%;
+    margin-top: -20%;
+}
+
+.tile.tam42 .fullblock.card .figura {
+    display: block;
+    float: __MSG_@@bidi_start_edge__;
+    margin-top: 12px;
+    margin-__MSG_@@bidi_end_edge__ : 8px;
+    margin-bottom: 0;
+    margin-__MSG_@@bidi_start_edge__ : 12px;
+    width: auto;
+    max-width: 64px;
+    max-height: 72px;
+    overflow: hidden;
+}
+
+.tile.tam44 .figura {
+    display: block;
+    width: 100%;
+}
+
+.tile .fullblock.card .conten {
+    display: block;
+    margin: 12px 11px 0;
+    max-height: 100%;
+    font-size: 10px;
+    overflow: hidden;
+    text-align: __MSG_@@bidi_start_edge__;
+}
+
+.tile.tam42 .fullblock.card .conten {
+    font-size: 11px;
+}
+
+.tile.tam44 .fullblock.card .conten {
+    margin: 0;
+    padding: 2em 1.4em 1em;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0));
+}
+
+.tile.negro.tam44 .fullblock.card .conten {
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0));
+}
+
+.tile.tam42 .fullblock.card.fig .conten {
+    margin-left: 88px;
+}
+
+.fullblock.card .conten div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fullblock.card .conten .titulo {
+    margin-top: -4px;
+    font-size: 1.8em;
+    white-space: nowrap;
+}
+
+.tile.tam42 .fullblock.card .conten .titulo {
+    margin-top: -6px;
+}
+
+.fullblock.card .conten .subtitulo {
+    margin-top: -2px;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    white-space: nowrap;
+}
+
+.tile.tam44 .fullblock.card .conten .subtitulo {
+    line-height: 1.2em;
+    white-space: normal;
+    margin-bottom: 0.3em;
+}
+
+.fullblock.card .conten .texto {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+.fullblock.card .conten .titulo + .subtitulo + .texto {
+    -webkit-line-clamp: 2;
+}
+
+.tile.tam44 .fullblock.card .conten .texto {
+    -webkit-line-clamp: 5;
+}
+
+.fullblock.grannum {
+    text-align: __MSG_@@bidi_start_edge__;
+    overflow: hidden;
+    height: 100%;
+}
+
+.tile.tam44 .fullblock.grannum {
+    height: 50%;
+}
+
+.tile.tam42 .fullblock.grannum,
+.tile.tam44 .fullblock.grannum {
+    text-align: __MSG_@@bidi_end_edge__;
+}
+
+.fullblock.grannum .numerotote {
+    padding: 4px 10px 0;
+    font-family: "Segoe UI Light", "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    line-height: 1em;
+    white-space: nowrap;
+}
+
+.fullblock.grannum .textito {
+    padding: 0 14px 0 10px;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.fullblock .grid {
+    display: inline-block;
+}
+
+.fullblock .grid.grid12 {
+    width: 50%;
+}
+
+.fullblock .grid.grid13 {
+    width: 33%;
+}
+
+.fullblock .grid.grid14 {
+    width: 25%;
+}
+
+.fullblock .grid.grid15 {
+    width: 20%;
+}
+
+.fullblock .grid img {
+    max-width: 100%;
+}

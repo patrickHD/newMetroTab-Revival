@@ -1,0 +1,7 @@
+﻿<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" r="42" cy="150" cx="100" fill="#0063DB"/>
+  <circle id="svg_2" r="42" cy="150" cx="200" fill="#FF0084"/>
+ </g>
+</svg>

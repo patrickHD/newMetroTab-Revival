@@ -1,0 +1,559 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-family: "Segoe UI", "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, sans-serif;
+    direction: __MSG_@@bidi_dir__;
+}
+
+.espaciar {
+    margin-bottom: 1.5em !important;
+}
+
+@media (min-width: 1070px) {
+    .mitad {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+.ocultable {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.3s ease-out;
+}
+
+.ocultable.visible {
+    max-height: 500px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    __MSG_@@bidi_start_edge__ : 0;
+    overflow: hidden;
+    width: 30%;
+    background-color: #e5e5e5;
+    text-align: __MSG_@@bidi_start_edge__;
+}
+
+header h1 {
+    padding: 0 1em;
+    font-size: 2.6em;
+    line-height: 1em;
+}
+
+#lateral {
+    position: absolute;
+    top: 96px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+}
+
+header a {
+    display: block;
+    overflow: hidden;
+    margin: 0 0 2px;
+    padding: 0.3em 2em;
+    color: #111;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    font-size: 1.5em;
+    font-family: "Segoe UI Light", "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, sans-serif;
+    -webkit-animation: deslizar 0.18s 1 cubic-bezier(0.3, 0.3, 0.3, 1);
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes deslizar {
+    0% {
+        opacity: 0;
+        padding-left: 5em;
+    }
+    100% {
+        opacity: 1;
+        padding-left: 2em;
+    }
+}
+
+header a:hover {
+    background-color: #ccc;
+}
+
+header a.activo {
+    background-color: #080;
+    color: #fff;
+}
+
+.tabbed {
+    position: absolute;
+    visibility: hidden;
+    overflow-y: hidden;
+    padding: 0 0 0 6em;
+    opacity: 0;
+    text-align: __MSG_@@bidi_start_edge__;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-timing-function: cubic-bezier(0.3, 0.3, 0.3, 1);
+    -webkit-transition-duration: 0.18s;
+    -webkit-transition-property: opacity, padding, visibility;
+}
+
+.tabbed.visible {
+    z-index: 0;
+    visibility: visible;
+    overflow-y: auto;
+    padding: 0 3em;
+    opacity: 1;
+    -webkit-transition-delay: 0.26s;
+}
+
+.pestana {
+    position: absolute;
+    top: 0;
+    __MSG_@@bidi_end_edge__ : 0;
+    bottom: 0;
+    __MSG_@@bidi_start_edge__ : 30%;
+    z-index: -100;
+}
+
+.pestana.visible {
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h3 {
+    margin: 0.2em 0;
+}
+
+section p {
+    margin: 0.3em 0;
+}
+
+nav.subseccion {
+    margin: 15px 0;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+nav.subseccion a {
+    display: inline-block;
+    margin: 0;
+    margin-__MSG_@@bidi_end_edge__ : 20px;
+    color: #000;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+nav.subseccion::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: none;
+}
+
+nav.subseccion::-webkit-scrollbar-thumb:horizontal {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+nav.subseccion::-webkit-scrollbar-button {
+    display: none;
+}
+
+section.tabbed {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 230px;
+}
+
+section.tabbed.visible {
+    overflow-y: visible;
+}
+
+#apariencia section.tabbed {
+    top: 330px;
+}
+
+#livetiles section.tabbed {
+    top: 227px;
+}
+
+#tabpreview {
+    position: relative;
+    margin: 20px 30% 0 0;
+    padding-top: 56px;
+    padding-__MSG_@@bidi_end_edge__ : 0;
+    padding-bottom: 18px;
+    padding-__MSG_@@bidi_start_edge__ : 30px;
+    background-size: 100%;
+    direction: __MSG_@@bidi_dir__ !important;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#tabpreview img {
+    position: absolute;
+    top: 0;
+    __MSG_@@bidi_end_edge__ : 0;
+    margin: 10px;
+    max-width: 40px;
+}
+
+#tabpreview div {
+    display: inline-block;
+    margin-__MSG_@@bidi_end_edge__ : 20px;
+    width: 224px;
+    vertical-align: top;
+    white-space: normal;
+}
+
+#tabpreview span {
+    display: inline-block;
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
+}
+
+#tabpreview span.doble {
+    width: 106px;
+}
+
+#colorschemes {
+    text-align: left;
+}
+
+.schemeopcion {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-width: 3px 3px 14px 14px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.colorrange {
+    display: block;
+    margin: 0;
+    width: 70%;
+    background-image: -webkit-linear-gradient(left, #e00 0%, #ee0 16.67%, #0e0 33.33%, #0ee 50%, #00e 66.66%, #e0e 83.33%, #e00 100%);
+    vertical-align: bottom;
+}
+
+.colorrange::-webkit-slider-thumb {
+    outline: #000 solid 2px;
+    background-color: #aaa;
+}
+
+#apar_customcss {
+    padding-top: 5px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", Monaco, "Courier New", monospace;
+    font-size: 14px;
+    line-height: 20px;
+    top: 330px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    resize: none;
+    background-color: #eee;
+    min-height: 230px;
+    text-align: left;
+    width: 100%;
+}
+
+#bgimgradios .like5{
+    display: inline-block;
+    margin: 0 0 10px;
+    margin-__MSG_@@bidi_end_edge__ : 10px;
+    width: 260px;
+    height: 80px;
+}
+
+#bgimgradios input {
+    display: inline-block;
+    box-sizing: content-box;
+    margin: 0 0 10px;
+    margin-__MSG_@@bidi_end_edge__ : 10px;
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+#bgimgradios input:hover {
+    opacity: 0.8;
+}
+
+input[type=checkbox] {
+    float: __MSG_@@bidi_end_edge__;
+}
+
+@media (min-width: 1070px) {
+    input[type=checkbox] {
+        margin-__MSG_@@bidi_end_edge__ : 38%;
+    }
+}
+
+.reloj_ubic {
+    display: inline-block;
+    min-width: 200px;
+    margin: 2px;
+    line-height: 1.6em;
+    background-color: #CCC;
+    padding-right: 0.5em;
+    cursor: pointer;
+}
+
+.reloj_ubic::before {
+    content: attr(data-pais);
+    display: inline-block;
+    padding: 0 0.3em;
+    margin-right: 0.5em;
+    background: #036;
+    color: #FFF;
+}
+
+.relojtzreg {
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    height: 56px;
+    padding: 4px;
+    padding-left: 8px;
+    margin: 0 6px 6px 0;
+    background: rgba(0, 0, 0, 0.3);
+    vertical-align: top;
+}
+
+.relojtzreg button {
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    border: 0 none;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.relojtzreg span {
+    display: block;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.relojtzreg label {
+    line-height: 26px;
+    margin: 0 10px;
+}
+
+.relojtzreg input {
+    float: none;
+}
+
+.espanol {
+    direction: ltr !important;
+    text-align: left;
+}
+
+dd p {
+    position: relative;
+}
+
+dd p:before {
+    content: '»';
+    position: absolute;
+    left: -20px;
+}
+
+.btntwitter {
+    color: #fff;
+    background-color: #00a0d1;
+    background-image: url(/iconos/twbird.svg);
+    background-position: 3px center;
+    background-size: 1.6em;
+}
+
+.btnfacebook {
+    color: #fff;
+    background-color: #3b5998;
+    background-image: url(/iconos/fb_icon.svg);
+    background-position: 0 bottom;
+    background-size: 1.6em;
+}
+
+.btngooglemas {
+    color: #fff;
+    background-color: #db4a39;
+    background-image: url(/iconos/gplus.svg);
+    background-position: -3px 6px;
+    background-size: 1.7em;
+}
+
+.btntumblr {
+    color: #fff;
+    background-color: #34526f;
+    background-image: url(/iconos/tumblr.svg);
+    background-position: 0 center;
+    background-size: 1.6em;
+}
+
+.btnvkontak {
+    color: #fff;
+    background-color: #567ba7;
+    background-image: url(/iconos/vkont.svg);
+    background-position: 0 center;
+    background-size: contain;
+}
+
+.btnflattr {
+    color: #000;
+    background-color: #B1D684;
+    background-image: url(/iconos/flattr.svg);
+    background-position: 1px center;
+    background-size: contain;
+}
+
+.btnweibo {
+    color: #000;
+    background-color: #EEE;
+    background-image: url(/iconos/weibo.svg);
+    background-position: 1px center;
+    background-size: contain;
+}
+
+.btnrenren {
+    color: #000;
+    background-color: #87CEEB;
+    background-image: url(/iconos/renren.svg);
+    background-position: -7px center;
+    background-size: 36px;
+}
+
+.btnbaidu {
+    color: #000;
+    background-color: #F4F4F4;
+    background-image: url(/iconos/baidu_huella.svg);
+    background-position: 2px center;
+    background-size: contain;
+}
+
+#faq h3 {
+    font-family: "Segoe UI", "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.about_us {
+    clear: both;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.about_us div {
+    float: left;
+    margin-right: 15px;
+}
+
+.about_us div:first-child {
+    margin-right: 5px;
+    background-image: url(/img/share_1.png);
+}
+
+.about_us div:nth-child(2) {
+    width: 75px;
+}
+
+.about_us div {
+    width: 20px;
+    height: 20px;
+}
+
+.about_us .website {
+    background-position: -11px -5px;
+}
+
+.about_us .facebook {
+    background-position: -42px -5px;
+}
+
+.about_us .twitter {
+    background-position: -74px -5px;
+}
+
+.about_us .google {
+    background-position: -106px -5px;
+}
+
+.share_list {
+    clear: both;
+    height: 60px;
+}
+
+.share_list a {
+    background-image: url(/img/share_2.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 34px;
+    cursor: pointer;
+    float: left;
+    display: block;
+}
+
+.share_list .facebook {
+    background-position: -5px -9px;
+}
+
+.share_list .twitter {
+    background-position: -95px -9px;
+}
+
+.share_list .google {
+    background-position: -184px -9px;
+}
+
+.share_list .tumblr {
+    background-position: -275px -9px;
+}
+
+.share_list .vk {
+    background-position: -364px -9px;
+}
+
+.share_list .weibo {
+    background-position: -455px -9px;
+}
+
+.share_list .renren {
+    background-position: -544px -9px;
+}
+
+.share_list .baidu {
+    background-position: -633px -9px;
+}
+
+.support:before {
+    content: "¤";
+    color: red;
+}
+
+.eicon {
+    background-image: url(/img/share_1.png);
+    display: block;
+    width: 25px;
+    height: 20px;
+    background-position: -307px -4px;
+    float: __MSG_@@bidi_start_edge__
+}

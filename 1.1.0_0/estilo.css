@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI'), url('/img/segoeui.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: local('Segoe UI Light'), url('/img/segoeuil.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Segoe UI", "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, sans-serif;
+    color: #fff;
+    overflow: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-user-select: none;
+    user-select: none;
+    direction: __MSG_@@bidi_dir__;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.seleccionable {
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+.oculto, .hideifempty:empty {
+    display: none;
+}
+
+.floatright {
+    float: right;
+}
+
+header.panorama {
+    position: fixed;
+    top: 0;
+    __MSG_@@bidi_start_edge__ : 100px;
+    z-index: 100;
+    padding: 36px 0 0;
+    text-align: __MSG_@@bidi_start_edge__;
+}
+
+header.panorama h1 {
+    position: relative;
+    margin: 0;
+    font-size: 43px;
+    line-height: 1em;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Segoe UI Light", "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+#pivot, #bookmarks {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding-top: 125px;
+    padding-__MSG_@@bidi_end_edge__ : 50px;
+    padding-bottom: 20px;
+    padding-__MSG_@@bidi_start_edge__ : 100px;
+    white-space: nowrap;
+    text-align: __MSG_@@bidi_start_edge__;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+#pivot.aplastado, #bookmarks.aplastado {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.fullbl #pivot {
+    padding: 0;
+}
+
+.fullbl .bloque {
+    display: inline-block;
+    margin: 0;
+    padding: 100px 50px 20px;
+    height: 100%;
+    width: 240px;
+    box-sizing: border-box;
+    vertical-align: top;
+    white-space: normal;
+    -webkit-column-gap: 0;
+}
+
+.fullbl .bloque:first-child {
+    padding-__MSG_@@bidi_start_edge__ : 100px;
+}
+
+#pantalla {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-orient: horizontal;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+    background-color: rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition-property: opacity, visibility;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-out;
+}
+
+#pantalla.visible {
+    z-index: 7000;
+    visibility: visible;
+    opacity: 1;
+}
+
+.pantalla {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 1px;
+    width: 100%;
+    background: #fff;
+}
+
+.pantalla h2 {
+    margin: 0;
+    line-height: 3em;
+}
+
+.pantalla h3.enlinea {
+    display: inline-block;
+    margin-__MSG_@@bidi_end_edge__ : 0.5em;
+}
+
+.pantalla .centro {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.pantalla .contprinc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.fondopant {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 90px;
+    padding: 0.7em 0;
+    border-top: 2px solid #fff;
+    text-align: right;
+}
+
+#regreso, .regreso {
+    display: inline-block;
+    position: fixed;
+    top: 36px;
+    __MSG_@@bidi_start_edge__ : 26px;
+    z-index: 5000;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-mask-image: url(/img/backarr_d__MSG_@@bidi_start_edge__.svg);
+    -webkit-mask-position: center;
+}
+
+#regreso:hover, .regreso:hover {
+    -webkit-mask-image: url(/img/backarr_i__MSG_@@bidi_start_edge__.svg);
+}
+
+#splash {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: inherit;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    background-size: 256px;
+    opacity: 1;
+    text-align: center;
+    -webkit-transition: opacity 0.3s linear;
+}
+
+#splash.saliendo {
+    opacity: 0;
+}
+
+#splash span {
+    position: absolute;
+    bottom: 30%;
+}
+
+#toploader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.cargando {
+    text-align: center;
+}
+
+.cargando span {
+    background: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    vertical-align: top;
+    opacity: 0;
+    -webkit-animation: cargahor 3s cubic-bezier(0, .55, 1, .45) infinite;
+}
+
+.cargando span:nth-child(2) {
+    -webkit-animation-delay: 0.2s;
+}
+
+.cargando span:nth-child(3) {
+    -webkit-animation-delay: 0.4s;
+}
+
+.cargando span:nth-child(4) {
+    -webkit-animation-delay: 0.6s;
+}
+
+.cargando span:nth-child(5) {
+    -webkit-animation-delay: 0.8s;
+}
+
+@-webkit-keyframes cargahor {
+    0% {
+        -webkit-transform: translateX(-350px);
+    }
+
+    15% {
+        -webkit-transform: translateX(-350px);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    85% {
+        -webkit-transform: translateX(350px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(350px);
+    }
+}
+
+#semzoom {
+    position: absolute;
+    right: 0;
+    bottom: 18px;
+    width: 19px;
+    height: 19px;
+    margin: 0;
+    padding: 0;
+    background: rgba(240, 240, 240, 0.5);
+    border: 0 none;
+}
+
+#semzoom:hover {
+    background: rgba(240, 240, 240, 0.8);
+}

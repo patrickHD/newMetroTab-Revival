@@ -1,0 +1,145 @@
+﻿#chromestore.tam42 .icono {
+    background-size: 60%;
+    background-position: 80% 20%;
+}
+
+#tilegplus .icono {
+    background-size: 110%;
+}
+
+#tilegplus .eventos {
+    position: absolute;
+    __MSG_@@bidi_end_edge__ : 6px;
+    bottom: 6px;
+    display: inline-block;
+    padding: 4px;
+    min-width: 20px;
+    background-color: #d14836;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+#tilegplus.tam42 .eventos {
+    top: 10px;
+    right: auto;
+    bottom: auto;
+    left: 10px;
+}
+
+#tilegplus .eventos.nulo {
+    background-color: #eee;
+    color: #555;
+    border-color: #999;
+}
+
+#tilevimeo .icono::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdMAAAAKCAMAAADYZkTMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADlQTFRFVpClFzgsFyMnsI9BQTNku0JrLoSdtGg6I0NuizBcMnNFnCxSFSpDbUFthplWKkFupTlBKGaGQ35M+krGNgAAAFlJREFUeNrs0TkOgDAMAEFzBsIZ/v9YKqQYyTYN3c4XRtpQE8q267FrXSQ5TmWxDI7Ztr30gUOTL0ZHqU2O1SCccsopp5xyyimnnHLKKaeccsoppz+c3gIMAKTHhCcT2L89AAAAAElFTkSuQmCC');
+    background-position: center;
+    background-size: 140%;
+}
+
+/* I took the facebook notification style from http://fav.me/d4wszjj */
+#tilefacebook.tam42 .icono,
+#tilefacebook.tam44 .icono {
+    background-image: url(/iconos/facebook.svg) !important;
+    text-align: center;
+}
+
+#tilefacebook.tam42.notificacion .icono,
+#tilefacebook.tam44.notificacion .icono {
+    background-position: center 30%;
+}
+
+#tilefacebook .icono div {
+    display: inline-block;
+    position: relative;
+    top: 58%;
+    margin: 7px 10px 0;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tilefacebook.tam44 .icono div {
+    width: 30px;
+    height: 30px;
+}
+
+#tilefacebook .icono div::after {
+    content: attr(data-numero);
+    position: absolute;
+    top: -4px;
+    left: 16px;
+    padding: 2px;
+    font-weight: bold;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    font-size: 9px;
+    line-height: 1em;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #f03d25;
+    border: 1px solid #d83722;
+    border-bottom: 1px solid #c0311e;
+    border-top: 1px solid #e23923;
+}
+
+#tilefacebook.tam44 .icono div::after {
+    font-size: 13px;
+    left: auto;
+    right: -4px;
+}
+
+#tilefacebook .icono .item0 {
+    background-image: url('/img/facebook_ico1.svg');
+}
+
+#tilefacebook .icono .item1 {
+    background-image: url('/img/facebook_ico2.svg');
+}
+
+#tilefacebook .icono .item2 {
+    background-image: url('/img/facebook_ico3.svg');
+}
+
+#tileyahoomail.tam42 .icono {
+    background-image: url(/iconos/yahoomail_long.svg) !important;
+}
+
+#tiledevart.tam42 .icono {
+    background-image: url(/iconos/deviantart_long.svg) !important;
+}
+
+#tileflickr.tam42 .icono {
+    background-image: url(/iconos/flickr.svg) !important;
+    background-size: 70%;
+}
+
+#tilegplus.tam42 .icono {
+    background-size: 60%;
+    background-position: 90% -35%;
+}
+
+#tiletumblr.tam42 .icono {
+    background-image: url('/iconos/tumblr_long.svg') !important;
+}
+
+#tilevimeo.tam42 .icono {
+    background-image: url(/iconos/vimeo_full.svg) !important;
+    background-size: 70%;
+}
+
+#tiletedtalks.tam42 .icono {
+    background-image: url(/iconos/ted_long.svg) !important;
+    background-size: 80%;
+}

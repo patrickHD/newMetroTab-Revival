@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "installeren"
+   },
+   "Installed": {
+      "message": "geïnstalleerd"
+   },
+   "RestoreDefault": {
+      "message": "herstel Default"
+   },
+   "acerca_agradece": {
+      "message": "Dankwoord"
+   },
+   "acerca_apoyo": {
+      "message": "Steun mij"
+   },
+   "acerca_contact": {
+      "message": "Als u vragen heeft, stuur een email naar ons te contacteren:"
+   },
+   "acerca_idiompers": {
+      "message": "Deze mensen hebben de vertalingen gemaakt van de new metroTab:"
+   },
+   "acerca_infoapi": {
+      "message": "Onthou dat je ook de API kunt gebruiken om zelf een live tegel te maken."
+   },
+   "acerca_informar": {
+      "message": "Vraag ondersteuning"
+   },
+   "acerca_informarinstr": {
+      "message": "Gebruik dit formulier om een probleem te melden of om nieuwe functies voor te stellen:"
+   },
+   "action_cambiarss": {
+      "message": "Wijzig RSS feed"
+   },
+   "action_changebgcolor": {
+      "message": "Wijzig achtergrondkleur"
+   },
+   "action_changeicon": {
+      "message": "Wijzig icoon"
+   },
+   "action_changesize": {
+      "message": "Wijzig grootte"
+   },
+   "action_colorpick": {
+      "message": "Kleur kiezen..."
+   },
+   "action_copylink": {
+      "message": "Kopieer URL"
+   },
+   "action_delete": {
+      "message": "Verwijder"
+   },
+   "action_deselect": {
+      "message": "Selectie wissen"
+   },
+   "action_editurl": {
+      "message": "Bewerk URL"
+   },
+   "action_icondeletion": {
+      "message": "Verwijder icoon"
+   },
+   "action_incsscolor": {
+      "message": "Invoer CSS kleur..."
+   },
+   "action_liveactiv": {
+      "message": "Activeer live tegel"
+   },
+   "action_livedesac": {
+      "message": "Deactiveer live tegel"
+   },
+   "action_opennewtab": {
+      "message": "Open koppeling in een nieuwe tabblad"
+   },
+   "action_opennewwin": {
+      "message": "Open in een nieuw venster"
+   },
+   "action_rename": {
+      "message": "Wijzig label"
+   },
+   "action_sizelarge": {
+      "message": "Groot"
+   },
+   "action_sizenormal": {
+      "message": "Normaal"
+   },
+   "action_sizesmall": {
+      "message": "Klein"
+   },
+   "action_sizewide": {
+      "message": "Breed"
+   },
+   "action_transparent": {
+      "message": "Maak transparant"
+   },
+   "action_uninstallapp": {
+      "message": "Verwijder de app"
+   },
+   "activar": {
+      "message": "Activeer"
+   },
+   "addt_avisoxhr": {
+      "message": "Ik zal proberen de resterende informatie te laden vanaf de website"
+   },
+   "addt_bgcolor": {
+      "message": "Achtergrondkleur"
+   },
+   "addt_crear": {
+      "message": "Maak een tegel"
+   },
+   "addt_customico": {
+      "message": "Aangepast icoon"
+   },
+   "addt_etiqueta": {
+      "message": "Label"
+   },
+   "addt_link": {
+      "message": "Link"
+   },
+   "addt_rssurl": {
+      "message": "RSS Feed URL"
+   },
+   "addt_tamano": {
+      "message": "Breedte"
+   },
+   "addt_tipxhrico": {
+      "message": "Tip: gebruik een .png van een wit icoon met transparante achtergrond."
+   },
+   "aext_descr": {
+      "message": "Custom nieuw tabblad met Metro UI.It biedt verschillende functies zoals snelkiezen, email facebook twitter bericht, klok, weer."
+   },
+   "aext_name": {
+      "message": "nieuwe metroTab"
+   },
+   "aext_short_name": {
+      "message": "nieuwe metroTab"
+   },
+   "allsites": {
+      "message": "ALLE SITES"
+   },
+   "apar_ajustbg": {
+      "message": "Pas achtergrondafbeelding aan aan schermgrootte"
+   },
+   "apar_ajustbgwarn": {
+      "message": "Het aanpassen van de achtergrond kan animaties minder vloeiend maken"
+   },
+   "apar_animarapertura": {
+      "message": "Animeer bij het aanklikken van een tegel"
+   },
+   "apar_animartiles": {
+      "message": "Animeer tegels bij het openen van een nieuwe tab"
+   },
+   "apar_animartileswarn": {
+      "message": "Pas op: kan soms resulteren in vreemd gedrag."
+   },
+   "apar_h3anim": {
+      "message": "Animaties"
+   },
+   "apar_h3customcss": {
+      "message": "Aangepaste CSS"
+   },
+   "apar_h3detalles": {
+      "message": "Details"
+   },
+   "apar_h3tiles": {
+      "message": "Kleuren"
+   },
+   "apar_h3usuario": {
+      "message": "Gebruiker"
+   },
+   "apar_miniscrollbar": {
+      "message": "Gebruik de kleine scrollbar"
+   },
+   "apar_newtabh1": {
+      "message": "Hoofdtitel"
+   },
+   "apar_opennewtab": {
+      "message": "Open alle tegellinks in nieuwe tabbladen."
+   },
+   "apar_opennewtabwarn": {
+      "message": "Dit schakelt de animatie uit bij het openen van tegels."
+   },
+   "apar_parallaxbg": {
+      "message": "Activeer het scrollen van de achtergrondafbeelding"
+   },
+   "apar_smoothscroll": {
+      "message": "Gebruik vloeiende scrolling"
+   },
+   "apar_tambase": {
+      "message": "Basisgrootte van de tegel"
+   },
+   "apar_tambasehelp": {
+      "message": "Een brede tegel is gelijk aan 4 x 2 basisgroottes. De standaardwaarde is 60."
+   },
+   "apar_tilegrad": {
+      "message": "Gebruik een solide kleur (zonder gradiënt) op de tegels."
+   },
+   "apar_usuariobig": {
+      "message": "Naam"
+   },
+   "apar_usuarioimg": {
+      "message": "Avatar"
+   },
+   "apar_usuariosmall": {
+      "message": "Bijnaam"
+   },
+   "auth_approved": {
+      "message": "Authorisatie goedgekeurd."
+   },
+   "auth_denied": {
+      "message": "Authorisatie afgekeurd, controleer je gebruikersnaam of wachtwoord."
+   },
+   "auth_required": {
+      "message": "Authorisatie vereist"
+   },
+   "autorizar": {
+      "message": "Authoriseer"
+   },
+   "back": {
+      "message": "terug"
+   },
+   "camara_ajustes": {
+      "message": "Aanpassingen"
+   },
+   "camara_captura": {
+      "message": "Ontvanger"
+   },
+   "clima_actualcondic": {
+      "message": "Huidige conditie"
+   },
+   "clima_actualhumeda": {
+      "message": "Relatieve vochtigheid"
+   },
+   "clima_actualprecip": {
+      "message": "Neerslag"
+   },
+   "clima_actualpresio": {
+      "message": "Atmosferische druk"
+   },
+   "clima_actualradiac": {
+      "message": "UV Straling"
+   },
+   "clima_actualviento": {
+      "message": "Wind"
+   },
+   "clima_proveedor": {
+      "message": "Weerinformatie beschikbaar gesteld door"
+   },
+   "ctxbloque_nombBloque": {
+      "message": "Bewerk groepnaam"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "Voer de nieuwe RSS feed URL in"
+   },
+   "ctxinstr_inputurl": {
+      "message": "Voer de nieuwe URL van het bestand in"
+   },
+   "ctxinstr_nombloque": {
+      "message": "Voer de groepnaam in. Laat deze leeg om hem te verwijderen."
+   },
+   "data_error": {
+      "message": "Gegevensformaat fout importeren!"
+   },
+   "date_months": {
+      "message": "Januari/Februari/Maart/April/Mei/Juni/Juli/Augustus/September/Oktober/November/December"
+   },
+   "date_weekdays": {
+      "message": "Zondag/Maandag/Dinsdag/Woensdag/Donderdag/Vrijdag/Zaterdag"
+   },
+   "experimental": {
+      "message": "Experimenteel"
+   },
+   "games": {
+      "message": "GAMES"
+   },
+   "h1tile_calendario": {
+      "message": "Kalender"
+   },
+   "h1tile_camara": {
+      "message": "Camera"
+   },
+   "h1tile_clima": {
+      "message": "Weer"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "Wereldklok"
+   },
+   "h1tile_rssfeed": {
+      "message": "RSS Feed"
+   },
+   "hotsites": {
+      "message": "HOT WEBSITES"
+   },
+   "ingresarcolor": {
+      "message": "Voer de nieuwe achtergrondkleur in voor de tegel.\u003Cnewline>Dit mag een kleurnaam, een rgb- of hsl-waarde, of een hexadecimale waarde zijn."
+   },
+   "ingresaretiqueta": {
+      "message": "Voer het nieuwe label in voor de tegel"
+   },
+   "invalid_url": {
+      "message": "Ongeldige URL"
+   },
+   "ioconfig_expconfig": {
+      "message": "Export kleur- en voorkeurinstellingen"
+   },
+   "ioconfig_exptile": {
+      "message": "Exporteer de lijst met tegels"
+   },
+   "ioconfig_h3in": {
+      "message": "Instellingen importeren"
+   },
+   "ioconfig_h3out": {
+      "message": "Instellingen exporteren"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "Voor de gebruiksvriendelijkheid worden kleur- en voorkeursinstellingen in aparte bestanden geëxporteerd."
+   },
+   "ioconfig_infoexptile": {
+      "message": "Je kunt de volledige lijst met huidige tegels exporteren, inclusief de iconen."
+   },
+   "ioconfig_infoimp": {
+      "message": "Je kunt een bestand met de tegellijst en de instellingen, geëxporteerd vanaf een andere browser via dit formulier inladen."
+   },
+   "listo": {
+      "message": "OK"
+   },
+   "livet_avisogmail": {
+      "message": "Als er een dialoogvenster verschijnt met de vraag om een gebruikersnaam en wachtwoord voor Gmail, is dit vanwege de Gmail live tegel.\u003Cnewline>De Gmail live tegel gebruikt de informatie van de huidige sessie, maar deze is niet aanwezig.\u003Cnewline>Als je het dialoogvenster niet meer wilt zien, log dan in in Gmail of schakel de live tegel uit."
+   },
+   "livet_climaaddress": {
+      "message": "plaats"
+   },
+   "livet_climasist": {
+      "message": "Meetsysteem"
+   },
+   "livet_climaubic": {
+      "message": "Selecteer locatie"
+   },
+   "livet_climaubicph": {
+      "message": "Plaats (of postcode indien VS)"
+   },
+   "livet_estado": {
+      "message": "Activeer notificaties"
+   },
+   "livet_h2optgeneral": {
+      "message": "Algemene instellingen"
+   },
+   "livet_querevisar": {
+      "message": "Te controleren onderdelen"
+   },
+   "livet_rssauthask": {
+      "message": "Om deze RSS reader juist in te stellen heeft metroTab een authorisatiesleutel nodig.Om deze te verkrijgen, heb ik je gebruikersnaam en wachtwoord nodig. Maak je niet ongerust, deze worden beide niet opgeslagen, ze zijn alleen nodig om de autorisatiesleutel te verkrijgen."
+   },
+   "livet_rssreader": {
+      "message": "Standaard reader"
+   },
+   "livet_rssreaderaviso": {
+      "message": "Op dit moment werkt de live tegel RSS Feed alleen met Digg Reader en InoReader. In toekomstige versies zal ik proberen Aol Reader, Feedly en anderen toe te voegen."
+   },
+   "livet_tiempo": {
+      "message": "Wachttijd (in seconden) voordat de live tegels geladen worden"
+   },
+   "load_file": {
+      "message": "Laden vanaf bestand..."
+   },
+   "load_url": {
+      "message": "Laden vanaf URL..."
+   },
+   "load_urlerror": {
+      "message": "De ingevoerde URL in ongeldig of bestaat niet.\u003Cnewline>Controleer de URL of probeer het later nog eens."
+   },
+   "menu_addt": {
+      "message": "Voeg tegel toe"
+   },
+   "menu_bkmr": {
+      "message": "Bladwijzers"
+   },
+   "menu_pcr": {
+      "message": "Gesloten tabbladen"
+   },
+   "menu_rest": {
+      "message": "Cloud tiles"
+   },
+   "myapps": {
+      "message": "MIJN APPS"
+   },
+   "nav_acercade": {
+      "message": "Over"
+   },
+   "nav_apariencia": {
+      "message": "Uiterlijk"
+   },
+   "nav_changelog": {
+      "message": "Changelog"
+   },
+   "nav_ioconfig": {
+      "message": "Importeer / exporteer instellingen"
+   },
+   "nav_livetiles": {
+      "message": "Live tegels"
+   },
+   "nav_opcional": {
+      "message": "Optionele functies"
+   },
+   "newtabh1": {
+      "message": "Nieuw tabblad"
+   },
+   "no": {
+      "message": "Close"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "opcion_aceptar": {
+      "message": "OK"
+   },
+   "opcion_cancelar": {
+      "message": "Annuleer"
+   },
+   "opcional_activbkmr": {
+      "message": "Bladwijzersscherm"
+   },
+   "opcional_activpcrh2": {
+      "message": "Recent gesloten tabbladen"
+   },
+   "opcional_avisobkmr": {
+      "message": "Zeer experimentele functie. Je zou geheugenlekkage kunnen ondervinden, welke het herstarten van de extensie vereist.\u003Cnewline>Stuur alsjeblieft (nog) geen foutrapporten van deze functie."
+   },
+   "opcional_pcrnum": {
+      "message": "Maximaal aantal te onthouden pagina's"
+   },
+   "opcional_pcrsesiones": {
+      "message": "Onthou geen pagina's tussen browser sessies"
+   },
+   "opcional_touchsupport": {
+      "message": "Ondersteuning voor aanraakschermen"
+   },
+   "opcional_touchsupwarn": {
+      "message": "Standaard uitgeschakeld, omdat de functie nog experimenteel is. Ik heb geen monitor met aanraakscherm om mee te testen. Voor nu werkt het alleen om het scherm te scrollen."
+   },
+   "opcionesh1": {
+      "message": "Opties"
+   },
+   "password": {
+      "message": "Wachtwoord"
+   },
+   "quickSearchAppTitle": {
+      "message": "Vinnige Soek"
+   },
+   "recommended": {
+      "message": "Ons persoonlike paar gewilde titls, het jy nie wil hê dat hulle by te voeg?"
+   },
+   "search": {
+      "message": "zoeken..."
+   },
+   "share": {
+      "message": "aandeel"
+   },
+   "shopping": {
+      "message": "SHOPPING"
+   },
+   "show_scrollbar": {
+      "message": "Verbergen schuifbalken"
+   },
+   "sistema_ingles": {
+      "message": "Fahrenheit"
+   },
+   "sistema_metrico": {
+      "message": "Metrisch"
+   },
+   "successRestoreDefault": {
+      "message": "Herstel Default sukses!"
+   },
+   "titulo_apariencia": {
+      "message": "Uiterlijk aanpassen"
+   },
+   "ubicacion_anadir": {
+      "message": "Locatie toevoegen"
+   },
+   "ubicacion_buscar": {
+      "message": "Zoek locatie"
+   },
+   "username": {
+      "message": "Gebruikersnaam"
+   },
+   "vistaprevia": {
+      "message": "Voorvertoning"
+   },
+   "warn_manytabs": {
+      "message": "Je staat op het punt  \u003Cnum> tabbladen te openen. Weet je zeker dat je door wilt gaan?"
+   },
+   "weatherAppTitle": {
+      "message": "Weer"
+   }
+}

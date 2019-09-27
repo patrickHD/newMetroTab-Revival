@@ -1,0 +1,8 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+ <title>Layer 1</title>
+ <g id="layer1" fill="#FFFFFF">
+  <path id="path3848" d="m6.59375,3.78131l-2.8125,2.84369l5.875,5.875l5.6875,0l-8.75,-8.71869z"/>
+  <path id="path3844" d="m38.34375,35.5c-1.89583,0 -3.79167,0 -5.6875,0l8.71875,8.71875l2.84375,-2.84375l-5.875,-5.875z"/>
+  <path id="path2997" shape-rendering="crispEdges" d="m40,14l0,20l-32,0l0,-20l32,0zm-1.5,1.5l-29,0l0,11.5l29,0l0,-11.5z"/>
+ </g>
+</svg>

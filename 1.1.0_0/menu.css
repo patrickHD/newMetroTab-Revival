@@ -1,0 +1,214 @@
+﻿#usuario {
+    position: fixed;
+    top: 0;
+    __MSG_@@bidi_end_edge__ : 0;
+    padding: 25px;
+    text-align: right;
+    font-family: "Segoe UI", "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+    z-index: 5500;
+    direction: __MSG_@@bidi_dir__;
+}
+
+#usuario img {
+    float: __MSG_@@bidi_end_edge__;
+    width: 48px;
+    cursor: pointer;
+}
+
+#usuario > span {
+    display: block;
+    margin-__MSG_@@bidi_end_edge__ : 58px;
+    font-size: 20px;
+    line-height: 1.3em;
+    color: #fff;
+    white-space: nowrap;
+}
+
+#usuario small {
+    display: block;
+    margin-__MSG_@@bidi_end_edge__ : 58px;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #aaa;
+    white-space: nowrap;
+}
+
+#usuario nav::before, #usuario nav::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+}
+
+#usuario nav::before {
+    top: -12px;
+    __MSG_@@bidi_end_edge__ : 11px;
+    border-width: 0 12px 12px 12px;
+    border-color: transparent transparent #000 transparent;
+}
+
+#usuario nav::after {
+    top: -9px;
+    __MSG_@@bidi_end_edge__ : 14px;
+    border-width: 0 9px 9px 9px;
+    border-color: transparent transparent #fff transparent;
+}
+
+#usuario nav {
+    position: absolute;
+    __MSG_@@bidi_end_edge__ : 20px;
+    top: 76px;
+    background-color: #fff;
+    border: 2px solid #000;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition-property: opacity, padding, visibility;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-delay: 0s;
+}
+
+#usuario img:hover + nav, #usuario nav.visible {
+    visibility: visible;
+    opacity: 1;
+    padding: 4px 0 6px;
+}
+
+#usuario nav:hover {
+    visibility: visible;
+    opacity: 1;
+    padding: 4px 0 6px;
+}
+
+#usuario nav span {
+    display: block;
+    padding: 0.4em 0.9em;
+    color: #000;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+#usuario nav span:hover {
+    background-color: #aaa;
+}
+
+#lateral {
+    position: fixed;
+    top: 0;
+    __MSG_@@bidi_end_edge__ : 0;
+    bottom: 0;
+    z-index: 6000;
+    width: 0;
+    overflow: hidden;
+    background-color: #fff;
+    -webkit-transition: width 0.3s ease-out;
+    direction: __MSG_@@bidi_dir__;
+}
+
+#lateral.visible {
+    width: 350px;
+}
+
+#lateral h2 {
+    margin: 0;
+    padding: 20px 25px 10px;
+    width: 300px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sideintertab {
+    display: none;
+    position: absolute;
+    top: 70px;
+    __MSG_@@bidi_start_edge__ : 0;
+    bottom: 0;
+    width: 350px;
+    overflow-y: auto;
+    color: #000;
+}
+
+.sideintertab.visible {
+    display: block;
+}
+
+.sideintertab > * {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.botonesfin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lateral .sidelabel {
+    width: 150px;
+}
+
+#lateral .listlat {
+    display: block;
+    padding: 8px 25px;
+    cursor: pointer;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: __MSG_@@bidi_start_edge__;
+}
+
+#lateral .listlat:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.listlat .icono {
+    float: __MSG_@@bidi_start_edge__;
+    width: 40px;
+    height: 40px;
+    margin-__MSG_@@bidi_end_edge__ : 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#lateral .listlat span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#lateral .subtxt {
+    color: #666;
+    font-size: 0.8em;
+}
+
+#addt-bgcolor {
+    width: 120px;
+    border-__MSG_@@bidi_start_edge__-width : 0px;
+}
+
+#addt-bgcolorsel {
+    vertical-align: top;
+    width: 44px;
+}
+
+#lateral .btnregreso {
+    display: inline-block;
+    float: __MSG_@@bidi_start_edge__;
+    margin-__MSG_@@bidi_end_edge__ : 0.4em;
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-mask-image: url(/img/backarr_d__MSG_@@bidi_start_edge__.svg);
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+}
+
+#lateral .btnregreso:hover {
+    -webkit-mask-image: url(/img/backarr_i__MSG_@@bidi_start_edge__.svg);
+}

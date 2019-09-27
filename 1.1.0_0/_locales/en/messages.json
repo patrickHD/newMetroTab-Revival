@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "Install"
+   },
+   "Installed": {
+      "message": "Installed"
+   },
+   "RestoreDefault": {
+      "message": "RestoreDefault"
+   },
+   "acerca_agradece": {
+      "message": "Acknowledgements"
+   },
+   "acerca_apoyo": {
+      "message": "Support me"
+   },
+   "acerca_contact": {
+      "message": "If you have any questions,please email to contact us:"
+   },
+   "acerca_idiompers": {
+      "message": "These people have made the translations of new metroTab:"
+   },
+   "acerca_infoapi": {
+      "message": "Remember that you can also use the API to create a live tile yourself."
+   },
+   "acerca_informar": {
+      "message": "Request support"
+   },
+   "acerca_informarinstr": {
+      "message": "To report a problem or suggest new features, please use this form:"
+   },
+   "action_cambiarss": {
+      "message": "Change RSS feed"
+   },
+   "action_changebgcolor": {
+      "message": "Change background color"
+   },
+   "action_changeicon": {
+      "message": "Change icon"
+   },
+   "action_changesize": {
+      "message": "Change size"
+   },
+   "action_colorpick": {
+      "message": "Pick color..."
+   },
+   "action_copylink": {
+      "message": "Copy URL"
+   },
+   "action_delete": {
+      "message": "Delete"
+   },
+   "action_deselect": {
+      "message": "Clear selection"
+   },
+   "action_editurl": {
+      "message": "Edit URL"
+   },
+   "action_icondeletion": {
+      "message": "Remove icon"
+   },
+   "action_incsscolor": {
+      "message": "Input CSS color..."
+   },
+   "action_liveactiv": {
+      "message": "Activate live tile"
+   },
+   "action_livedesac": {
+      "message": "Deactivate live tile"
+   },
+   "action_opennewtab": {
+      "message": "Open link in new tab"
+   },
+   "action_opennewwin": {
+      "message": "Open in a new window"
+   },
+   "action_rename": {
+      "message": "Change label"
+   },
+   "action_sizelarge": {
+      "message": "Large"
+   },
+   "action_sizenormal": {
+      "message": "Normal"
+   },
+   "action_sizesmall": {
+      "message": "Small"
+   },
+   "action_sizewide": {
+      "message": "Wide"
+   },
+   "action_transparent": {
+      "message": "Make transparent"
+   },
+   "action_uninstallapp": {
+      "message": "Uninstall app"
+   },
+   "activar": {
+      "message": "Activate"
+   },
+   "addt_avisoxhr": {
+      "message": "I'll try to load the remaining info from the website."
+   },
+   "addt_bgcolor": {
+      "message": "Background color"
+   },
+   "addt_crear": {
+      "message": "Create tile"
+   },
+   "addt_customico": {
+      "message": "Custom icon"
+   },
+   "addt_etiqueta": {
+      "message": "Label"
+   },
+   "addt_link": {
+      "message": "Link"
+   },
+   "addt_rssurl": {
+      "message": "RSS Feed URL"
+   },
+   "addt_tamano": {
+      "message": "Width"
+   },
+   "addt_tipxhrico": {
+      "message": "Tip: use a .png of a white icon with transparent background."
+   },
+   "aext_descr": {
+      "message": "Custom new tab page with Metro UI.It offers several features such as speed dial,email facebook twitter notice,clock,weather."
+   },
+   "aext_name": {
+      "message": "new metroTab"
+   },
+   "aext_short_name": {
+      "message": "new metroTab"
+   },
+   "allsites": {
+      "message": "ALL SITES"
+   },
+   "apar_ajustbg": {
+      "message": "Adjust background image to screen size"
+   },
+   "apar_ajustbgwarn": {
+      "message": "Adjust background could affect the animations smoothness."
+   },
+   "apar_animarapertura": {
+      "message": "Animate when clicking a tile"
+   },
+   "apar_animartiles": {
+      "message": "Animate tiles when open new tab"
+   },
+   "apar_animartileswarn": {
+      "message": "Beware: might have a weird behavior sometimes."
+   },
+   "apar_h3anim": {
+      "message": "Animations"
+   },
+   "apar_h3customcss": {
+      "message": "Custom CSS"
+   },
+   "apar_h3detalles": {
+      "message": "Details"
+   },
+   "apar_h3tiles": {
+      "message": "Colors"
+   },
+   "apar_h3usuario": {
+      "message": "User"
+   },
+   "apar_miniscrollbar": {
+      "message": "Use the small scrollbar"
+   },
+   "apar_newtabh1": {
+      "message": "Main title"
+   },
+   "apar_opennewtab": {
+      "message": "Open all the links of the tiles in new tabs."
+   },
+   "apar_opennewtabwarn": {
+      "message": "This deactivates the animation when opening tiles."
+   },
+   "apar_parallaxbg": {
+      "message": "Activate the background image scrolling"
+   },
+   "apar_smoothscroll": {
+      "message": "Use smooth scrolling"
+   },
+   "apar_tambase": {
+      "message": "Tiles' base size"
+   },
+   "apar_tambasehelp": {
+      "message": "A wide tile equals to 4 x 2 base sizes. Default value is 60."
+   },
+   "apar_tilegrad": {
+      "message": "Use a solid color (without gradient) on the tiles."
+   },
+   "apar_usuariobig": {
+      "message": "Name"
+   },
+   "apar_usuarioimg": {
+      "message": "Avatar"
+   },
+   "apar_usuariosmall": {
+      "message": "Nickname"
+   },
+   "auth_approved": {
+      "message": "Authorization approved."
+   },
+   "auth_denied": {
+      "message": "Authorization denied, check your user name or password."
+   },
+   "auth_required": {
+      "message": "Authorization required"
+   },
+   "autorizar": {
+      "message": "Authorize"
+   },
+   "back": {
+      "message": "back"
+   },
+   "camara_ajustes": {
+      "message": "Adjustments"
+   },
+   "camara_captura": {
+      "message": "Capturar"
+   },
+   "clima_actualcondic": {
+      "message": "Current condition"
+   },
+   "clima_actualhumeda": {
+      "message": "Relative humidity"
+   },
+   "clima_actualprecip": {
+      "message": "Precipitation"
+   },
+   "clima_actualpresio": {
+      "message": "Atmospheric pressure"
+   },
+   "clima_actualradiac": {
+      "message": "UV Radiation"
+   },
+   "clima_actualviento": {
+      "message": "Wind"
+   },
+   "clima_proveedor": {
+      "message": "Weather information provided by"
+   },
+   "ctxbloque_nombBloque": {
+      "message": "Edit group name"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "Enter the new RSS feed URL"
+   },
+   "ctxinstr_inputurl": {
+      "message": "Input the new URL of the tile"
+   },
+   "ctxinstr_nombloque": {
+      "message": "Enter the name of the group. To delete it, leave it blank."
+   },
+   "data_error": {
+      "message": "Importing Data format error!"
+   },
+   "date_months": {
+      "message": "January/February/March/April/May/June/July/August/September/October/November/December"
+   },
+   "date_weekdays": {
+      "message": "Sunday/Monday/Tuesday/Wednesday/Thursday/Friday/Saturday"
+   },
+   "experimental": {
+      "message": "Experimental"
+   },
+   "games": {
+      "message": "GAMES"
+   },
+   "h1tile_calendario": {
+      "message": "Calendar"
+   },
+   "h1tile_camara": {
+      "message": "Camera"
+   },
+   "h1tile_clima": {
+      "message": "Weather"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "World clock"
+   },
+   "h1tile_rssfeed": {
+      "message": "RSS Feed"
+   },
+   "hotsites": {
+      "message": "HOT SITES"
+   },
+   "ingresarcolor": {
+      "message": "Enter the tile's new background color. \u003Cnewline>Can be a color name, a rgb() or hsl() value, or an hexadecimal."
+   },
+   "ingresaretiqueta": {
+      "message": "Enter the tile's new label"
+   },
+   "invalid_url": {
+      "message": "Invalid URL"
+   },
+   "ioconfig_expconfig": {
+      "message": "Export colors and options settings"
+   },
+   "ioconfig_exptile": {
+      "message": "Export list of tiles"
+   },
+   "ioconfig_h3in": {
+      "message": "Import settings"
+   },
+   "ioconfig_h3out": {
+      "message": "Export settings"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "For user convenience, colors and options settings are exported in a separate file."
+   },
+   "ioconfig_infoexptile": {
+      "message": "You can export the full list of current tiles, including their icons."
+   },
+   "ioconfig_infoimp": {
+      "message": "You can load the tile list file and the settings file exported from another browser in this form."
+   },
+   "listo": {
+      "message": "OK"
+   },
+   "livet_avisogmail": {
+      "message": "If a dialog box appears asking for the user name and password for Gmail, is because of the Gmail's live tile. \u003Cnewline>The function of the Gmail's live tile works taking the information of the session that is currently open, and if there is none, requests credentials. \u003Cnewline>If you want to stop this box appear, log on to Gmail or disable the live tile."
+   },
+   "livet_climaaddress": {
+      "message": "Location"
+   },
+   "livet_climasist": {
+      "message": "Measurement system"
+   },
+   "livet_climaubic": {
+      "message": "Select location"
+   },
+   "livet_climaubicph": {
+      "message": "City (or zip code if USA)"
+   },
+   "livet_estado": {
+      "message": "Activate notifications"
+   },
+   "livet_h2optgeneral": {
+      "message": "General options"
+   },
+   "livet_querevisar": {
+      "message": "Elements to check"
+   },
+   "livet_rssauthask": {
+      "message": "To correctly configure this RSS reader, new metroTab need an authorization key. To get it, I need your user name and password. Don't worry, neither of them is saved, they are only used to obtain the authorization key."
+   },
+   "livet_rssreader": {
+      "message": "Default reader"
+   },
+   "livet_rssreaderaviso": {
+      "message": "For now the live tile RSS Feed only works with Digg Reader and InoReader. In future versions, I will try to add Aol Reader, Feedly and others."
+   },
+   "livet_tiempo": {
+      "message": "Wait (in seconds) before loading the live tiles"
+   },
+   "load_file": {
+      "message": "Load from file..."
+   },
+   "load_url": {
+      "message": "Load from URL..."
+   },
+   "load_urlerror": {
+      "message": "The entered URL is not valid or doesn't exists. \u003Cnewline>Check it or try again later."
+   },
+   "menu_addt": {
+      "message": "Add tile"
+   },
+   "menu_bkmr": {
+      "message": "Bookmarks"
+   },
+   "menu_pcr": {
+      "message": "Closed tabs"
+   },
+   "menu_rest": {
+      "message": "Cloud tiles"
+   },
+   "myapps": {
+      "message": "MY APPS"
+   },
+   "nav_acercade": {
+      "message": "About"
+   },
+   "nav_apariencia": {
+      "message": "Appearance"
+   },
+   "nav_changelog": {
+      "message": "Changelog"
+   },
+   "nav_ioconfig": {
+      "message": "Import/Export settings"
+   },
+   "nav_livetiles": {
+      "message": "Live Tiles"
+   },
+   "nav_opcional": {
+      "message": "Optional features"
+   },
+   "newtabh1": {
+      "message": "new tab"
+   },
+   "no": {
+      "message": "Close"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "opcion_aceptar": {
+      "message": "OK"
+   },
+   "opcion_cancelar": {
+      "message": "Cancel"
+   },
+   "opcional_activbkmr": {
+      "message": "Bookmarks screen"
+   },
+   "opcional_activpcrh2": {
+      "message": "Recently closed tabs"
+   },
+   "opcional_avisobkmr": {
+      "message": "Very experimental feature. You may experience memory leaks that require restart the extension.\u003Cnewline>Please do not send reports of error on this feature. Yet."
+   },
+   "opcional_pcrnum": {
+      "message": "Max number of pages to remember"
+   },
+   "opcional_pcrsesiones": {
+      "message": "Don't remember pages between browser sessions"
+   },
+   "opcional_touchsupport": {
+      "message": "Touchscreen support"
+   },
+   "opcional_touchsupwarn": {
+      "message": "Disabled by default because it is still experimental, I don't have a touch screen monitor for testing. For now, it only works to scroll the screen."
+   },
+   "opcionesh1": {
+      "message": "Options"
+   },
+   "password": {
+      "message": "Password"
+   },
+   "quickSearchAppTitle": {
+      "message": "Quick Search"
+   },
+   "recommended": {
+      "message": "We custom some popular titls,do you want to add them?"
+   },
+   "search": {
+      "message": "Search..."
+   },
+   "share": {
+      "message": "Share It"
+   },
+   "shopping": {
+      "message": "SHOPPING"
+   },
+   "show_scrollbar": {
+      "message": "Hide scroll bars"
+   },
+   "sistema_ingles": {
+      "message": "Imperial"
+   },
+   "sistema_metrico": {
+      "message": "Metric"
+   },
+   "successRestoreDefault": {
+      "message": "Restore Default Success!"
+   },
+   "titulo_apariencia": {
+      "message": "Edit appearance"
+   },
+   "ubicacion_anadir": {
+      "message": "Add location"
+   },
+   "ubicacion_buscar": {
+      "message": "Search location"
+   },
+   "username": {
+      "message": "User name"
+   },
+   "vistaprevia": {
+      "message": "Preview"
+   },
+   "warn_manytabs": {
+      "message": "You're about to open \u003Cnum> tabs. Are you sure to continue?"
+   },
+   "weatherAppTitle": {
+      "message": "Weather"
+   }
+}

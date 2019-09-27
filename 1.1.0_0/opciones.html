@@ -1,0 +1,833 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>new metroTab // opciones</title>
+    <link rel="stylesheet" type="text/css" href="/forms.css">
+    <link rel="stylesheet" type="text/css" href="/estilo.css">
+    <link rel="stylesheet" type="text/css" href="/scrollnor.css">
+    <link rel="stylesheet" type="text/css" href="/opciones.css">
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/globales.js"></script>
+    <script type="text/javascript" async src="/js/opciones.js"></script>
+    <script type="text/javascript" async src="/js/opciones_apar.js"></script>
+    <script type="text/javascript" async src="/js/opciones_livet.js"></script>
+    <script type="text/javascript" async src="/js/opciones_iodata.js"></script>
+    <script type="text/javascript" async src="/js/opciones_funopc.js"></script>
+    <script type="text/javascript" src="/js/DOMgen.js"></script>
+    <script type="text/javascript" src="/js/q.min.js"></script>
+    <script type="text/javascript" src="/js/q.tiledb.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.sortile.js"></script>
+    <script type="text/javascript" src="/js/utilidades.js"></script>
+    <script type="text/javascript" src="/js/livecards.js"></script>
+    <script type="text/javascript" src="/js/tilemodel.js"></script>
+    <script type="text/javascript" src="/js/tilebkp.js"></script>
+    <style id="themecolor"></style>
+</head>
+
+<body>
+    <header>
+        <h1 style="float:left" class="i18n" data-i18n="opcionesh1"></h1>
+        <h2 class="i18n" data-i18n="back" id="back" style="cursor:pointer;float:left;padding-top: 14px;">Back...</h2>
+        <nav id="lateral">
+            <a class="i18n" data-i18n="nav_apariencia" href="#apariencia">Apariencia</a>
+            <a class="i18n" data-i18n="nav_livetiles" href="#livetiles">Live Tiles</a>
+            <a class="i18n" data-i18n="nav_opcional" href="#opcional">Funciones opcionales</a>
+            <a class="i18n" data-i18n="nav_ioconfig" href="#ioconfig">Importar/Exportar configuración</a>
+            <a class="i18n" id="rDefault" data-i18n="RestoreDefault" style="cursor: pointer">RestoreDefault</a>
+            <hr style="width:50%;color:#d5d5d5;text-align: left;padding-left:0px;margin-left: 48px;" />
+            <a class="i18n support" data-i18n="acerca_apoyo" href="#acercade">Acerca de</a>
+            <a class="i18n" data-i18n="nav_changelog" href="#changelog">Registro de cambios</a>
+            <a class="" data-i18n="nav_faq" href="#faq">FAQ</a>
+        </nav>
+    </header>
+    <div class="pestana tabbed" id="apariencia">
+        <div id="tabpreview">
+            <img src="" id="avataractual" class="fakeinput" />
+
+            <div>
+                <span class="doble"></span><span></span><span></span><span></span><span></span><span class="doble"></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div>
+                <span class="doble"></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="doble"></span><span></span>
+            </div>
+        </div>
+        <nav class="subseccion">
+            <a id="apar_h3usuario" class="i18n on" data-i18n="apar_h3usuario" href="#apar_usuario">Usuario</a>
+            <a id="apar_h3tiles" class="i18n" data-i18n="apar_h3tiles" href="#apar_colores">Colores</a>
+            <a id="apar_h3anim" class="i18n" data-i18n="apar_h3anim" href="#apar_animar">Animaciones</a>
+            <a id="apar_h3detalles" class="i18n" data-i18n="apar_h3detalles" href="#apar_detalles">Detalles</a>
+            <a id="apar_h3customcss" class="i18n" data-i18n="apar_h3customcss" href="#apar_customcss">CSS personalizado</a>
+        </nav>
+        <section id="apar_usuario" class="tabbed">
+            <label for="usuariobig">
+            <span class="sidelabel i18n" data-i18n="apar_usuariobig">Nombre</span>
+            <input type="text" id="usuariobig" class="autosave autoload" name="apar_usuariobig"/>
+        </label>
+            <label for="usuariosmall">
+            <span class="sidelabel i18n" data-i18n="apar_usuariosmall">Nickname</span>
+            <input type="text" id="usuariosmall" class="autosave autoload" name="apar_usuariosmall"/>
+        </label>
+            <label for="usuarioimg">
+            <span class="sidelabel i18n" data-i18n="apar_usuarioimg">Avatar</span>
+            <input type="file" id="usuarioimg" class="autosave autoload" name="apar_usuarioimg" accept="image/*"/>
+        </label>
+        </section>
+        <section id="apar_colores" class="tabbed">
+            <div id="bgimgradios"></div>
+            <input type="file" id="apar_custombg" class="espaciar" name="apar_bgimg" accept="image/*" />
+
+            <div class="espaciar">
+                <div class="espaciar" id="colorschemes"></div>
+                <p class="espaciar"><input type="range" id="apar-bgcolor" class="colorrange" name="apar_bgcolor" min="0" max="360" step="1" /></p>
+
+                <p class="espaciar"><input type="range" id="apar-fgcolor" class="colorrange" name="apar_fgcolor" min="0" max="360" step="1" /></p>
+            </div>
+        </section>
+        <section id="apar_animar" class="tabbed">
+            <label for="apar-animarapertura">
+            <input type="checkbox" id="apar-animarapertura" name="apar_animarapertura" class="autosave autoload"/>
+            <span class="sidelabel i18n" data-i18n="apar_animarapertura">Mostrar animación al abrir un tile</span>
+        </label>
+            <label for="apar-animartiles">
+            <input type="checkbox" id="apar-animartiles" name="apar_animartiles" class="autosave autoload"/>
+            <span class="sidelabel i18n" data-i18n="apar_animartiles">Animar los tiles al iniciar</span>
+            <small class="label i18n" data-i18n="apar_animartileswarn">Cuidado: esta opción a veces produce un
+                comportamiento extraño.
+            </small>
+        </label>
+            <label for="apar-smoothscroll">
+            <input type="checkbox" id="apar-smoothscroll" name="apar_smoothscroll" class="autosave autoload"/>
+            <span class="sidelabel i18n" data-i18n="apar_smoothscroll">Usar desplazamiento suavizado</span>
+        </label>
+            <label for="apar-parallaxbg">
+            <input type="checkbox" id="apar-parallaxbg" name="apar_parallaxbg" class="autosave autoload"/>
+            <span class="sidelabel i18n" data-i18n="apar_parallaxbg">Usar desplazamiento suavizado</span>
+        </label>
+
+        </section>
+        <section id="apar_detalles" class="tabbed">
+            <label for="apar-newtabh1opt">
+            <span class="sidelabel i18n" data-i18n="apar_newtabh1">Título de la pestaña</span>
+            <input type="text" id="apar-newtabh1opt" class="autosave autoload" name="apar_newtabh1"/>
+        </label>
+            <label for="apar-opennewtab">
+            <input type="checkbox" id="apar-opennewtab" name="apar_opennewtab" class="autosave autoload"/>
+            <span class="sidelabel i18n" data-i18n="apar_opennewtab">Abrir todos los links de los tiles en nuevas pestañas.</span>
+            <small class="label i18n" data-i18n="apar_opennewtabwarn">Esta opción desactiva la animación al abrir un
+                tile.
+            </small>
+        </label>
+            <label for="apar-tilegrad">
+            <input type="checkbox" id="apar-tilegrad" name="apar_tilegrad" class="autosave autoload"/>
+            <span class="sidelabel i18n"
+                  data-i18n="apar_tilegrad">Usar un color sólido (sin gradiente) sobre las tiles.</span>
+        </label>
+            <label for="apar-ajustbg">
+            <input type="checkbox" id="apar-ajustbg" name="apar_ajustbg" class="autosave autoload"/>
+            <span class="sidelabel i18n" data-i18n="apar_ajustbg">Ajustar fondo a la pantalla</span>
+            <small class="label i18n" data-i18n="apar_ajustbgwarn">Ajustar el fondo puede hacer que el desplazamiento se
+                vea cortado.
+            </small>
+        </label>
+            <label for="apar-miniscrollbar">
+            <input type="checkbox" id="apar-miniscrollbar" name="apar_miniscrollbar" class="autosave autoload"/>
+            <span class="sidelabel i18n" data-i18n="apar_miniscrollbar">Usar la barra de desplazamiento pequeña</span>
+        </label>
+
+        </section>
+        <textarea id="apar_customcss" name="apar_customcss" class="tabbed autosave autoload base64">
+/* IMPORTANT: Click outside of the gray area when you finish to save the changes */
+body {
+}
+
+a.tile {
+}
+
+.etiqueta {
+}
+    </textarea>
+    </div>
+    <div class="pestana tabbed" id="livetiles">
+        <section>
+            <h2 class="i18n" data-i18n="livet_h2optgeneral">Opciones generales</h2>
+            <label for="livet-tiempo">
+            <p class="i18n" data-i18n="livet_tiempo">Tiempo de espera antes de cargar los live tiles (en segundos)</p>
+            <input type="number" id="livet-tiempo" class="autosave autoload" name="livet_tiempo" min="2" step="1"/>
+        </label>
+        </section>
+        <nav class="subseccion">
+            <a id="livet_h3clima" class="i18n" data-i18n="h1tile_clima" href="#livet_subclima">Clima</a>
+            <a id="livet_h3rssfeed" class="i18n" data-i18n="h1tile_rssfeed" href="#livet_subrssfeed">Feed RSS</a>
+            <a id="livet_h3reloj" class="i18n" data-i18n="h1tile_reloj" href="#livet_subreloj">Reloj mundial</a>
+            <a id="livet_h3devart" href="#livet_subdevart">deviantArt</a>
+        </nav>
+        <section id="livet_subrssfeed" class="tabbed">
+            <label for="livet-rss-reader" class="espaciar">
+            <h3 class="sidelabel i18n" data-i18n="livet_rssreader">Lector predeterminado</h3>
+            <select id="livet-rss-reader" name="livet_rssreader">
+                <option value="digg">Digg Reader</option>
+                <option value="ino">InoReader</option>
+                <option value="feedly" disabled>Feedly</option>
+                <option value="aol" disabled>Aol Reader</option>
+            </select>
+
+            <p>
+                <small class="i18n" data-i18n="livet_rssreaderaviso"></small>
+            </p>
+        </label>
+
+            <form id="livet-rssauth" class="ocultable" name="agregartile" action="#">
+                <h3 class="i18n" data-i18n="auth_required">Autorización requerida</h3>
+
+                <p class="i18n" data-i18n="livet_rssauthask">Para configurar correctamente este lector RSS, new metroTab necesita una clave de autorización. Para obtenerla, se necesita tu nombre de usuario y contraseña. No te preocupes, ninguno de los dos se guarda, sólo se usan para obtener esa
+                    clave de autorización.</p>
+                <label for="livet-rssauth-user" class="mitad">
+                <span class="sidelabel i18n" data-i18n="username">Nombre de usuario</span>
+                <input type="text" id="livet-rssauth-user" name="livet_rssauth_user"/>
+            </label><label for="livet-rssauth-pswd" class="mitad espaciar">
+            <span class="sidelabel i18n" data-i18n="password">Contraseña</span>
+            <input type="password" id="livet-rssauth-pswd" name="livet_rssauth_pswd"/>
+        </label>
+
+                <div class="label">
+                    <input type="submit" id="livet-rssauth-verif" class="btn i18n" data-i18n="autorizar" value="Autorizar" />
+                    <input type="reset" id="livet-rssauth-verif" class="btn i18n" data-i18n="opcion_cancelar" value="Cancelar" />
+                </div>
+            </form>
+        </section>
+        <section id="livet_subclima" class="tabbed">
+            <h3 class="sidelabel i18n" data-i18n="livet_climaaddress"></h3>
+            <label for="livet-clima-busubic">
+            <span class="sidelabel i18n" data-i18n="ubicacion_buscar">Buscar ubicación</span>
+            <input type="text" id="livet-clima-busubic" class="autosave autoload i18n" data-i18n="livet_climaubicph"
+                   name="livet_clima_busubic" placeholder="Ciudad (o código postal si EEUU)"/>
+        </label>
+            <label for="livet-clima-ubic">
+            <span class="sidelabel i18n" data-i18n="livet_climaubic">Seleccionar ubicación</span>
+            <select id="livet-clima-ubic"></select>
+        </label>
+
+            <div class="label">
+                <h3 class="sidelabel i18n" data-i18n="livet_climasist">Sistema de medición</h3>
+                <span class="fakeinput">
+          	<label for="livet-climacels" class="inline"><input type="radio" id="livet-climacels" class="redondo autosave"
+                                                             name="livet_climasist" value="true"/> <span class="i18n"
+                                                                                                         data-i18n="sistema_metrico">Métrico</span> (&deg;C)
+                </label>
+                <label for="livet-climafahr" class="inline"><input type="radio" id="livet-climafahr" class="redondo autosave"
+                                                             name="livet_climasist" value="false"/> <span class="i18n"
+                                                                                                          data-i18n="sistema_ingles">Inglés</span>
+              (&deg;F)</label>
+                </span>
+            </div>
+        </section>
+        <section id="livet_subreloj" class="tabbed">
+            <div class="label" id="livet-reloj-tzreg"></div>
+            <label for="livet-reloj-add">
+            <input type="button" id="livet-reloj-add" class="i18n" data-i18n="ubicacion_anadir" name="livet_reloj_add"
+                   value="Agregar ubicación"/>
+        </label>
+            <p>Timezone data provided by <a href="http://download.geonames.org/export/dump/timeZones.txt" target="_blank">Geonames</a>
+            </p>
+        </section>
+        <section id="livet_subdevart" class="tabbed">
+            <div class="label" id="devart-items">
+                <h3 class="sidelabel i18n" data-i18n="livet_querevisar">Elementos a revisar</h3>
+                <label for="livet-devart-fbcomm"><input type="checkbox" id="livet-devart-fbcomm"
+                                                    class="devartitems cuadrado" name="livet_devart_fbcomm"/> Feedback
+                comments</label>
+                <label for="livet-devart-fbrepl"><input type="checkbox" id="livet-devart-fbrepl"
+                                                    class="devartitems cuadrado" name="livet_devart_fbrepl"/> Feedback
+                replies</label>
+                <label for="livet-devart-fbcrit"><input type="checkbox" id="livet-devart-fbcrit"
+                                                    class="devartitems cuadrado" name="livet_devart_fbcrit"/> Feedback
+                critiques</label>
+                <label for="livet-devart-notes"><input type="checkbox" id="livet-devart-notes" class="devartitems cuadrado"
+                                                   name="livet_devart_notes"/> Notes</label>
+                <label for="livet-devart-notices"><input type="checkbox" id="livet-devart-notices"
+                                                     class="devartitems cuadrado" name="livet_devart_notices"/> Notices</label>
+                <label for="livet-devart-contest"><input type="checkbox" id="livet-devart-contest"
+                                                     class="devartitems cuadrado" name="livet_devart_contest"/> Contests</label>
+                <label for="livet-devart-corresp"><input type="checkbox" id="livet-devart-corresp"
+                                                     class="devartitems cuadrado" name="livet_devart_corresp"/>
+                Correspondence</label>
+                <label for="livet-devart-devwdev"><input type="checkbox" id="livet-devart-devwdev"
+                                                     class="devartitems cuadrado" name="livet_devart_devwdev"/>
+                deviantWATCH deviations</label>
+                <label for="livet-devart-devwcrit"><input type="checkbox" id="livet-devart-devwcrit"
+                                                      class="devartitems cuadrado" name="livet_devart_devwcrit"/>
+                deviantWATCH critiques</label>
+                <label for="livet-devart-devwjour"><input type="checkbox" id="livet-devart-devwjour"
+                                                      class="devartitems cuadrado" name="livet_devart_devwjour"/>
+                deviantWATCH journals</label>
+                <label for="livet-devart-devwnews"><input type="checkbox" id="livet-devart-devwnews"
+                                                      class="devartitems cuadrado" name="livet_devart_devwnews"/>
+                deviantWATCH news</label>
+                <label for="livet-devart-devwforum"><input type="checkbox" id="livet-devart-devwforum"
+                                                       class="devartitems cuadrado" name="livet_devart_devwforum"/>
+                deviantWATCH forums</label>
+                <label for="livet-devart-devwpoll"><input type="checkbox" id="livet-devart-devwpoll"
+                                                      class="devartitems cuadrado" name="livet_devart_devwpoll"/>
+                deviantWATCH polls</label>
+                <label for="livet-devart-activity"><input type="checkbox" id="livet-devart-activity"
+                                                      class="devartitems cuadrado" name="livet_devart_activity"/>
+                Activity</label>
+                <label for="livet-devart-bulletin"><input type="checkbox" id="livet-devart-bulletin"
+                                                      class="devartitems cuadrado" name="livet_devart_bulletin"/>
+                Bulletins</label>
+                <label for="livet-devart-zendesk"><input type="checkbox" id="livet-devart-zendesk"
+                                                     class="devartitems cuadrado" name="livet_devart_zendesk"/> Support
+                desk</label>
+            </div>
+        </section>
+    </div>
+    <div class="pestana tabbed" id="opcional">
+        <section>
+            <label for="opcional-activpcr">
+            <input type="checkbox" id="opcional-activpcr" name="opcional_activpcr"
+                   data-dependencias="opcional-pcrnum,opcional-pcrsesiones" style="margin-top: 12px;"/>
+
+            <h2 class="i18n" data-i18n="opcional_activpcrh2">Pestañas cerradas recientemente</h2>
+        </label>
+            <label for="opcional-pcrnum">
+            <p class="i18n" data-i18n="opcional_pcrnum">Número máximo de páginas a recordar</p>
+            <input type="number" id="opcional-pcrnum" class="autosave autoload" name="opcional_pcrnum" min="10" max="25"
+                   step="1"/>
+        </label>
+            <label for="opcional-pcrsesiones">
+            <input type="checkbox" id="opcional-pcrsesiones" name="opcional_pcrsesiones" class="autosave autoload"/>
+            <span class="sidelabel i18n experimental" data-i18n="opcional_pcrsesiones">Recordar páginas entre sesiones del navegador</span>
+        </label>
+
+            <p></p>
+        </section>
+        <section>
+            <label for="opcional-activbkmr">
+            <input type="checkbox" id="opcional-activbkmr" name="opcional_activbkmr" style="margin-top: 12px;"/>
+
+            <h2 class="i18n experimental" data-i18n="opcional_activbkmr">Pantalla de marcadores</h2>
+
+            <p class="i18n" data-i18n="opcional_avisobkmr">Función muy experimental. Puede sufrir fugas de memoria que
+                requieran reiniciar la extensión.</p>
+        </label>
+        </section>
+        <section>
+            <label for="opcional-touchsupport">
+            <input type="checkbox" id="opcional-touchsupport" class="autoload autosave" name="opcional_touchsupport"
+                   style="margin-top: 12px;"/>
+
+            <h2 class="i18n experimental" data-i18n="opcional_touchsupport">Activar soporte para pantallas táctiles</h2>
+        </label>
+
+            <p class="i18n" data-i18n="opcional_touchsupwarn">Por ahora sólo funciona para desplazar la pantalla.</p>
+        </section>
+    </div>
+    <div class="pestana tabbed" id="ioconfig">
+        <section>
+            <h2 class="i18n" data-i18n="ioconfig_h3out">Exportar configuración</h2>
+
+            <p class="i18n" data-i18n="ioconfig_infoexptile">Puedes exportar el listado de tiles actuales completo, incluyendo los íconos.</p>
+
+            <p class="espaciar"><input type="button" id="ioconfig_outbtntiles" class="i18n" data-i18n="ioconfig_exptile" name="ioconfig_exptile" value="Exportar listado de tiles" /></p>
+
+            <p class="i18n" data-i18n="ioconfig_infoexpconfig">Para comodidad del usuario, la configuración de colores y opciones se exporta en un archivo aparte.</p>
+
+            <p class="espaciar"><input type="button" id="ioconfig_outbtnconfig" class="i18n" data-i18n="ioconfig_expconfig" name="ioconfig_expconfig" value="Exportar configuración de colores y opciones" /></p>
+        </section>
+        <section>
+            <h2 class="i18n" data-i18n="ioconfig_h3in">Importar configuración</h2>
+
+            <p class="i18n" data-i18n="ioconfig_infoimp">Puedes cargar los archivos de listado de tiles y de configuración exportados desde otro navegador en este formulario.</p>
+
+            <p class="espaciar"><input type="file" id="ioconfig_inbtnfile" name="ioconfig_inbtnfile" accept="application/json" /></p>
+        </section>
+        <section>
+            <p></p>
+        </section>
+    </div>
+    <div class="pestana tabbed" id="share">
+    </div>
+    <div class="pestana tabbed" id="acercade">
+        <section>
+            <h2 class="i18n" data-i18n="acerca_apoyo">Apóyame</h2>
+
+            <div class="about_us">
+                <div class="website"></div>
+                <div>Website</div>
+                <div><a target="_blank" href="http://metro.newtabplus.com/">http://metro.newtabplus.com</a></div>
+            </div>
+            <div class="about_us">
+                <div class="facebook"></div>
+                <div>Facebook</div>
+                <div><a target="_blank" href="https://www.facebook.com/newmetrotab">https://www.facebook.com/newmetrotab</a></div>
+            </div>
+            <div class="about_us">
+                <div class="twitter"></div>
+                <div>Twitter</div>
+                <div><a target="_blank" href="https://twitter.com/NewMetrotab">http://twitter.com/NewMetrotab</a></div>
+            </div>
+            <div class="about_us">
+                <div class="google"></div>
+                <div>Google+</div>
+                <div><a target="_blank" href="https://plus.google.com/u/111114821055094975135">https://plus.google.com/u/111114821055094975135</a>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <h2 class="i18n" data-i18n="share">Share It</h2>
+
+            <div class="share_list centrar btnfeedback">
+                <a class="facebook" href="http://facebook.com/sharer.php?u=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fnew-metrotab%2Foogmkbpkoblajkomflhkkdmbfggdmefd"></a>
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=new%20metroTab&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fnew-metrotab%2Foogmkbpkoblajkomflhkkdmbfggdmefd"></a>
+                <a class="google" href="https://plus.google.com/share?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fnew-metrotab%2Foogmkbpkoblajkomflhkkdmbfggdmefd"></a>
+                <a class="tumblr" href="http://www.tumblr.com/share/link?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fnew-metrotab%2Foogmkbpkoblajkomflhkkdmbfggdmefd&name=new%20metroTab"></a>
+                <a class="vk" href="http://vk.com/share.php?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fnew-metrotab%2Foogmkbpkoblajkomflhkkdmbfggdmefd"></a>
+                <a class="weibo" href="http://service.weibo.com/share/share.php?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fnew-metrotab%2Foogmkbpkoblajkomflhkkdmbfggdmefd&appkey=&title=Metro%E6%96%B0%E6%A0%87%E7%AD%BE&pic=https%3A%2F%2Flh3.googleusercontent.com%2FuqF1ugWqzkRJocpz3OEv_QGmqJ-x29coFJ6MvBrEbDOpwU7aTkefZ0_cjqwiKI7VUeR-6S6cUA%3Ds128-h128-e365&ralateUid=&language=zh_cn"></a>
+                <a class="renren" href="http://share.renren.com/share/buttonshare.do?title=Metro%E6%96%B0%E6%A0%87%E7%AD%BE&link=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fnew-metrotab%2Foogmkbpkoblajkomflhkkdmbfggdmefd"></a>
+                <a class="baidu" href="http://apps.hi.baidu.com/share/?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fnew-metrotab%2Foogmkbpkoblajkomflhkkdmbfggdmefd&title=Metro%E6%96%B0%E6%A0%87%E7%AD%BE"></a>
+            </div>
+        </section>
+        <section>
+            <h2 class="i18n" data-i18n="acerca_informar">Informar un problema</h2>
+
+            <p class="i18n" data-i18n="acerca_informarinstr">Para informar algún problema o sugerir nuevas funciones o sitios para live tiles, por favor usar este formulario:</p>
+
+            <p><a href="https://chrome.google.com/webstore/support/oogmkbpkoblajkomflhkkdmbfggdmefd">https://chrome.google.com/webstore/support/oogmkbpkoblajkomflhkkdmbfggdmefd</a>
+            </p>
+            <br/>
+
+            <p>
+                <span class="eicon"></span>
+                <span class="i18n" data-i18n="acerca_contact">If you have any questions,please email to contact us;</span>
+            </p>
+
+            <p style="color:rgb(0,130,135)">newmetrotab@gmail.com</p>
+            <p class="espaciar">
+                <small class="hideifempty i18n" data-i18n="acerca_informarpleaden"></small>
+            </p>
+        </section>
+
+    </div>
+    <div class="pestana tabbed espanol seleccionable" id="faq">
+        <h2>Frequently asked questions</h2>
+        <section>
+            <h3>There is a screen asking for my Gmail's username and password. How can I get rid of it?</h3>
+
+            <p class="i18n" data-i18n="livet_avisogmail">Si aparece un cuadro de diálogo pidiendo el nombre de usuario y la contraseña de Gmail, es por causa del livetile de Gmail. La función del livetile de Gmail funciona tomando la información de la sesión que está abierta, y si no hay ninguna,
+                pide las credenciales. <br>Si desea que deje de aparecer este cuadro, inicie sesión en Gmail o desactive el livetile.</p>
+
+            <p><img src="http://hao.newtabplus.com/metroApi/img/avisogmail.png" style="max-width: 100%"></p>
+        </section>
+        <section>
+            <h3>How could I change the language of new metroTab?</h3>
+
+            <p>The extension works in the language configured on the browser. Currently, the available languages for extension are: english, français, türkçe, español, italiano, magyar, português, русский, nederlands, עברית and 中文 (简体)</p>
+        </section>
+        <section>
+            <h3>Can I create Live Tile by my own?</h3>
+
+            <p>Right now, users only can create live tiles using RSS feeds. If your mail has a method to get a RSS feed, you can add it easily.<br>However, more advanced tiles must be programmed into the extension code, because parsing the page is a more
+                complicated process.</p>
+
+            <p>If you have a suggestion for a live tile, use the <a href="https://chrome.google.com/webstore/support/oogmkbpkoblajkomflhkkdmbfggdmefd#feature">suggestion
+            function</a> in the support page.</p>
+        </section>
+        <section>
+            <h3>There are a lot of cities missing for the weather tile. Any chance to add more locations?</h3>
+
+            <p>The cities are managed from <a href="http://wunderground.com">wunderground.com</a> database. This source was chosen due its forecast reliability. I cannot do anything if your city is not in their lists. Sorry.</p>
+        </section>
+        <section>
+            <h3>I made a RSS live tile, but it doesn't show images. Why?</h3>
+
+            <p>RSS live tiles searches for images within every post content, from the RSS feed. If the feed only contains summaries without images, the tiles will not have them.</p>
+
+            <p>You can force a feed to have the complete post content using a RSS completing service, search them by "full rss". You provide them the original feed URL and they give you another URL with the same feed, but with complete content. Change the
+                feed URL to this and try again.</p>
+        </section>
+        <section>
+            <h3>Is it possible to have a Live Tile which will display the current local weather conditions?</h3>
+
+            <p>Check if you have the "Weather" tile. You can change the location in the settings (User Icon -> Settings -> Live Tiles -> Weather).</p>
+
+            <p><img src="http://hao.newtabplus.com/metroApi/img/weatherconfig.png" style="max-width: 100%" /></p>
+        </section>
+        <section>
+            <h3>I set a HD image as background. Why new metroTab becomes laggy?</h3>
+
+            <p>Any site with a HD image as background will be laggy, because the browser must resize it before rendering it.<br>Use a smaller image or resize it to the screen size.</p>
+        </section>
+        <section>
+            <h3>Is there a way I can change tile's icon to default?</h3>
+
+            <p>Only if it's a default tile. You can delete it and then restore it from the "Restore tiles" menu.<br>If tile was created by you, you can change the icon manually or recreate the tile.</p>
+        </section>
+        <section>
+            <h3>Will be configs and color settings saved in Cloud?</h3>
+
+            <p>Currently no, but in future versions it will be. For now, save your config files on your disk or in Dropbox/Google Drive.</p>
+        </section>
+        <section>
+            <h3>The Chrome's default new tab page has a "Other devices" feature. Is there something like this in new metroTab?
+            </h3>
+
+            <p>No. In fact, any new tab replacement extension has it. That's because this feature require a Chrome API that currently doesn't exists.</p>
+
+            <p>To use the "Other Devices" feature, you can use the “Original new tab page” tile, which let you get to the original Chrome’s new tab page and use it.</p>
+        </section>
+        <section>
+            <h3>In the "World Time" tile settings, some cities have a "DST" flag. How does it work?</h3>
+
+            <p>DST means Daylight Saving Time. You have to manually turn on/off this flag for every location twice a year.
+            </p>
+
+            <p>Unfortunately, there isn't a reliable source for the DST dates of each country to make this automatic. My own country changes the dates every year.</p>
+        </section>
+        <section>
+            <h3>How can I remove the text from the each tile?</h3>
+
+            <p>Simple, you can change the content for a blank space.</p>
+        </section>
+        <section>
+            <h3>Will you add the Windows 8.1 small tiles?</h3>
+
+            <p>The appearance is ready, but I have to work in the positioning algorithm. It could take a while.</p>
+        </section>
+        <section>
+            <h3>How to create a dynamic tile?</h3>
+
+            <p id="acerca_infoapi" class="i18n" data-i18n="acerca_infoapi">Recuerda que también puedes usar la API para crear una live tile tú mismo.</p>
+        </section>
+    </div>
+    <div class="pestana tabbed" id="changelog">
+        <section>
+            <h2 class="i18n" data-i18n="acerca_agradece">Agradecimientos</h2>
+
+            <p class="i18n" data-i18n="acerca_idiompers">Estas personas me han ayudado con las traducciones de new metroTab:
+            </p>
+            <ul class="espanol">
+                <li><span class="langmargin">(zh_CN)</span> <a href="https://plus.google.com/103228520733439337662">苏帅其实不帅</a> made the translation to simplified Chinese.
+                </li>
+                <li><span class="langmargin">(it)</span> <a href="https://plus.google.com/114965225458320140777">Matteo
+            Vada</a> made the translation to Italian.
+                </li>
+                <li><span class="langmargin">(hu)</span> <a href="https://plus.google.com/107840433451371196610">Zsolt
+            Benei</a> did the Hungarian translation.
+                </li>
+                <li><span class="langmargin">(tr)</span> <a href="https://plus.google.com/115756926691307045779">Oğuz
+            GÜL</a> made the Turkish translation.
+                </li>
+                <li><span class="langmargin">(ru)</span> <a href="https://plus.google.com/114248392026360549592">Cyrill
+            Luppo</a> maintains the Russian translation.
+                </li>
+                <li><span class="langmargin">(fr)</span> <a href="http://www.etienne-fusz.com">Etienne Fusz</a> did the French translation.
+                </li>
+                <li><span class="langmargin">(he)</span> <a href="https://plus.google.com/108983224295867837832">Shaked
+            Zychlinski</a> made the translation to Hebrew.
+                </li>
+                <li><span class="langmargin">(nl)</span> <a href="https://plus.google.com/100200652047510976732">Don de
+            Lange</a> worked on the Dutch translation.
+                </li>
+                <li><span class="langmargin">(pt_BR)</span> <a href="https://plus.google.com/u/2/117417329223880510131">Helder Tiago</a> worked on the Brazil translation.
+                </li>
+                <li><span class="langmargin">(ro)</span> <a>Dorian Baciu</a>made the translation to Romania.
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="i18n" data-i18n="nav_changelog">Registro de cambios</h2>
+            <dl class="espanol seleccionable">
+                <dt>1.1.0</dt>
+                <dd>
+                    <p> Optimize the Apps, improve 5 times speed up opening at first time.</p>
+
+                    <p> Fixed some bugs.</p>
+                </dd>
+
+                <dt>1.0.9</dt>
+                <dd>
+                    <p> Fixed the locale of Portuguese bug.</p>
+
+                    <p> Fixed the bugs about fetch color in image.</p>
+
+                    <p> Fixed some bugs.</p>
+                </dd>
+
+                <dt>1.0.7</dt>
+                <dd>
+                    <p> Increased Wallpaper support website: <a href="http://www.like5.com?ref=metro" target="_blank">Like5.com</a></p>
+
+                    <p> Fixed some bugs.</p>
+                </dd>
+
+                <dt>1.0.6</dt>
+                <dd>
+                    <p> Increased cloud tiles and reminder features.</p>
+
+                    <p> Currently collected 74 tiles include popular sites, games, plugins, we will update tile in future</p>
+
+                    <p> Fixed some bugs.</p>
+                </dd>
+
+                <dt>1.0.5</dt>
+                <dd>
+
+                    <p> Change Google tile to Quick Search.</p>
+
+                    <p> Change the dynamic tile logical, click the dynamic picture to the detail page; click the right top corner to the home page. </p>
+
+                    <p> Optimize the codes.</p>
+
+                    <p> Fixed some bugs.</p>
+                </dd>
+
+                <dt>1.0.4</dt>
+                <dd>
+                    <p> Firefox version: </br> <a href="https://addons.mozilla.org/en-US/firefox/addon/new-metrotab/" target="_blank">https://addons.mozilla.org/en-US/firefox/addon/new-metrotab/</a> <br> Chrome APP version: <br> <a href="https://chrome.google.com/webstore/detail/metro-speed-dial/jibagnhcknglnelkefgcmmfkkkinbaoo"
+                            target="_blank">https://chrome.google.com/webstore/detail/metro-speed-dial/jibagnhcknglnelkefgcmmfkkkinbaoo</a> <br> WEB : <br> <a href="http://www.newmetrotab.com/" target="_blank">http://www.newmetrotab.com/</a></p>
+
+                    <p> Fixed refresh twice big Bug in Firefox addon.</p>
+
+                    <p> repair some Bugs.</p>
+                </dd>
+                <dt>1.0.2</dt>
+                <dd>
+                    <p> Added auto locate weather function.</p>
+
+                    <p> Fixed refresh background after modifying tiles bug.</p>
+
+                    <p> Fixed the bug that can't click the feature button due to the long title.</p>
+
+                    <p> Added share function in menu.</p>
+
+                    <p> Fixed the bug that appear blue background when modify loading extension.</p>
+
+                    <p> Optimize the add tile Logic avoiding can't add new.</p>
+
+                    <p> Modify the top right menu trigger event, now just mouseover or click the avatar then show the menu.</p>
+                </dd>
+                <dt>1.0.1</dt>
+                <dd>
+                    <p> Sort the default tiles contents and position.</p>
+
+                    <p> Added some new tiles, such as Amazon, CNN, eBay, yahoo, etc.</p>
+
+                    <p> Add restore to the default function.</p>
+
+                    <p> Fixed the bug that can't launch Apps after setting "Open all the links of the tiles in new tabs" option.
+                    </p>
+
+                    <p> Fixed some bugs.</p>
+                </dd>
+                <dt>0.9.16</dt>
+                <dd>
+                    <p>Added translation to dutch (nl).</p>
+                </dd>
+                <dt>0.9.15</dt>
+                <dd>
+                    <p>New background images, made by Cyrill Luppo.</p>
+
+                    <p>This is the last version developed by frabarz.dev<br>
+                        <small>Due to problems of time, I am transferring new metroTab to a group of developers from China.
+            They promised to keep the extension in good condition and give you better support.<br>Thank you
+            all for your help and support so far.
+        </small>
+                    </p>
+                </dd>
+                <dt>0.9.14</dt>
+                <dd>
+                    <p>Live tiles will not change if the cursor stays over.</p>
+
+                    <p>New backgrounds, made by Cyrill Luppo.</p>
+
+                    <p>You can copy the URL of bookmark link tiles.</p>
+
+                    <p>Fixed the icon disappearing when loading a bubble square number.</p>
+
+                    <p>New try in fixing the avatar menu problem.</p>
+                </dd>
+                <dt>0.9.13</dt>
+                <dd>
+                    <p>Big optimization in the smooth scroll code.</p>
+
+                    <p>New try in fixing the CPU leak.</p>
+
+                    <p>New try in fixing the avatar menu problem.</p>
+                </dd>
+                <dt>0.9.12</dt>
+                <dd>
+                    <p>The avatar menu can also now be activated/deactivated by clicking.</p>
+                </dd>
+                <dt>0.9.11</dt>
+                <dd>
+                    <p>Añadida opción contextual para editar la URL del tile.</p>
+
+                    <p>Varias optimizaciones en el código de la pantalla de marcadores.</p>
+
+                    <p>Desplazamiento horizontal y menú contextual habilitado para la pantalla de marcadores.</p>
+
+                    <p>Live tile de LinkedIn deshabilitado por problema con el aviso de nuevas notificaciones en la página.
+                    </p>
+
+                    <p>Añadido nuevo fondo: molecule. Cortesía de Cyrill Luppo.</p>
+
+                    <p>Corregido problema con los atajos de teclado en cuadros de texto.</p>
+
+                    <p>Varias correcciones de rendimiento.</p>
+                </dd>
+                <dt>0.9.10</dt>
+                <dd>
+                    <p>Añadido nuevo live tile: LinkedIn.</p>
+
+                    <p>Añadidos atajos de teclado para "Eliminar tiles seleccionadas" (Supr), "Seleccionar todas las tiles" (Ctrl/Cmd + A) y "Seleccionar entre dos tiles" (Shift + Clic derecho).</p>
+
+                    <p>Añadida sección de preguntas frecuentes, idea de Cyrill Luppo.</p>
+
+                    <p>Añadidos nuevos fondos predefinidos: betta fish, flowers, bird, curves y night sky. Todos cortesía de Cyrill Luppo.</p>
+
+                    <p>Añadida opción para fijar la imagen de fondo.</p>
+
+                    <p>Añadida "Ottawa" al listado de ciudades para el reloj mundial.</p>
+
+                    <p>.1 - Corrección en el CSS de los tiles cuando se usa fondo transparente.</p>
+                </dd>
+                <dt>0.9.9</dt>
+                <dd>
+                    <p>Añadido tile de reloj mundial, habilitado para todas las zonas horarias especificadas por IANA.</p>
+
+                    <p>Actualizados términos para el idioma turco (tr).</p>
+
+                    <p>Corregido problema con el guardado de posiciones en ciertas tiles.</p>
+
+                    <p>.1 - La fecha en el tile del reloj mundial ahora está en el idioma correspondiente.</p>
+
+                    <p>.1 - Corregido problema de carga con los usuarios japoneses.</p>
+                </dd>
+                <dt>0.9.8</dt>
+                <dd>
+                    <p>Añadido tile predeterminado para acceder a la nueva pestaña original de Chrome.</p>
+
+                    <p>Corregido error de apertura en cambio rápido de pestañas.</p>
+
+                    <p>Ya perdí la cuenta de los cambios pequeños que hice así que esta línea es en honor a ellos.</p>
+
+                    <p>.1 - Cambios experimentales en el sistema de pestañas cerradas recientemente.</p>
+                </dd>
+                <dt>0.9.7</dt>
+                <dd>
+                    <p>Correcciones varias en las traducciones.</p>
+
+                    <p>Añadido botón contextual para nombrar los bloques.</p>
+
+                    <p>.1 - Corregido error importante de cambio de versión de la base de datos.</p>
+                </dd>
+                <dt>0.9.6</dt>
+                <dd>
+                    <p>Añadidas traducciones al francés (fr) y al hebreo (he).</p>
+
+                    <p>Añadidos botones de regreso para los menús laterales y para la pantalla de marcadores.</p>
+
+                    <p>Corregida una falla de memoria en el algoritmo de compresión.</p>
+
+                    <p>Eliminada opción de cambiar el tamaño base de los tiles.</p>
+                </dd>
+                <dt>0.9.5</dt>
+                <dd>
+                    <p>Añadida opción para abrir tiles en una nueva pestaña desde el menú contextual.</p>
+
+                    <p>Corregido bug menor de actualización para el live tile Calendario.</p>
+
+                    <p>Corregido error en el sistema de versiones de la base de datos.</p>
+                </dd>
+                <dt>0.9.4</dt>
+                <dd>
+                    <p>Actualizados algunos términos para los idiomas húngaro (hu) e italiano (it).</p>
+
+                    <p>Añadida la posibilidad de crear un bloque antes del primer bloque.</p>
+
+                    <p>Añadida opción para abrir todos los links siempre en una pestaña nueva.</p>
+
+                    <p>Añadida opción contextual para eliminar el ícono de un tile.</p>
+
+                    <p>Añadido pronóstico para 3 días en el live tile del clima.</p>
+
+                    <p>Añadida opción para cambiar el tamaño base de los tiles.</p>
+
+                    <p>El archivo de manifiesto ahora especifica que se requiere como mínimo Chrome 25.</p>
+
+                    <p>Corregido bug al abrir una app tipo "packaged app".</p>
+
+                    <p>Corregido bug al intentar usar el selector de color con el color negro.</p>
+                </dd>
+                <dt>0.9.3</dt>
+                <dd>
+                    <p>Actualizados algunos términos para el idioma húngaro (hu)</p>
+
+                    <p>Añadida traducción al ruso (ru).</p>
+
+                    <p>Cambio parcial en el método de obtención de mails no leídos de Yahoo Mail.</p>
+
+                    <p>Añadido botón de acceso directo en livecards tipo card.</p>
+
+                    <p>Añadido botón contextual para cambiar el URL del feed RSS (sólo en tiles ya configuradas para RSS).
+                    </p>
+
+                    <p>Cambio en los botones contextuales para cambio de íconos y colores, ahora soportan ingreso de URL y el menú nativo de color.</p>
+
+                    <p>Cambio en el método interno de cálculo de colores y en la lista de colores predeterminados.</p>
+
+                    <p>Añadido InoReader a la lista de feeds compatibles. Además se usa su tile de app de Chrome si está instalada.
+                    </p>
+
+                    <p>Corregido error leve en los links de apoyo al desarrollador.</p>
+                </dd>
+                <dt>0.9.2</dt>
+                <dd>
+                    <p>Añadida traducción al turco (tr).</p>
+
+                    <p>Corregida una de las causas de la fuga de memoria en la pantalla de marcadores.</p>
+                </dd>
+                <dt>0.9.1</dt>
+                <dd>
+                    <p>Corrección de error en la generación de los live RSS tiles.</p>
+
+                    <p>Añadidos algunos términos para el idioma húngaro (hu).</p>
+
+                    <p>Agregado el aviso de deshabilitación de la miniapp Cámara.</p>
+
+                    <p>Agregado un pre-live tile para Yahoo Mail.</p>
+                </dd>
+                <dt>0.9.0</dt>
+                <dd>
+                    <p>Cambio total en el sistema de compresión y organización de los tiles.</p>
+
+                    <p>Cambio en la definición interna del modelo de tiles.</p>
+
+                    <p>Se introdujo el tamaño grande de tiles, con su respectivo CSS para las tarjetas.</p>
+
+                    <p>Añadido un botón de acceso directo al artículo que aparece en el live tile.</p>
+                </dd>
+                <dt>0.8.62</dt>
+                <dd>
+                    <p>Arreglado bug de compresión al mover el primer tile del primer bloque.</p>
+
+                    <p>Aleatorización del tiempo de animación de los live tiles.</p>
+
+                    <p>Añadida opción contextual para desactivar los live tiles.</p>
+
+                    <p>Cambio de función a evento en el método de compresión de bloques.</p>
+
+                    <p>Cambio en la definición interna del modelo de tiles.</p>
+
+                    <p>El tile de Feed RSS es funcional para la opción de Digg Reader.</p>
+                </dd>
+            </dl>
+        </section>
+    </div>
+</body>
+
+</html>

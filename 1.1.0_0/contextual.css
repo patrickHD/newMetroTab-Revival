@@ -1,0 +1,166 @@
+﻿#contextual {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5000;
+    max-height: 200px;
+    text-align: __MSG_@@bidi_end_edge__;
+    padding: 0.7em;
+    -webkit-transition: 0.2s ease-out;
+    -webkit-transition-property: max-height, padding;
+}
+
+#contextual:empty {
+    max-height: 1px;
+    padding: 0 0.7em;
+}
+
+#contextual > span::before, #contextual > label::before {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 4px 24px;
+    display: block;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#contextual span:hover::before, #contextual label:hover::before {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#contextual > span, #contextual > label {
+    display: inline-block;
+    padding: 58px 3px 2px;
+    position: relative;
+    vertical-align: top;
+    width: 90px;
+    color: #fff;
+    font-size: .7em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#contextual input {
+    display: none;
+}
+
+#contextual input#ctxtile-colorinp {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 0;
+    border: 0;
+    visibility: hidden;
+}
+
+.flyoutbox {
+    position: absolute;
+    right: 0;
+    bottom: 70%;
+    opacity: 0;
+    color: #000;
+    background-color: #FFF;
+    border: 2px solid #000;
+    font-size: 1.5em;
+    min-width: 90px;
+    text-align: left;
+    visibility: hidden;
+    -webkit-transition-property: opacity, bottom;
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.flyoutbox.visible {
+    bottom: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.flyoutbox span, .flyoutbox label {
+    display: block;
+    line-height: 2.2em;
+    padding: 0 1em;
+    margin: 0;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.flyoutbox span:hover, .flyoutbox label:hover {
+    color: #FFF;
+}
+
+.principio {
+    float: __MSG_@@bidi_start_edge__;
+}
+
+.ico-deselec::before {
+    background-image: url(/img/metro_deselec.svg);
+}
+
+.ico-livetile.on::before {
+    background-image: url(/img/metro_liveactiv.svg);
+}
+
+.ico-livetile.off::before {
+    background-image: url(/img/metro_livedeact.svg);
+}
+
+.ico-rss::before {
+    background-image: url(/iconos/rss.svg);
+    background-size: 85% !important;
+}
+
+.ico-btitle::before {
+    background-image: url(/img/metro_editbtitle.svg);
+}
+
+.ico-newtab::before {
+    background-image: url(/img/metro_exter.svg);
+}
+
+.ico-copiar::before {
+    background-image: url(/img/metro_copy.svg);
+}
+
+.ico-sacar::before {
+    background-image: url(/img/metro_unpin.svg);
+}
+
+.ico-tamano::before {
+    background-image: url(/img/metro_tamano.svg);
+}
+
+.ico-etiqueta::before {
+    background-image: url(/img/metro_rename.svg);
+}
+
+.ico-color::before {
+    background-image: url(/img/metro_palette.svg);
+}
+
+.ico-icono::before {
+    background-image: url(/img/metro_chicon.svg);
+}
+
+.ico-eliminar::before {
+    background-image: url(/img/metro_tacho.svg);
+}
+
+.ico-lapiz::before {
+    background-image: url(/img/metro_pen.svg);
+}
+
+.ico-captura::before {
+    background-image: url(/img/metro_obturador.svg);
+}
+
+.ico-ajustes::before {
+    background-image: url(/img/metro_settings.svg);
+}

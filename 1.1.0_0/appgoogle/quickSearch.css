@@ -1,0 +1,226 @@
+@charset "utf-8";
+html {
+	overflow-y:auto
+}
+body {
+	font:12px arial;
+	text-align:center;
+	background:#FFF;
+}
+body,p,form,ul,li {
+	margin:0;
+	padding:0;
+	list-style:none
+}
+img {
+	border:0
+}
+a {
+	color:#00c
+}
+a:active {
+	color:#f60
+}
+input {
+	border:0;
+	padding:0;
+}
+.clear{
+	clear:both;
+}
+
+/*框架*/
+.main {
+	width:100%;
+	margin: 200px auto;
+}
+#logo {
+	vertical-align:top;
+	margin-bottom: 13px
+}
+.searchMain {
+	text-align:left;
+	margin: auto;
+	width: 600px;	
+}
+.searchMain div.searchMainBody {
+	margin: auto;
+	width: 530px;
+	padding-top: 6px;	
+}
+div.suggest {
+	border: 1px solid #999;
+	position: absolute;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: none;
+	padding-top: 0px;
+	z-index: 10;
+	-webkit-box-shadow:1px 1px 1px 1px rgb(200,200,200);
+}
+div.suggest li{
+	height: 24px;
+	line-height: 24px;
+	background: #FFF;
+	text-align: left;
+	padding: 0 6px;
+	cursor:pointer; 
+	color:#666;
+	overflow: hidden;
+	font-size: 14px;
+	position: relative;
+}
+div.suggest li span{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: #093;
+}
+div.suggest li label {
+	font-weight: bold;
+}
+div.suggest li.selected{
+	background:#D8D8D8; 
+	color:#000;
+}
+div.suggest li.close{
+	text-align:right;
+}
+#autumn ul{
+    margin-top:10px;
+    margin-bottom: 10px;
+    height:80px;
+}
+#autumn ul li{
+    margin-left: 15px;
+    margin-right: 15px;
+    float:left;
+    cursor: pointer;
+}
+.title{
+    margin-top: 5px;
+    text-align: center;
+
+}
+.inline{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url("icon2.png");
+    cursor: pointer;
+}
+.inlineleft{
+    background-position: 82px -10px;
+    width:20px;
+    height:20px;
+}
+.inlineright{
+    background-position: 56px -10px;
+    width:20px;
+    height:20px;
+    z-index: 2;
+}
+#back{
+    background: url("backarr_dleft.svg");
+    height: 28px;
+    background-size: contain;
+    width: 28px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    opacity: 1;
+    cursor: pointer;
+}
+#back:hover{
+    opacity: 0.7;
+}
+#help{
+    background: url("help.png");
+    height: 16px;
+    background-size: contain;
+    width: 16px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    opacity: 1;
+    cursor: pointer;
+}
+#help:hover{
+    opacity: 0.7;
+}
+.scroll{
+    background-image: url(icon2.png);display: inline-block;width: 20px;height: 10px;
+}
+
+.gcm{
+    display: none;
+}
+
+.scroll{
+    cursor: pointer;
+}
+.bcm a li div:first-child{
+    width:48px;height:48px;background-image: url(icon_bing.png);
+}
+.ycm a li div:first-child{
+    width:48px;height:48px;background-image: url(icon_yahoo.png);
+}
+
+.gcm a li div:first-child{
+    width:48px;height:48px;background-image: url(icon.png);
+}
+#search{
+    background-position: -124px 2px;right:5px;position: absolute;top:0px;width:25px;height:25px;background-image: url(search.png);cursor: pointer
+}
+#ceshi{
+    background-image: url(tishi.png);width:403px;height:120px;position: absolute;cursor: pointer;display: none;
+}
+
+.main .s_ipt_wr {
+	width:556px;
+	height:30px;
+	display:inline-block;
+	margin-right:5px;
+	border: 1px solid #E0E0DF;
+	vertical-align:top;
+	position: relative;
+}
+.main .s_ipt_wr:hover{
+	border-color:#4d90fe!important;
+}
+.main .s_ipt {
+	width:543px;
+	height:22px;
+	font:16px/22px arial;
+	margin:5px 0 0 7px;
+	background:#fff;
+	outline:none;
+	-webkit-appearance:none
+}
+.main .s_btn {
+	height:32px;
+	background:none;
+    background-image: -webkit-linear-gradient(top,whiteSmoke,#F1F1F1);
+    -webkit-user-select: none;
+    background-color: whiteSmoke;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #666;
+    cursor: default;
+    font: 13px bold;
+    height: 29px;
+    line-height: 27px;
+    margin: 11px 6px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+}
+.main .s_btn:active, #google input[type="submit"]:hover {
+    background-image: -webkit-linear-gradient(top,#F8F8F8,#F1F1F1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #F8F8F8;
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #333;
+}

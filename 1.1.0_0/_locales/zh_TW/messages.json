@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "安裝"
+   },
+   "Installed": {
+      "message": "已安裝"
+   },
+   "RestoreDefault": {
+      "message": "恢復默認"
+   },
+   "acerca_agradece": {
+      "message": "鳴謝"
+   },
+   "acerca_apoyo": {
+      "message": "支持我們"
+   },
+   "acerca_contact": {
+      "message": "如果有任何問題，請發郵件給我們："
+   },
+   "acerca_idiompers": {
+      "message": "以下是該擴展的翻譯成員："
+   },
+   "acerca_infoapi": {
+      "message": "您也可以使用 API 來創建一個動態磁貼。"
+   },
+   "acerca_informar": {
+      "message": "意見回饋"
+   },
+   "acerca_informarinstr": {
+      "message": "如要報告問題或提出建議請點擊以下連結"
+   },
+   "action_cambiarss": {
+      "message": "更改RSS"
+   },
+   "action_changebgcolor": {
+      "message": "更改背景顏色"
+   },
+   "action_changeicon": {
+      "message": "更改圖示"
+   },
+   "action_changesize": {
+      "message": "更改大小"
+   },
+   "action_colorpick": {
+      "message": "挑選顏色..."
+   },
+   "action_copylink": {
+      "message": "複製 URL"
+   },
+   "action_delete": {
+      "message": "刪除"
+   },
+   "action_deselect": {
+      "message": "清除選擇"
+   },
+   "action_editurl": {
+      "message": "編輯 URL"
+   },
+   "action_icondeletion": {
+      "message": "刪除圖示"
+   },
+   "action_incsscolor": {
+      "message": "輸入 CSS 顏色"
+   },
+   "action_liveactiv": {
+      "message": "啟用 live tile"
+   },
+   "action_livedesac": {
+      "message": "暫停 live tile"
+   },
+   "action_opennewtab": {
+      "message": "在新選項卡中打開連結"
+   },
+   "action_opennewwin": {
+      "message": "在新視窗中打開"
+   },
+   "action_rename": {
+      "message": "更改標籤文字"
+   },
+   "action_sizelarge": {
+      "message": "大"
+   },
+   "action_sizenormal": {
+      "message": "正常"
+   },
+   "action_sizesmall": {
+      "message": "小"
+   },
+   "action_sizewide": {
+      "message": "寬"
+   },
+   "action_transparent": {
+      "message": "使透明"
+   },
+   "action_uninstallapp": {
+      "message": "卸載APP"
+   },
+   "activar": {
+      "message": "啟動"
+   },
+   "addt_avisoxhr": {
+      "message": "將自動從網站載入相關資訊"
+   },
+   "addt_bgcolor": {
+      "message": "背景顏色"
+   },
+   "addt_crear": {
+      "message": "創建"
+   },
+   "addt_customico": {
+      "message": "自訂圖示"
+   },
+   "addt_etiqueta": {
+      "message": "標籤文字"
+   },
+   "addt_link": {
+      "message": "連結位址"
+   },
+   "addt_rssurl": {
+      "message": "RSS Feed URL"
+   },
+   "addt_tamano": {
+      "message": "大小"
+   },
+   "addt_tipxhrico": {
+      "message": "提示：使用白色圖示透明背景的png檔"
+   },
+   "aext_descr": {
+      "message": "可定制的Metro風格的新標籤頁,提供了快速拔號,SNS、郵件提醒,天氣,時鐘等功能。"
+   },
+   "aext_name": {
+      "message": "Metro新標籤"
+   },
+   "aext_short_name": {
+      "message": "Metro新標籤"
+   },
+   "allsites": {
+      "message": "全部"
+   },
+   "apar_ajustbg": {
+      "message": "調整背景圖片使之適應螢幕"
+   },
+   "apar_ajustbgwarn": {
+      "message": "調整背景圖可能會降低標籤流暢度"
+   },
+   "apar_animarapertura": {
+      "message": "點擊磁貼後使用動態畫面"
+   },
+   "apar_animartiles": {
+      "message": "打開Metro新標籤時動態載入磁貼"
+   },
+   "apar_animartileswarn": {
+      "message": "注意：有時可能會表現不穩定"
+   },
+   "apar_h3anim": {
+      "message": "動態"
+   },
+   "apar_h3customcss": {
+      "message": "自訂CSS"
+   },
+   "apar_h3detalles": {
+      "message": "其他"
+   },
+   "apar_h3tiles": {
+      "message": "主題"
+   },
+   "apar_h3usuario": {
+      "message": "用戶"
+   },
+   "apar_miniscrollbar": {
+      "message": "使用細捲軸"
+   },
+   "apar_newtabh1": {
+      "message": "新標籤標題"
+   },
+   "apar_opennewtab": {
+      "message": "在新選項卡中打開所有連結的瓷磚。"
+   },
+   "apar_opennewtabwarn": {
+      "message": "這將停用動畫時打開的瓷磚。"
+   },
+   "apar_parallaxbg": {
+      "message": "啟動背景圖像滾動"
+   },
+   "apar_smoothscroll": {
+      "message": "開啟平滑滾動"
+   },
+   "apar_tambase": {
+      "message": "磁貼的基礎大小"
+   },
+   "apar_tambasehelp": {
+      "message": "A wide tile equals to 4 x 2 base sizes. Default value is 60."
+   },
+   "apar_tilegrad": {
+      "message": "開啟磁貼背景色漸變"
+   },
+   "apar_usuariobig": {
+      "message": "姓名"
+   },
+   "apar_usuarioimg": {
+      "message": "頭像"
+   },
+   "apar_usuariosmall": {
+      "message": "昵稱"
+   },
+   "auth_approved": {
+      "message": "授權批准。"
+   },
+   "auth_denied": {
+      "message": "授權被拒絕，請檢查您的用戶名或密碼。"
+   },
+   "auth_required": {
+      "message": "所需的授權"
+   },
+   "autorizar": {
+      "message": "授權"
+   },
+   "back": {
+      "message": "返回"
+   },
+   "camara_ajustes": {
+      "message": "調整圖片"
+   },
+   "camara_captura": {
+      "message": "拍照"
+   },
+   "clima_actualcondic": {
+      "message": "即時天氣"
+   },
+   "clima_actualhumeda": {
+      "message": "相對濕度"
+   },
+   "clima_actualprecip": {
+      "message": "降水"
+   },
+   "clima_actualpresio": {
+      "message": "大氣壓力"
+   },
+   "clima_actualradiac": {
+      "message": "紫外線輻射"
+   },
+   "clima_actualviento": {
+      "message": "風"
+   },
+   "clima_proveedor": {
+      "message": "本頁面資訊來源"
+   },
+   "ctxbloque_nombBloque": {
+      "message": "編輯組名稱"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "輸入 RSS feed URL"
+   },
+   "ctxinstr_inputurl": {
+      "message": "輸入新的 URL 的拼貼"
+   },
+   "ctxinstr_nombloque": {
+      "message": "輸入組的名稱。若要刪除它，將它保留為空。"
+   },
+   "data_error": {
+      "message": "導入數據格式不正確!"
+   },
+   "date_months": {
+      "message": "1月/2月/3月/4月/5月/6月/7月/8月/9月/10月/11月/12月"
+   },
+   "date_weekdays": {
+      "message": "星期日/星期一/星期二/星期三/星期四/星期五/星期六"
+   },
+   "experimental": {
+      "message": "實驗"
+   },
+   "games": {
+      "message": "遊戲"
+   },
+   "h1tile_calendario": {
+      "message": "日曆"
+   },
+   "h1tile_camara": {
+      "message": "照相機"
+   },
+   "h1tile_clima": {
+      "message": "天氣"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "世界時鐘"
+   },
+   "h1tile_rssfeed": {
+      "message": "RSS Feed"
+   },
+   "hotsites": {
+      "message": "熱門"
+   },
+   "ingresarcolor": {
+      "message": "輸入新的書簽背景色代碼。\u003Cnewline>支持顏色名、rgb()代碼、hsl()代碼、十六進位代碼。"
+   },
+   "ingresaretiqueta": {
+      "message": "輸入新的標籤文字"
+   },
+   "invalid_url": {
+      "message": "無效的 URL"
+   },
+   "ioconfig_expconfig": {
+      "message": "匯出選項設置"
+   },
+   "ioconfig_exptile": {
+      "message": "匯出磁貼列表"
+   },
+   "ioconfig_h3in": {
+      "message": "導入設置"
+   },
+   "ioconfig_h3out": {
+      "message": "匯出設置"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "為了方便使用者，主題顏色和選項設置匯出為單獨的檔。"
+   },
+   "ioconfig_infoexptile": {
+      "message": "您可以匯出當前磁貼的完整資訊清單，包括圖示。"
+   },
+   "ioconfig_infoimp": {
+      "message": "您可以在此導入從其他流覽器中匯出的磁貼清單和選項設置檔。"
+   },
+   "listo": {
+      "message": "確定"
+   },
+   "livet_avisogmail": {
+      "message": "If a dialog box appears asking for the user name and password for Gmail, is because of the Gmail's live tile. \u003Cnewline>The function of the Gmail's live tile works taking the information of the session that is currently open, and if there is none, requests credentials. \u003Cnewline>If you want to stop this box appear, log on to Gmail or disable the live tile."
+   },
+   "livet_climaaddress": {
+      "message": "所在地"
+   },
+   "livet_climasist": {
+      "message": "溫度單位"
+   },
+   "livet_climaubic": {
+      "message": "選擇地名"
+   },
+   "livet_climaubicph": {
+      "message": "請輸入地名的拼音"
+   },
+   "livet_estado": {
+      "message": "開啟通知"
+   },
+   "livet_h2optgeneral": {
+      "message": "常規選項"
+   },
+   "livet_querevisar": {
+      "message": "檢查項目"
+   },
+   "livet_rssauthask": {
+      "message": "To correctly configure this RSS reader, new metroTab need an authorization key. To get it, I need your user name and password. Don't worry, neither of them is saved, they are only used to obtain the authorization key."
+   },
+   "livet_rssreader": {
+      "message": "默認讀取器"
+   },
+   "livet_rssreaderaviso": {
+      "message": "For now the live tile RSS Feed only works with Digg Reader and InoReader. In future versions, I will try to add Aol Reader, Feedly and others."
+   },
+   "livet_tiempo": {
+      "message": "載入線上磁貼的等待時間（秒）"
+   },
+   "load_file": {
+      "message": "載入檔..."
+   },
+   "load_url": {
+      "message": "從URL上傳..."
+   },
+   "load_urlerror": {
+      "message": "輸入的URL無效或不存在\u003Cnewline>請檢查並稍後再試"
+   },
+   "menu_addt": {
+      "message": "新建磁貼"
+   },
+   "menu_bkmr": {
+      "message": "我的書簽"
+   },
+   "menu_pcr": {
+      "message": "最近關閉"
+   },
+   "menu_rest": {
+      "message": "雲磁貼"
+   },
+   "myapps": {
+      "message": "應用"
+   },
+   "nav_acercade": {
+      "message": "關於資訊"
+   },
+   "nav_apariencia": {
+      "message": "外觀樣式"
+   },
+   "nav_changelog": {
+      "message": "更新日誌"
+   },
+   "nav_ioconfig": {
+      "message": "匯出/導入"
+   },
+   "nav_livetiles": {
+      "message": "線上磁貼"
+   },
+   "nav_opcional": {
+      "message": "可選功能"
+   },
+   "newtabh1": {
+      "message": "新標籤"
+   },
+   "no": {
+      "message": "否"
+   },
+   "ok": {
+      "message": "是"
+   },
+   "opcion_aceptar": {
+      "message": "確定"
+   },
+   "opcion_cancelar": {
+      "message": "取消"
+   },
+   "opcional_activbkmr": {
+      "message": "書簽欄"
+   },
+   "opcional_activpcrh2": {
+      "message": "最近關閉的標籤頁"
+   },
+   "opcional_avisobkmr": {
+      "message": "非常實驗性功能。您可能會遇到記憶體洩漏，需要重新開機擴展。\u003Cnewline>請不要發送關於此功能的錯誤報告。然而。"
+   },
+   "opcional_pcrnum": {
+      "message": "要保存最近關閉標籤的最大數目"
+   },
+   "opcional_pcrsesiones": {
+      "message": "不保存流覽器會話間的標籤"
+   },
+   "opcional_touchsupport": {
+      "message": "觸屏支持"
+   },
+   "opcional_touchsupwarn": {
+      "message": "默認是禁用的，因為它還是在實驗階段， 我還沒有使用觸控式螢幕測試過。 現在它只能用捲軸滾動螢幕。"
+   },
+   "opcionesh1": {
+      "message": "選項設置"
+   },
+   "password": {
+      "message": "密碼"
+   },
+   "quickSearchAppTitle": {
+      "message": "快速搜索"
+   },
+   "recommended": {
+      "message": "我們又定制了一批著名網站的磁貼，您是否要添加?"
+   },
+   "search": {
+      "message": "搜索..."
+   },
+   "share": {
+      "message": "分享"
+   },
+   "shopping": {
+      "message": "購物"
+   },
+   "show_scrollbar": {
+      "message": "隱藏滾動條"
+   },
+   "sistema_ingles": {
+      "message": "英制"
+   },
+   "sistema_metrico": {
+      "message": "公制"
+   },
+   "successRestoreDefault": {
+      "message": "恢復默認成功!"
+   },
+   "titulo_apariencia": {
+      "message": "更改外觀"
+   },
+   "ubicacion_anadir": {
+      "message": "添加位置"
+   },
+   "ubicacion_buscar": {
+      "message": "搜索地名"
+   },
+   "username": {
+      "message": "用戶名"
+   },
+   "vistaprevia": {
+      "message": "預覽"
+   },
+   "warn_manytabs": {
+      "message": "你想打開 \u003Cnum> 選項卡。確實要繼續嗎？"
+   },
+   "weatherAppTitle": {
+      "message": "天氣"
+   }
+}

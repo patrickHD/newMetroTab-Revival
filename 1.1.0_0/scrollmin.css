@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb:vertical {
+    box-shadow: inset 0px 0px 6px 0px #111;
+    border-right: 3px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    box-shadow: inset 0px 0px 6px 0px #fff;
+    border-bottom: 3px solid transparent;
+}

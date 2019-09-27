@@ -1,0 +1,62 @@
+﻿body {
+  background-color: #282828;
+  background-image: -webkit-linear-gradient(top, #050505, #333);
+}
+
+a {
+  color: #fff;
+}
+
+#splash {
+  background-image: url('/iconos/flickrdots.svg');
+}
+
+span.flickr {
+  font-family: 'Frutiger', 'Segoe UI', 'Arial', sans-serif;
+  font-weight: bold;
+  color: #0063db;
+}
+span.flickr .r {
+  color: #ff0084;
+}
+
+#pivot {
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.foto {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: top;
+  /*opacity: 0;
+  -webkit-animation-name: fadein;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-duration: 0.7s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;*/
+}
+.foto::before {
+  content: attr(title);
+  text-overflow: ellipsis;
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0.4em 0.6em;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+@-webkit-keyframes fadein {
+  0%    { opacity: 0;}
+  100%  { opacity: 1;}
+}

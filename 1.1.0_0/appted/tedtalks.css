@@ -1,0 +1,87 @@
+﻿body {
+    background-color: #141414;
+    background-image: -webkit-linear-gradient(top, #050505, #222);
+}
+
+a {
+    color: #fff;
+}
+
+#splash {
+    background-image: url('/iconos/ted.svg');
+    background-size: auto;
+}
+
+a.ted {
+    display: inline-block;
+    width: 93px;
+    text-align: left;
+    background-image: url(/iconos/ted.svg);
+    background-position: -3px -26px;
+    background-repeat: no-repeat;
+    background-size: 99px;
+    text-indent: -80px;
+    overflow: hidden;
+}
+
+.item {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    margin-right: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    white-space: normal;
+    opacity: 0;
+    text-align: left;
+    -webkit-animation-name: fadein;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item .head {
+    position: relative;
+    border-bottom: 3px solid #d40000;
+}
+
+.item .head::after {
+    content: attr(title);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.4em 0.6em;
+    font-size: 1.45em;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+.info {
+    padding: 0 14px;
+    font-size: 0.95em;
+}
+
+.item h4 {
+    margin: 0;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

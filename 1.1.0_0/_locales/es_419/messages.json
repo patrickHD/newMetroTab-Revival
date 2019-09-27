@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "Instalar"
+   },
+   "Installed": {
+      "message": "Instalado"
+   },
+   "RestoreDefault": {
+      "message": "RestoreDefault"
+   },
+   "acerca_agradece": {
+      "message": "Agradecimientos"
+   },
+   "acerca_apoyo": {
+      "message": "Apóyame"
+   },
+   "acerca_contact": {
+      "message": "Si usted tiene alguna pregunta, póngase en contacto con nosotros por correo electrónico:"
+   },
+   "acerca_idiompers": {
+      "message": "Estas personas me han ayudado con las traducciones de new metroTab:"
+   },
+   "acerca_infoapi": {
+      "message": "Recuerda que también puedes usar la API para crear una live tile tú mismo."
+   },
+   "acerca_informar": {
+      "message": "Informar un problema"
+   },
+   "acerca_informarinstr": {
+      "message": "Para informar algún problema o sugerir nuevas funciones, por favor usar este formulario:"
+   },
+   "action_cambiarss": {
+      "message": "Cambiar feed RSS"
+   },
+   "action_changebgcolor": {
+      "message": "Cambiar color de fondo"
+   },
+   "action_changeicon": {
+      "message": "Cambiar ícono"
+   },
+   "action_changesize": {
+      "message": "Cambiar tamaño"
+   },
+   "action_colorpick": {
+      "message": "Elegir color..."
+   },
+   "action_copylink": {
+      "message": "Copiar link"
+   },
+   "action_delete": {
+      "message": "Eliminar"
+   },
+   "action_deselect": {
+      "message": "Borrar selección"
+   },
+   "action_editurl": {
+      "message": "Editar URL"
+   },
+   "action_icondeletion": {
+      "message": "Eliminar icono"
+   },
+   "action_incsscolor": {
+      "message": "Selección avanzada..."
+   },
+   "action_liveactiv": {
+      "message": "Activar live tile"
+   },
+   "action_livedesac": {
+      "message": "Desactivar live tile"
+   },
+   "action_opennewtab": {
+      "message": "Abrir link en nueva pestaña"
+   },
+   "action_opennewwin": {
+      "message": "Abrir en una nueva ventana"
+   },
+   "action_rename": {
+      "message": "Cambiar etiqueta"
+   },
+   "action_sizelarge": {
+      "message": "Grande"
+   },
+   "action_sizenormal": {
+      "message": "Normal"
+   },
+   "action_sizesmall": {
+      "message": "Pequeño"
+   },
+   "action_sizewide": {
+      "message": "Ancho"
+   },
+   "action_transparent": {
+      "message": "Hacer transparente"
+   },
+   "action_uninstallapp": {
+      "message": "Desinstalar app"
+   },
+   "activar": {
+      "message": "Activar"
+   },
+   "addt_avisoxhr": {
+      "message": "Trataré de cargar el resto de la información desde el sitio del que quieres crear el tile."
+   },
+   "addt_bgcolor": {
+      "message": "Color de fondo"
+   },
+   "addt_crear": {
+      "message": "Crear tile"
+   },
+   "addt_customico": {
+      "message": "Ícono personalizado"
+   },
+   "addt_etiqueta": {
+      "message": "Etiqueta"
+   },
+   "addt_link": {
+      "message": "Enlace"
+   },
+   "addt_rssurl": {
+      "message": "URL del feed RSS"
+   },
+   "addt_tamano": {
+      "message": "Ancho"
+   },
+   "addt_tipxhrico": {
+      "message": "Sugerencia: usa un ícono blanco en un PNG transparente."
+   },
+   "aext_descr": {
+      "message": "Custom página de nueva pestaña con Metro UI.It ofrece varias funciones como la marcación rápida,facebook twitter aviso,reloj,tiempo"
+   },
+   "aext_name": {
+      "message": "nueva metroTab"
+   },
+   "aext_short_name": {
+      "message": "nueva metroTab"
+   },
+   "allsites": {
+      "message": "TODOS LOS SITIOS"
+   },
+   "apar_ajustbg": {
+      "message": "Ajustar fondo a la pantalla"
+   },
+   "apar_ajustbgwarn": {
+      "message": "Ajustar el fondo puede hacer que el desplazamiento se vea cortado."
+   },
+   "apar_animarapertura": {
+      "message": "Mostrar animación al abrir un tile"
+   },
+   "apar_animartiles": {
+      "message": "Animar los tiles al cargar la nueva pestaña"
+   },
+   "apar_animartileswarn": {
+      "message": "Cuidado: esta opción a veces produce un comportamiento extraño."
+   },
+   "apar_h3anim": {
+      "message": "Animaciones"
+   },
+   "apar_h3customcss": {
+      "message": "Inyectar CSS"
+   },
+   "apar_h3detalles": {
+      "message": "Detalles"
+   },
+   "apar_h3tiles": {
+      "message": "Colores"
+   },
+   "apar_h3usuario": {
+      "message": "Usuario"
+   },
+   "apar_miniscrollbar": {
+      "message": "Usar la barra de desplazamiento pequeña"
+   },
+   "apar_newtabh1": {
+      "message": "Título principal"
+   },
+   "apar_opennewtab": {
+      "message": "Abrir todos los links de los tiles en nuevas pestañas."
+   },
+   "apar_opennewtabwarn": {
+      "message": "Esta opción desactiva la animación al abrir un tile."
+   },
+   "apar_parallaxbg": {
+      "message": "Activar desplazamiento de la imagen de fondo"
+   },
+   "apar_smoothscroll": {
+      "message": "Usar desplazamiento suavizado"
+   },
+   "apar_tambase": {
+      "message": "Tamaño base de los tiles"
+   },
+   "apar_tambasehelp": {
+      "message": "Un tile ancho equivale a 4 x 2 tamaños bases. El valor predeterminado es 60."
+   },
+   "apar_tilegrad": {
+      "message": "Usar un color sólido (sin gradiente) sobre las tiles."
+   },
+   "apar_usuariobig": {
+      "message": "Nombre"
+   },
+   "apar_usuarioimg": {
+      "message": "Avatar"
+   },
+   "apar_usuariosmall": {
+      "message": "Nickname"
+   },
+   "auth_approved": {
+      "message": "Autorización aprobada."
+   },
+   "auth_denied": {
+      "message": "Autorización denegada, revisa tu nombre de usuario o contraseña."
+   },
+   "auth_required": {
+      "message": "Autorización necesaria"
+   },
+   "autorizar": {
+      "message": "Autorizar"
+   },
+   "back": {
+      "message": "espalda"
+   },
+   "camara_ajustes": {
+      "message": "Ajustes"
+   },
+   "camara_captura": {
+      "message": "Capturar"
+   },
+   "clima_actualcondic": {
+      "message": "Condición actual"
+   },
+   "clima_actualhumeda": {
+      "message": "Humedad relativa"
+   },
+   "clima_actualprecip": {
+      "message": "Precipitación"
+   },
+   "clima_actualpresio": {
+      "message": "Presión atmosférica"
+   },
+   "clima_actualradiac": {
+      "message": "Radiación UV"
+   },
+   "clima_actualviento": {
+      "message": "Viento"
+   },
+   "clima_proveedor": {
+      "message": "Información proporcionada por"
+   },
+   "ctxbloque_nombBloque": {
+      "message": "Editar nombre del grupo"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "Ingresa el URL del nuevo feed RSS"
+   },
+   "ctxinstr_inputurl": {
+      "message": "Ingresa la nueva URL del tile"
+   },
+   "ctxinstr_nombloque": {
+      "message": "Ingresa el nombre del grupo. Para borrarlo, déjalo en blanco."
+   },
+   "data_error": {
+      "message": "Importación de error de formato de datos!"
+   },
+   "date_months": {
+      "message": "Enero/Febrero/Marzo/Abril/Mayo/Junio/Julio/Agosto/Septiembre/Octubre/Noviembre/Diciembre"
+   },
+   "date_weekdays": {
+      "message": "Domingo/Lunes/Martes/Miércoles/Jueves/Viernes/Sábado"
+   },
+   "experimental": {
+      "message": "Experimental"
+   },
+   "games": {
+      "message": "JUEGOS"
+   },
+   "h1tile_calendario": {
+      "message": "Calendario"
+   },
+   "h1tile_camara": {
+      "message": "Cámara"
+   },
+   "h1tile_clima": {
+      "message": "Clima"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "Reloj mundial"
+   },
+   "h1tile_rssfeed": {
+      "message": "Feed RSS"
+   },
+   "hotsites": {
+      "message": "SITIOS CALIENTES"
+   },
+   "ingresarcolor": {
+      "message": "Ingresa el nuevo color de fondo. \u003Cnewline>Puede ser un nombre en inglés, un valor rgb(), hsl() o un hexadecimal."
+   },
+   "ingresaretiqueta": {
+      "message": "Ingresa la nueva etiqueta del tile"
+   },
+   "invalid_url": {
+      "message": "URL no válida"
+   },
+   "ioconfig_expconfig": {
+      "message": "Exportar configuración de colores y opciones"
+   },
+   "ioconfig_exptile": {
+      "message": "Exportar listado de tiles"
+   },
+   "ioconfig_h3in": {
+      "message": "Importar configuración"
+   },
+   "ioconfig_h3out": {
+      "message": "Exportar configuración"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "Para comodidad del usuario, la configuración de colores y opciones se exporta en un archivo aparte."
+   },
+   "ioconfig_infoexptile": {
+      "message": "Puedes exportar el listado de tiles actuales completo, incluyendo sus íconos."
+   },
+   "ioconfig_infoimp": {
+      "message": "Puedes cargar los archivos de listado de tiles y de configuración exportados desde otro navegador en este formulario."
+   },
+   "listo": {
+      "message": "Listo"
+   },
+   "livet_avisogmail": {
+      "message": "Si aparece un cuadro de diálogo pidiendo el nombre de usuario y la contraseña de Gmail, es por causa del live tile de Gmail. \u003Cnewline>La función del live tile de Gmail funciona tomando la información de la sesión que está abierta, y si no hay ninguna, pide las credenciales. \u003Cnewline>Si desea que deje de aparecer este cuadro, inicie sesión en Gmail o desactive el live tile."
+   },
+   "livet_climaaddress": {
+      "message": "Ubicación"
+   },
+   "livet_climasist": {
+      "message": "Sistema de medición"
+   },
+   "livet_climaubic": {
+      "message": "Seleccionar ubicación"
+   },
+   "livet_climaubicph": {
+      "message": "Ciudad (o código postal si EEUU)"
+   },
+   "livet_estado": {
+      "message": "Activar notificaciones"
+   },
+   "livet_h2optgeneral": {
+      "message": "Opciones generales"
+   },
+   "livet_querevisar": {
+      "message": "Elementos a revisar"
+   },
+   "livet_rssauthask": {
+      "message": "Para configurar correctamente este lector RSS, new metroTab necesita una clave de autorización. Para obtenerla, se necesita tu nombre de usuario y contraseña. No te preocupes, ninguno de los dos se guarda, sólo se usan para obtener esa clave de autorización."
+   },
+   "livet_rssreader": {
+      "message": "Lector predeterminado"
+   },
+   "livet_rssreaderaviso": {
+      "message": "Por ahora el live tile Feed RSS sólo funciona con Digg Reader e InoReader. En próximas versiones trataré de agregar Aol Reader, Feedly y otros."
+   },
+   "livet_tiempo": {
+      "message": "Tiempo de espera antes de cargar los live tiles (en segundos)"
+   },
+   "load_file": {
+      "message": "Cargar archivo..."
+   },
+   "load_url": {
+      "message": "Cargar desde URL..."
+   },
+   "load_urlerror": {
+      "message": "La URL que ingresaste no es válida o no existe. \u003Cnewline>Revísala o intenta más tarde."
+   },
+   "menu_addt": {
+      "message": "Agregar tile"
+   },
+   "menu_bkmr": {
+      "message": "Marcadores"
+   },
+   "menu_pcr": {
+      "message": "Pestañas cerradas"
+   },
+   "menu_rest": {
+      "message": "Cloud tiles"
+   },
+   "myapps": {
+      "message": "MIS APPS"
+   },
+   "nav_acercade": {
+      "message": "Acerca de"
+   },
+   "nav_apariencia": {
+      "message": "Apariencia"
+   },
+   "nav_changelog": {
+      "message": "Historial de cambios"
+   },
+   "nav_ioconfig": {
+      "message": "Importar/Exportar configuración"
+   },
+   "nav_livetiles": {
+      "message": "Live Tiles"
+   },
+   "nav_opcional": {
+      "message": "Funciones opcionales"
+   },
+   "newtabh1": {
+      "message": "nueva pestaña"
+   },
+   "no": {
+      "message": "preto"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "opcion_aceptar": {
+      "message": "Aceptar"
+   },
+   "opcion_cancelar": {
+      "message": "Cancelar"
+   },
+   "opcional_activbkmr": {
+      "message": "Pantalla de marcadores"
+   },
+   "opcional_activpcrh2": {
+      "message": "Pestañas cerradas recientemente"
+   },
+   "opcional_avisobkmr": {
+      "message": "Función muy experimental. Puede sufrir fugas de memoria que requieran reiniciar la extensión.\u003Cnewline>Por favor, no envíes reportes de error sobre esta característica. Todavía."
+   },
+   "opcional_pcrnum": {
+      "message": "Número máximo de páginas a recordar"
+   },
+   "opcional_pcrsesiones": {
+      "message": "No recordar páginas entre sesiones del navegador"
+   },
+   "opcional_touchsupport": {
+      "message": "Soporte para pantallas táctiles"
+   },
+   "opcional_touchsupwarn": {
+      "message": "Viene deshabilitado porque aún es experimental, no tengo un monitor táctil para realizar pruebas. Por ahora sólo funciona para desplazar la pantalla."
+   },
+   "opcionesh1": {
+      "message": "Opciones"
+   },
+   "password": {
+      "message": "Contraseña"
+   },
+   "quickSearchAppTitle": {
+      "message": "Busca Rápida"
+   },
+   "recommended": {
+      "message": "Nós costume algúns titls populares, que quere engadila los?"
+   },
+   "search": {
+      "message": "búsqueda..."
+   },
+   "share": {
+      "message": "Cuota"
+   },
+   "shopping": {
+      "message": "COMPRAS"
+   },
+   "show_scrollbar": {
+      "message": "Barras de desplazamiento Ocultar"
+   },
+   "sistema_ingles": {
+      "message": "Inglés"
+   },
+   "sistema_metrico": {
+      "message": "Métrico"
+   },
+   "successRestoreDefault": {
+      "message": "Recuperar estándar Éxito!"
+   },
+   "titulo_apariencia": {
+      "message": "Editar apariencia"
+   },
+   "ubicacion_anadir": {
+      "message": "Añadir ubicación"
+   },
+   "ubicacion_buscar": {
+      "message": "Buscar ubicación"
+   },
+   "username": {
+      "message": "Nombre de usuario"
+   },
+   "vistaprevia": {
+      "message": "Vista previa"
+   },
+   "warn_manytabs": {
+      "message": "Estás a punto de abrir \u003Cnum> pestañas.\u003Cnewline>¿Estás seguro de continuar?"
+   },
+   "weatherAppTitle": {
+      "message": "Tempo"
+   }
+}

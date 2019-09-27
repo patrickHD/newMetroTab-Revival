@@ -1,0 +1,14 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <title>Icono NTP Chrome by frabarz.dev</title>
+ <g stroke-width="8" stroke-miterlimit="4" shape-rendering="crispEdges">
+   <rect fill="#fe3932" stroke="#ff0900" y="60" x="60" height="40" width="40" id="rect2985"/>
+   <rect fill="#fe3932" stroke="#ff0900" y="60" x="130" height="40" width="40" id="rect2985-1"/>
+   <rect fill="#fe3932" stroke="#ff0900" y="60" x="200" height="40" width="40" id="rect2985-7"/>
+   <rect fill="#009d5a" stroke="#008733" y="130" x="60" height="40" width="40" id="rect2985-4"/>
+   <rect fill="#008bfe" stroke="#0071f5" y="130" x="130" height="40" width="40" id="rect2985-0"/>
+   <rect fill="#ffb000" stroke="#ffa000" y="130" x="200" height="40" width="40" id="rect2985-9"/>
+   <rect fill="#009d5a" stroke="#008733" y="200" x="60" height="40" width="40" id="rect2985-48"/>
+   <rect fill="#ffb000" stroke="#ffa000" y="200" x="130" height="40" width="40" id="rect2985-8"/>
+   <rect fill="#ffb000" stroke="#ffa000" y="200" x="200" height="40" width="40" id="rect2985-2"/>
+ </g>
+</svg>

@@ -1,0 +1,201 @@
+body {
+    background-color: #033A71;
+    background-image: none;
+}
+
+small {
+    display: block;
+    font-size: 0.75em;
+}
+
+#splash {
+    background-image: url('/iconos/metro_clima.svg');
+}
+
+#proveedor {
+    position: absolute;
+    top: 0;
+    __MSG_@@bidi_end_edge__: 0;
+    z-index: 100;
+    display: block;
+    margin: 10px;
+    padding-bottom: 23px;
+    min-width: 220px;
+    font-size: 12px;
+    text-align: right;
+    color: #fff;
+    background-image: url(wunderground.png);
+    background-position: __MSG_@@bidi_end_edge__ bottom;
+    background-repeat: no-repeat;
+    background-size: 220px;
+}
+
+header h1 {
+  text-shadow: 0 0 6px #999;
+}
+
+.bloque > * {
+    white-space: normal;
+}
+
+#actuales {
+    position: relative;
+    width: 1030px;
+    background-size: cover;
+    background-position: __MSG_@@bidi_start_edge__ center;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 6px #333;
+}
+
+#actualtemp {
+    float: __MSG_@@bidi_start_edge__;
+    margin-__MSG_@@bidi_end_edge__: 0.1em;
+    font-size: 8em;
+    line-height: 1em;
+    width: 200px;
+    letter-spacing: -0.1em;
+}
+
+#detalles .modulo {
+    position: relative;
+    display: inline-block;
+    width: 165px;
+    height: 80px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+    vertical-align: top;
+    direction: ltr;
+}
+
+    #detalles .modulo::after {
+        content: attr(data-titulo);
+        position: absolute;
+        top: 2em;
+        __MSG_@@bidi_start_edge__: 0px;
+        color: #ccc;
+        font-size: 0.65em;
+        font-weight: normal;
+    }
+
+#actualcondic, #actualviento {
+    width: 330px !important;
+}
+
+#prediccion {
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+    #prediccion .modulo {
+        display: inline-block;
+        width: 7.1em;
+        margin-__MSG_@@bidi_end_edge__: 10px;
+        vertical-align: top;
+        white-space: normal;
+    }
+
+        #prediccion .modulo p {
+            margin: 0;
+        }
+
+    #prediccion .dia {
+        font-size: 0.9em;
+        font-weight: bold;
+        line-height: 1em;
+        text-transform: uppercase;
+    }
+
+    #prediccion .temps {
+        font-size: 1.6em;
+        line-height: 1.4em;
+        font-weight: 400;
+    }
+
+    #prediccion .condicon {
+        height: 100px;
+        background-position: __MSG_@@bidi_start_edge__ center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+    }
+
+span.pop {
+    display: block;
+    padding-__MSG_@@bidi_start_edge__: 12px;
+    font-size: 0.8em;
+    background-image: url(gota.svg);
+    background-position: __MSG_@@bidi_start_edge__ center;
+    background-repeat: no-repeat;
+    background-size: 8px;
+}
+
+#porhora {
+    width: auto;
+    line-height: 3em;
+}
+  .porhrcont {
+      height: 100%;
+      overflow: hidden;
+      overflow-y: auto;
+  }
+
+    .porhrcont div {
+        margin: 1px 0;
+        padding: 0 1.5em;
+        white-space: nowrap;
+    }
+
+        .porhrcont div:nth-child(even) {
+            background-color: rgba(255,255,255,0.05);
+        }
+
+        .porhrcont div:nth-child(odd) {
+            background-color: rgba(255,255,255,0.15);
+        }
+
+    .porhrcont span {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+        .porhrcont span:nth-child(1) {
+            width: 100px;
+            direction: ltr;
+        }
+
+        .porhrcont span:nth-child(2) {
+            width: 50px;
+            padding: 0;
+            padding-__MSG_@@bidi_start_edge__: 90px;
+            padding-__MSG_@@bidi_end_edge__: 0.8em;
+            text-align: __MSG_@@bidi_end_edge__;
+            font-weight: bold;
+            background-size: 100px;
+            background-position: __MSG_@@bidi_start_edge__ center;
+            background-repeat: no-repeat;
+        }
+
+        .porhrcont span:nth-child(3) {
+            width: 270px;
+            font-weight: 400;
+            text-overflow: ellipsis;
+            overflow-x: hidden;
+        }
+
+        .porhrcont span:nth-child(4) {
+            width: 50px;
+            padding-__MSG_@@bidi_start_edge__: 20px;
+            background-image: url(gota.svg);
+            background-position: __MSG_@@bidi_start_edge__ center;
+            background-repeat: no-repeat;
+            background-size: 12px;
+        }
+
+#radar {
+    height: auto;
+    width: auto;
+    box-sizing: content-box;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Google Search // new metroTab</title>
+    <link rel="stylesheet" type="text/css" href="quickSearch.css" />
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="quickSearch.js"></script>
+</head>
+<body>
+<div class="main">
+    <div>
+        <span id="ileft" class="inline inlineleft"></span><span><img id="logo" width="230"></span><span id="iright" class="inline inlineright"></span>
+    </div>
+    <div id="scroll"></div>
+    <div class="searchMain">
+        <div class="searchMainBody">
+            <form action="http://www.google.com" id="searchForm">
+                    <span id="ipt_wr" class="s_ipt_wr">
+                        <input type="text" name="q" id="kw" maxlength="100" class="s_ipt" autocomplete="off" />
+                        <div id="search"></div>
+                        <div class="suggest" style="width: 556px; left: -1px; top: 31px; "></div>
+                    </span>
+                <div class="clear"></div>
+                <div id="autumn" style="width:560px;">
+
+                    <ul class="bcm">
+                        <a href="http://www.bing.com/images">
+                            <li>
+                                <div style="background-position: 0 0"></div>
+                                <div class="title">Images</div>
+                            </li>
+                        </a>
+                        <a href="https://www.bing.com/news">
+                            <li>
+                                <div style="background-position: 0 -48px"></div>
+                                <div class="title">News</div>
+                            </li>
+                        </a>
+                        <a href="https://www.bing.com/videos">
+                            <li>
+                                <div style="background-position: 0 -96px"></div>
+                                <div class="title">Videos</div>
+                            </li>
+                        </a>
+                        <a href="https://www.bing.com/maps">
+                            <li>
+                                <div style="background-position: 0 -144px"></div>
+                                <div class="title">Maps</div>
+                            </li>
+                        </a>
+                        <a href="http://www.bing.com/dict">
+                            <li>
+                                <div style="background-position: 0 -192px"></div>
+                                <div class="title">Dict</div>
+                            </li>
+                        </a>
+                        <a href="http://www.bing.com/translator">
+                            <li>
+                                <div style="background-position: 0 -240px"></div>
+                                <div class="title">Translator</div>
+                            </li>
+                        </a>
+                        <a href="http://www.bing.com/yxl">
+                            <li>
+                                <div style="background-position: 0 -288px"></div>
+                                <div class="title">Score</div>
+                            </li>
+                        </a>
+                    </ul>
+
+                    <ul class="ycm">
+                        <a href="https://mail.yahoo.com">
+                            <li>
+                                <div style="background-position: 0 0"></div>
+                                <div class="title">Mail</div>
+                            </li>
+                        </a>
+                        <a href="http://news.yahoo.com">
+                            <li>
+                                <div style="background-position: 0 -48px"></div>
+                                <div class="title">News</div>
+                            </li>
+                        </a>
+                        <a href="http://sports.yahoo.com">
+                            <li>
+                                <div style="background-position: 0 -96px"></div>
+                                <div class="title">Sports</div>
+                            </li>
+                        </a>
+                        <a href="http://finance.yahoo.com">
+                            <li>
+                                <div style="background-position: 0 -144px"></div>
+                                <div class="title">Finance</div>
+                            </li>
+                        </a>
+                        <a href="http://weather.yahoo.com">
+                            <li>
+                                <div style="background-position: 0 -192px"></div>
+                                <div class="title">Weather</div>
+                            </li>
+                        </a>
+                        <a href="http://games.yahoo.com/">
+                            <li>
+                                <div style="background-position: 0 -240px"></div>
+                                <div class="title">Games</div>
+                            </li>
+                        </a>
+                        <a href="http://answers.yahoo.com/">
+                            <li>
+                                <div style="background-position: 0 -288px"></div>
+                                <div class="title">Answers</div>
+                            </li>
+                        </a>
+                    </ul>
+
+                    <ul class="gcm">
+                        <a href="https://plus.google.com/">
+                            <li>
+                                <div style="background-position: 0 0"></div>
+                                <div class="title">Google+</div>
+                            </li>
+                        </a>
+                        <a href="https://www.google.com/imghp">
+                            <li>
+                                <div style="background-position: 0 -48px"></div>
+                                <div class="title">Images</div>
+                            </li>
+                        </a>
+                        <a href="https://www.google.com/maps">
+                            <li>
+                                <div style="background-position: 0 -96px"></div>
+                                <div class="title">Maps</div>
+                            </li>
+                        </a>
+                        <a href="https://play.google.com/store">
+                            <li>
+                                <div style="background-position: 0 -144px"></div>
+                                <div class="title">Play</div>
+                            </li>
+                        </a>
+                        <a href="https://www.youtube.com/">
+                            <li>
+                                <div style="background-position: 0 -192px"></div>
+                                <div class="title">Youtube</div>
+                            </li>
+                        </a>
+                        <a href="https://drive.google.com/">
+                            <li>
+                                <div style="background-position: 0 -240px"></div>
+                                <div class="title">Drive</div>
+                            </li>
+                        </a>
+                        <a>
+                            <li id="more">
+                                <div style="background-position: 0 -672px"></div>
+                                <div class="title">More</div>
+                            </li>
+                        </a>
+                        <a href="https://translate.google.com">
+                            <li id="more2" style="display: none">
+                                <div style="background-position: 0 -288px"></div>
+                                <div class="title">Translate</div>
+                            </li>
+                        </a>
+                    </ul>
+                    <ul id="morecon" class="gcm gcm2">
+                        <a href="https://news.google.com">
+                            <li>
+                                <div style="background-position: 0 -336px"></div>
+                                <div class="title">News</div>
+                            </li>
+                        </a>
+                        <a href="https://www.google.com/calendar">
+                            <li>
+                                <div style="background-position: 0 -384px"></div>
+                                <div class="title">Calendar</div>
+                            </li>
+                        </a>
+                        <a href="https://mail.google.com/mail">
+                            <li>
+                                <div style="background-position: 0 -432px"></div>
+                                <div class="title">Gmail</div>
+                            </li>
+                        </a>
+                        <a href="https://www.google.com/finance">
+                            <li>
+                                <div style="background-position: 0 -480px"></div>
+                                <div class="title">Finance</div>
+                            </li>
+                        </a>
+                        <a href="https://www.blogger.com/">
+                            <li>
+                                <div style="background-position: 0 -528px"></div>
+                                <div class="title">Blogger</div>
+                            </li>
+                        </a>
+                        <a href="https://plus.google.com/photos">
+                            <li>
+                                <div style="background-position: 0 -576px"></div>
+                                <div class="title">Photos</div>
+                            </li>
+                        </a>
+                        <a href="http://www.google.com/intl/en/options/">
+                            <li>
+                                <div style="background-position:  0 -672px"></div>
+                                <div class="title">more</div>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                    <span id="hide-input">
+                    	<input type="hidden" name="cx" value="partner-pub-6463892505403669:7150588345" />
+                        <input type="hidden" value="utf-8" name="ie" />
+                    </span>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="ceshi"></div>
+<a href="/inicio.html"><div id="back"></div></a>
+<div id="help"></div>
+</body>
+<script type="text/javascript" src="searchSuggest.js"></script>
+</html>

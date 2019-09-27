@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "安装"
+   },
+   "Installed": {
+      "message": "已安装"
+   },
+   "RestoreDefault": {
+      "message": "恢复默认"
+   },
+   "acerca_agradece": {
+      "message": "鸣谢"
+   },
+   "acerca_apoyo": {
+      "message": "支持我们"
+   },
+   "acerca_contact": {
+      "message": "如果有任何问题，请发邮件给我们："
+   },
+   "acerca_idiompers": {
+      "message": "以下是该扩展的翻译成员："
+   },
+   "acerca_infoapi": {
+      "message": "您也可以使用 API 来创建一个动态磁贴。"
+   },
+   "acerca_informar": {
+      "message": "意见反馈"
+   },
+   "acerca_informarinstr": {
+      "message": "如要报告问题或提出建议请点击以下链接"
+   },
+   "action_cambiarss": {
+      "message": "更改RSS"
+   },
+   "action_changebgcolor": {
+      "message": "更改背景颜色"
+   },
+   "action_changeicon": {
+      "message": "更改图标"
+   },
+   "action_changesize": {
+      "message": "更改大小"
+   },
+   "action_colorpick": {
+      "message": "挑选颜色..."
+   },
+   "action_copylink": {
+      "message": "复制 URL"
+   },
+   "action_delete": {
+      "message": "删除"
+   },
+   "action_deselect": {
+      "message": "清除选择"
+   },
+   "action_editurl": {
+      "message": "编辑 URL"
+   },
+   "action_icondeletion": {
+      "message": "删除图标"
+   },
+   "action_incsscolor": {
+      "message": "输入 CSS 颜色"
+   },
+   "action_liveactiv": {
+      "message": "启用 live tile"
+   },
+   "action_livedesac": {
+      "message": "暂停 live tile"
+   },
+   "action_opennewtab": {
+      "message": "在新选项卡中打开链接"
+   },
+   "action_opennewwin": {
+      "message": "在新窗口中打开"
+   },
+   "action_rename": {
+      "message": "更改标签文字"
+   },
+   "action_sizelarge": {
+      "message": "大"
+   },
+   "action_sizenormal": {
+      "message": "正常"
+   },
+   "action_sizesmall": {
+      "message": "小"
+   },
+   "action_sizewide": {
+      "message": "宽"
+   },
+   "action_transparent": {
+      "message": "使透明"
+   },
+   "action_uninstallapp": {
+      "message": "卸载APP"
+   },
+   "activar": {
+      "message": "激活"
+   },
+   "addt_avisoxhr": {
+      "message": "将自动从网站加载相关信息"
+   },
+   "addt_bgcolor": {
+      "message": "背景颜色"
+   },
+   "addt_crear": {
+      "message": "创建"
+   },
+   "addt_customico": {
+      "message": "自定义图标"
+   },
+   "addt_etiqueta": {
+      "message": "标签文字"
+   },
+   "addt_link": {
+      "message": "链接地址"
+   },
+   "addt_rssurl": {
+      "message": "RSS Feed URL"
+   },
+   "addt_tamano": {
+      "message": "大小"
+   },
+   "addt_tipxhrico": {
+      "message": "提示：使用白色图标透明背景的png文件"
+   },
+   "aext_descr": {
+      "message": "可定制的Metro风格的新标签页,提供了快速拔号,SNS、邮件提醒,天气,时钟等功能。"
+   },
+   "aext_name": {
+      "message": "Metro新标签"
+   },
+   "aext_short_name": {
+      "message": "Metro新标签"
+   },
+   "allsites": {
+      "message": "全部"
+   },
+   "apar_ajustbg": {
+      "message": "调整背景图片使之适应屏幕"
+   },
+   "apar_ajustbgwarn": {
+      "message": "调整背景图可能会降低标签流畅度"
+   },
+   "apar_animarapertura": {
+      "message": "点击磁贴后使用动态画面"
+   },
+   "apar_animartiles": {
+      "message": "打开Metro新标签时动态加载磁贴"
+   },
+   "apar_animartileswarn": {
+      "message": "注意：有时可能会表现不稳定"
+   },
+   "apar_h3anim": {
+      "message": "动态"
+   },
+   "apar_h3customcss": {
+      "message": "自定义CSS"
+   },
+   "apar_h3detalles": {
+      "message": "其他"
+   },
+   "apar_h3tiles": {
+      "message": "主题"
+   },
+   "apar_h3usuario": {
+      "message": "用户"
+   },
+   "apar_miniscrollbar": {
+      "message": "使用细滚动条"
+   },
+   "apar_newtabh1": {
+      "message": "新标签标题"
+   },
+   "apar_opennewtab": {
+      "message": "在新选项卡中打开所有链接的瓷砖。"
+   },
+   "apar_opennewtabwarn": {
+      "message": "这将停用动画时打开的瓷砖。"
+   },
+   "apar_parallaxbg": {
+      "message": "激活背景图像滚动"
+   },
+   "apar_smoothscroll": {
+      "message": "开启平滑滚动"
+   },
+   "apar_tambase": {
+      "message": "磁贴的基础大小"
+   },
+   "apar_tambasehelp": {
+      "message": "A wide tile equals to 4 x 2 base sizes. Default value is 60."
+   },
+   "apar_tilegrad": {
+      "message": "开启磁贴背景色渐变"
+   },
+   "apar_usuariobig": {
+      "message": "姓名"
+   },
+   "apar_usuarioimg": {
+      "message": "头像"
+   },
+   "apar_usuariosmall": {
+      "message": "昵称"
+   },
+   "auth_approved": {
+      "message": "授权批准。"
+   },
+   "auth_denied": {
+      "message": "授权被拒绝，请检查您的用户名或密码。"
+   },
+   "auth_required": {
+      "message": "所需的授权"
+   },
+   "autorizar": {
+      "message": "授权"
+   },
+   "back": {
+      "message": "返回"
+   },
+   "camara_ajustes": {
+      "message": "调整图片"
+   },
+   "camara_captura": {
+      "message": "拍照"
+   },
+   "clima_actualcondic": {
+      "message": "实时天气"
+   },
+   "clima_actualhumeda": {
+      "message": "相对湿度"
+   },
+   "clima_actualprecip": {
+      "message": "降水"
+   },
+   "clima_actualpresio": {
+      "message": "大气压力"
+   },
+   "clima_actualradiac": {
+      "message": "紫外线辐射"
+   },
+   "clima_actualviento": {
+      "message": "风"
+   },
+   "clima_proveedor": {
+      "message": "本页面信息来源"
+   },
+   "ctxbloque_nombBloque": {
+      "message": "编辑组名称"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "输入 RSS feed URL"
+   },
+   "ctxinstr_inputurl": {
+      "message": "输入新的 URL 的拼贴"
+   },
+   "ctxinstr_nombloque": {
+      "message": "输入组的名称。若要删除它，将它保留为空。"
+   },
+   "data_error": {
+      "message": "导入数据格式不正确!"
+   },
+   "date_months": {
+      "message": "1月/2月/3月/4月/5月/6月/7月/8月/9月/10月/11月/12月"
+   },
+   "date_weekdays": {
+      "message": "星期日/星期一/星期二/星期三/星期四/星期五/星期六"
+   },
+   "experimental": {
+      "message": "实验"
+   },
+   "games": {
+      "message": "游戏"
+   },
+   "h1tile_calendario": {
+      "message": "日历"
+   },
+   "h1tile_camara": {
+      "message": "照相机"
+   },
+   "h1tile_clima": {
+      "message": "天气"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "世界时钟"
+   },
+   "h1tile_rssfeed": {
+      "message": "RSS Feed"
+   },
+   "hotsites": {
+      "message": "热门"
+   },
+   "ingresarcolor": {
+      "message": "输入新的书签背景色代码。\u003Cnewline>支持颜色名、rgb()代码、hsl()代码、十六进制代码。"
+   },
+   "ingresaretiqueta": {
+      "message": "输入新的标签文字"
+   },
+   "invalid_url": {
+      "message": "无效的 URL"
+   },
+   "ioconfig_expconfig": {
+      "message": "导出选项设置"
+   },
+   "ioconfig_exptile": {
+      "message": "导出磁贴列表"
+   },
+   "ioconfig_h3in": {
+      "message": "导入设置"
+   },
+   "ioconfig_h3out": {
+      "message": "导出设置"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "为了方便用户，主题颜色和选项设置导出为单独的文件。"
+   },
+   "ioconfig_infoexptile": {
+      "message": "您可以导出当前磁贴的完整信息列表，包括图标。"
+   },
+   "ioconfig_infoimp": {
+      "message": "您可以在此导入从其他浏览器中导出的磁贴列表和选项设置文件。"
+   },
+   "listo": {
+      "message": "确定"
+   },
+   "livet_avisogmail": {
+      "message": "If a dialog box appears asking for the user name and password for Gmail, is because of the Gmail's live tile. \u003Cnewline>The function of the Gmail's live tile works taking the information of the session that is currently open, and if there is none, requests credentials. \u003Cnewline>If you want to stop this box appear, log on to Gmail or disable the live tile."
+   },
+   "livet_climaaddress": {
+      "message": "所在地"
+   },
+   "livet_climasist": {
+      "message": "温度单位"
+   },
+   "livet_climaubic": {
+      "message": "选择地名"
+   },
+   "livet_climaubicph": {
+      "message": "请输入地名的拼音"
+   },
+   "livet_estado": {
+      "message": "开启通知"
+   },
+   "livet_h2optgeneral": {
+      "message": "常规选项"
+   },
+   "livet_querevisar": {
+      "message": "检查项目"
+   },
+   "livet_rssauthask": {
+      "message": "To correctly configure this RSS reader, new metroTab need an authorization key. To get it, I need your user name and password. Don't worry, neither of them is saved, they are only used to obtain the authorization key."
+   },
+   "livet_rssreader": {
+      "message": "默认读取器"
+   },
+   "livet_rssreaderaviso": {
+      "message": "For now the live tile RSS Feed only works with Digg Reader and InoReader. In future versions, I will try to add Aol Reader, Feedly and others."
+   },
+   "livet_tiempo": {
+      "message": "载入在线磁贴的等待时间（秒）"
+   },
+   "load_file": {
+      "message": "加载文件..."
+   },
+   "load_url": {
+      "message": "从URL上传..."
+   },
+   "load_urlerror": {
+      "message": "输入的URL无效或不存在\u003Cnewline>请检查并稍后再试"
+   },
+   "menu_addt": {
+      "message": "新建磁贴"
+   },
+   "menu_bkmr": {
+      "message": "我的书签"
+   },
+   "menu_pcr": {
+      "message": "最近关闭"
+   },
+   "menu_rest": {
+      "message": "云磁贴"
+   },
+   "myapps": {
+      "message": "应用"
+   },
+   "nav_acercade": {
+      "message": "关于信息"
+   },
+   "nav_apariencia": {
+      "message": "外观样式"
+   },
+   "nav_changelog": {
+      "message": "更新日志"
+   },
+   "nav_ioconfig": {
+      "message": "导出/导入"
+   },
+   "nav_livetiles": {
+      "message": "在线磁贴"
+   },
+   "nav_opcional": {
+      "message": "可选功能"
+   },
+   "newtabh1": {
+      "message": "新标签"
+   },
+   "no": {
+      "message": "否"
+   },
+   "ok": {
+      "message": "是"
+   },
+   "opcion_aceptar": {
+      "message": "确定"
+   },
+   "opcion_cancelar": {
+      "message": "取消"
+   },
+   "opcional_activbkmr": {
+      "message": "书签栏"
+   },
+   "opcional_activpcrh2": {
+      "message": "最近关闭的标签页"
+   },
+   "opcional_avisobkmr": {
+      "message": "非常实验性功能。您可能会遇到内存泄漏，需要重新启动扩展。\u003Cnewline>请不要发送关于此功能的错误报告。然而。"
+   },
+   "opcional_pcrnum": {
+      "message": "要保存最近关闭标签的最大数目"
+   },
+   "opcional_pcrsesiones": {
+      "message": "不保存浏览器会话间的标签"
+   },
+   "opcional_touchsupport": {
+      "message": "触屏支持"
+   },
+   "opcional_touchsupwarn": {
+      "message": "默认是禁用的，因为它还是在实验阶段， 我还没有使用触摸屏测试过。 现在它只能用滚动条滚动屏幕。"
+   },
+   "opcionesh1": {
+      "message": "选项设置"
+   },
+   "password": {
+      "message": "密码"
+   },
+   "quickSearchAppTitle": {
+      "message": "快速搜索"
+   },
+   "recommended": {
+      "message": "我们又定制了一批著名网站的磁贴，您是否要添加?"
+   },
+   "search": {
+      "message": "搜索..."
+   },
+   "share": {
+      "message": "分享"
+   },
+   "shopping": {
+      "message": "购物"
+   },
+   "show_scrollbar": {
+      "message": "隐藏滚动条"
+   },
+   "sistema_ingles": {
+      "message": "英制"
+   },
+   "sistema_metrico": {
+      "message": "公制"
+   },
+   "successRestoreDefault": {
+      "message": "恢复默认成功!"
+   },
+   "titulo_apariencia": {
+      "message": "更改外观"
+   },
+   "ubicacion_anadir": {
+      "message": "添加位置"
+   },
+   "ubicacion_buscar": {
+      "message": "搜索地名"
+   },
+   "username": {
+      "message": "用户名"
+   },
+   "vistaprevia": {
+      "message": "预览"
+   },
+   "warn_manytabs": {
+      "message": "你想打开 \u003Cnum> 选项卡。确实要继续吗？"
+   },
+   "weatherAppTitle": {
+      "message": "天气"
+   }
+}

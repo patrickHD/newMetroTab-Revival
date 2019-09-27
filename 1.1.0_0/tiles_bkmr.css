@@ -1,0 +1,108 @@
+header.panorama {
+    z-index: 5000;
+}
+
+#pivot, #bookmarks {
+    -webkit-transition-property: height, padding;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+}
+
+#pivot.aplastado, #bookmarks.aplastado {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#bkmrh1 span {
+    display: inline-block;
+    position: relative;
+    margin-__MSG_@@bidi_end_edge__ : 1.5em;
+    text-indent: 0;
+    white-space: nowrap;
+    max-width: 550px;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    -webkit-transition-property: max-width, margin, text-indent;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+}
+
+#bkmrh1 span:not([data-actual="0"])::before {
+    content: '›';
+    position: absolute;
+    left: -0.8em;
+}
+
+#bkmrh1 span.ocultar {
+    text-indent: -100%;
+    max-width: 0;
+    margin: 0;
+}
+
+.bkmrbl {
+}
+
+.bkmrbl:empty {
+    display: none;
+}
+
+.bkmrcarp {
+    display: inline-block;
+    position: absolute;
+    width: 232px;
+    height: 82px;
+    margin: 4px;
+    cursor: pointer;
+    background-image: url(/iconos/carpeta.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.bkmrcarp:hover {
+    outline: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.bkmrcarp .etiqueta {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.4em 0.7em;
+    overflow: hidden;
+}
+
+.bkmrlink {
+    display: inline-block;
+    position: absolute;
+    width: 220px;
+    height: auto;
+    padding: 6px;
+    margin: 4px;
+}
+
+.bkmrlink:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.bkmrlink .icono {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26px;
+    outline: 1px solid rgba(255, 255, 255, 0.3);
+    outline-offset: -1px;
+}
+
+.bkmrlink .etiqueta {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    padding: 0 6px;
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+}

@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "устанавливать"
+   },
+   "Installed": {
+      "message": "Установленная"
+   },
+   "RestoreDefault": {
+      "message": "Сброс настроек"
+   },
+   "acerca_agradece": {
+      "message": "Благодарность"
+   },
+   "acerca_apoyo": {
+      "message": "Поддержите меня"
+   },
+   "acerca_contact": {
+      "message": "Если у вас есть какие-либо вопросы, пожалуйста свяжитесь с нами по почте:"
+   },
+   "acerca_idiompers": {
+      "message": "Это люди, которые занимались переводом new metroTab:"
+   },
+   "acerca_infoapi": {
+      "message": "Вы также можете использовать API, чтобы самим сделать живые плитки."
+   },
+   "acerca_informar": {
+      "message": "Обратная связь"
+   },
+   "acerca_informarinstr": {
+      "message": "Чтобы сообщить о проблеме или предложить что-либо, перейдите по ссылке:"
+   },
+   "action_cambiarss": {
+      "message": "Изменить RSS канал"
+   },
+   "action_changebgcolor": {
+      "message": "Изменить цвет фона"
+   },
+   "action_changeicon": {
+      "message": "Изменить иконку"
+   },
+   "action_changesize": {
+      "message": "Изменить размер"
+   },
+   "action_colorpick": {
+      "message": "Выбрать цвет..."
+   },
+   "action_copylink": {
+      "message": "Копировать ссылку"
+   },
+   "action_delete": {
+      "message": "Открепить"
+   },
+   "action_deselect": {
+      "message": "Отменить выделение"
+   },
+   "action_editurl": {
+      "message": "Изменить ссылку"
+   },
+   "action_icondeletion": {
+      "message": "Убрать иконку"
+   },
+   "action_incsscolor": {
+      "message": "Ввести имя цвета..."
+   },
+   "action_liveactiv": {
+      "message": "Включить живую плитку"
+   },
+   "action_livedesac": {
+      "message": "Выключить живую плитку"
+   },
+   "action_opennewtab": {
+      "message": "Открыть в новой вкладке"
+   },
+   "action_opennewwin": {
+      "message": "Открыть в новом окне"
+   },
+   "action_rename": {
+      "message": "Изменить надпись"
+   },
+   "action_sizelarge": {
+      "message": "Большая"
+   },
+   "action_sizenormal": {
+      "message": "Обычная"
+   },
+   "action_sizesmall": {
+      "message": "Маленькая"
+   },
+   "action_sizewide": {
+      "message": "Широкая"
+   },
+   "action_transparent": {
+      "message": "Прозрачность"
+   },
+   "action_uninstallapp": {
+      "message": "Удалить приложение"
+   },
+   "activar": {
+      "message": "Активировать"
+   },
+   "addt_avisoxhr": {
+      "message": "Я попытаюсь загрузить оставшуюся информацию с веб-сайта."
+   },
+   "addt_bgcolor": {
+      "message": "Цвет фона"
+   },
+   "addt_crear": {
+      "message": "Создать плитку"
+   },
+   "addt_customico": {
+      "message": "Выбрать иконку"
+   },
+   "addt_etiqueta": {
+      "message": "Надпись"
+   },
+   "addt_link": {
+      "message": "Ссылка"
+   },
+   "addt_rssurl": {
+      "message": "RSS ссылка"
+   },
+   "addt_tamano": {
+      "message": "Размер"
+   },
+   "addt_tipxhrico": {
+      "message": "Заметка: используйте png-файл, содержащий белую иконку с прозрачным фоном."
+   },
+   "aext_descr": {
+      "message": "Пользовательские новая закладка с метро UI.It предлагает несколько функций,таких как быстрый набор,щебет уведомления, часы, погода."
+   },
+   "aext_name": {
+      "message": "новый metroTab"
+   },
+   "aext_short_name": {
+      "message": "новый metroTab"
+   },
+   "allsites": {
+      "message": "Все сайты"
+   },
+   "apar_ajustbg": {
+      "message": "Растягивать фоновое изображение в соответствии с разрешением экрана"
+   },
+   "apar_ajustbgwarn": {
+      "message": "Растягивание фона может повлиять на плавность анимации."
+   },
+   "apar_animarapertura": {
+      "message": "Анимация при нажатии на плитку"
+   },
+   "apar_animartiles": {
+      "message": "Анимация плиток при открытии новой вкладки"
+   },
+   "apar_animartileswarn": {
+      "message": "Осторожно: иногда странно ведет себя."
+   },
+   "apar_h3anim": {
+      "message": "Анимация"
+   },
+   "apar_h3customcss": {
+      "message": "Собственный CSS"
+   },
+   "apar_h3detalles": {
+      "message": "Разное"
+   },
+   "apar_h3tiles": {
+      "message": "Цвета"
+   },
+   "apar_h3usuario": {
+      "message": "Пользователь"
+   },
+   "apar_miniscrollbar": {
+      "message": "Маленькая полоса прокрутки"
+   },
+   "apar_newtabh1": {
+      "message": "Заголовок"
+   },
+   "apar_opennewtab": {
+      "message": "Открывать ссылки плиток в новых вкладках."
+   },
+   "apar_opennewtabwarn": {
+      "message": "Это отключает анимацию при открытии плитки."
+   },
+   "apar_parallaxbg": {
+      "message": "Подвижный фон"
+   },
+   "apar_smoothscroll": {
+      "message": "Плавная прокрутка"
+   },
+   "apar_tambase": {
+      "message": "Стандартный размер плиток"
+   },
+   "apar_tambasehelp": {
+      "message": "Широкая плитка по размеру 4 х 2 относительно обычной плитки. Значение по умолчанию — 60."
+   },
+   "apar_tilegrad": {
+      "message": "Только цвет (без градиента) на плитке."
+   },
+   "apar_usuariobig": {
+      "message": "Имя"
+   },
+   "apar_usuarioimg": {
+      "message": "Аватар"
+   },
+   "apar_usuariosmall": {
+      "message": "Ник"
+   },
+   "auth_approved": {
+      "message": "Авторизация подтверждена."
+   },
+   "auth_denied": {
+      "message": "Авторизация не подтверждена, проверьте имя или пароль."
+   },
+   "auth_required": {
+      "message": "Требуется авторизация"
+   },
+   "autorizar": {
+      "message": "Авторизовать"
+   },
+   "back": {
+      "message": "назад"
+   },
+   "camara_ajustes": {
+      "message": "Регулировка"
+   },
+   "camara_captura": {
+      "message": "Захват"
+   },
+   "clima_actualcondic": {
+      "message": "Текущее состояние"
+   },
+   "clima_actualhumeda": {
+      "message": "Влажность"
+   },
+   "clima_actualprecip": {
+      "message": "Осадки"
+   },
+   "clima_actualpresio": {
+      "message": "Атм. давление"
+   },
+   "clima_actualradiac": {
+      "message": "УФ излучение"
+   },
+   "clima_actualviento": {
+      "message": "Ветер"
+   },
+   "clima_proveedor": {
+      "message": "Информация о погоде предоставлена ресурсом: "
+   },
+   "ctxbloque_nombBloque": {
+      "message": "Изменить имя группы"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "Введите новый адрес RSS"
+   },
+   "ctxinstr_inputurl": {
+      "message": "Введите новый URL-адрес плитки"
+   },
+   "ctxinstr_nombloque": {
+      "message": "Введите имя группы. Для удаления оставьте его пустым."
+   },
+   "data_error": {
+      "message": "Импорт ошибка форматирования данных!"
+   },
+   "date_months": {
+      "message": "Января/Февраля/Марта/Апреля/Мая/Июня/Июля/Августа/Сентября/Октября/Ноября/Декабря"
+   },
+   "date_weekdays": {
+      "message": "Воскресенье/Понедельник/Вторник/Среда/Четверг/Пятница/Суббота"
+   },
+   "experimental": {
+      "message": "Экспериментальная"
+   },
+   "games": {
+      "message": "ИГРЫ"
+   },
+   "h1tile_calendario": {
+      "message": "Календарь"
+   },
+   "h1tile_camara": {
+      "message": "Камера"
+   },
+   "h1tile_clima": {
+      "message": "Погода"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "Мировое время"
+   },
+   "h1tile_rssfeed": {
+      "message": "RSS Новости"
+   },
+   "hotsites": {
+      "message": "HOT САЙТЫ"
+   },
+   "ingresarcolor": {
+      "message": "Введите новый цвет фона. \u003Cnewline>Это может быть имя цвета (на английском), его представление в модели rgb(),rgba(), hsl() или в виде   шеснадцатиричного кода. Например: rgb(12,4,78), rgba(12,4,78,0.4), #CC11AA"
+   },
+   "ingresaretiqueta": {
+      "message": "Введите новую надпись на плитке"
+   },
+   "invalid_url": {
+      "message": "Неверный URL-адрес"
+   },
+   "ioconfig_expconfig": {
+      "message": "Экспорт настроек и цветовых установок"
+   },
+   "ioconfig_exptile": {
+      "message": "Экспорт списка плиток"
+   },
+   "ioconfig_h3in": {
+      "message": "Импорт настроек"
+   },
+   "ioconfig_h3out": {
+      "message": "Экспорт настроек"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "Для удобства пользователей, цветовые установки и настройки сохраняются в отдельный файл. "
+   },
+   "ioconfig_infoexptile": {
+      "message": "Вы можете экспортировать весь список текущих плиток, включая их иконки."
+   },
+   "ioconfig_infoimp": {
+      "message": "Здесь вы можете загрузить список плиток и файл настроек, экпортированный из другого браузера."
+   },
+   "listo": {
+      "message": "Подтвердить"
+   },
+   "livet_avisogmail": {
+      "message": "Это окно с запросом имени и пароля от почтового ящика Gmail появляется из-за живой плитки Gmail. \u003Cnewline>Функция этой живой плитки состоит в том, чтобы собирать информацию из текущей открытой сессии, а если таковой нет, то запросить ввод имени и пароля. \u003Cnewline>Если хотите убрать это окно, войдите в учетную запись Gmail или отключите живую плитку. "
+   },
+   "livet_climaaddress": {
+      "message": "Pасположение"
+   },
+   "livet_climasist": {
+      "message": "Система измерений"
+   },
+   "livet_climaubic": {
+      "message": "Выберите местоположение"
+   },
+   "livet_climaubicph": {
+      "message": "Город или почтовый код (для США)"
+   },
+   "livet_estado": {
+      "message": "Включить уведомления"
+   },
+   "livet_h2optgeneral": {
+      "message": "Общие настройки"
+   },
+   "livet_querevisar": {
+      "message": "Уведомления"
+   },
+   "livet_rssauthask": {
+      "message": "Чтобы правильно настроить RSS канал,  new metroTab требует авторизацию. Чтобы его получить, мне нужны ваши имя пользователя и пароль. Не волнуйтесь, они не будут сохранены, они только для получения ключа авторизации. "
+   },
+   "livet_rssreader": {
+      "message": "Ридер по умолчанию"
+   },
+   "livet_rssreaderaviso": {
+      "message": "Пока живая плитка \"RSS Новости\"  работает только с Digg Reader и InoReader. В будущих версиях я постараюсь добавить Aol Reader, Feedly и другие."
+   },
+   "livet_tiempo": {
+      "message": "Ожидание перед загрузкой живых плиток (в секундах)"
+   },
+   "load_file": {
+      "message": "Открыть файл..."
+   },
+   "load_url": {
+      "message": "Загрузить по ссылке..."
+   },
+   "load_urlerror": {
+      "message": "Введенный URL неправильный или не существует. \u003Cnewline>Проверьте его или попробуйте еще раз, но позже."
+   },
+   "menu_addt": {
+      "message": "Создать плитку"
+   },
+   "menu_bkmr": {
+      "message": "Закладки"
+   },
+   "menu_pcr": {
+      "message": "Закрытые вкладки"
+   },
+   "menu_rest": {
+      "message": "Cloud tiles"
+   },
+   "myapps": {
+      "message": "приложения"
+   },
+   "nav_acercade": {
+      "message": "О расширении"
+   },
+   "nav_apariencia": {
+      "message": "Внешний вид"
+   },
+   "nav_changelog": {
+      "message": "История изменений"
+   },
+   "nav_ioconfig": {
+      "message": "Импорт/Экспорт настроек"
+   },
+   "nav_livetiles": {
+      "message": "Живые Плитки"
+   },
+   "nav_opcional": {
+      "message": "Настраиваемые функции"
+   },
+   "newtabh1": {
+      "message": "Новая вкладка"
+   },
+   "no": {
+      "message": "Не хочу"
+   },
+   "ok": {
+      "message": "Хочу"
+   },
+   "opcion_aceptar": {
+      "message": "Подтвердить"
+   },
+   "opcion_cancelar": {
+      "message": "Отмена"
+   },
+   "opcional_activbkmr": {
+      "message": "Окно закладок"
+   },
+   "opcional_activpcrh2": {
+      "message": "Закрытые вкладки"
+   },
+   "opcional_avisobkmr": {
+      "message": "Экспериментальная функция. Могут возникнуть утечки памяти, которые требуют перезагрузки расширения. \u003Cnewline> Пожалуйста, не присылайте сообщения об ошибках этой функции. Пока."
+   },
+   "opcional_pcrnum": {
+      "message": "Максимальное количество страниц для запоминания"
+   },
+   "opcional_pcrsesiones": {
+      "message": "Не запоминать сайты между сессий браузера"
+   },
+   "opcional_touchsupport": {
+      "message": "Прикоснитесь опора"
+   },
+   "opcional_touchsupwarn": {
+      "message": "Отключено по умолчанию, так как еще в разработке, я не тестировал с помощью сенсорного экрана. На данный момент работает только прокрутка экрана."
+   },
+   "opcionesh1": {
+      "message": "Настройки"
+   },
+   "password": {
+      "message": "Пароль"
+   },
+   "quickSearchAppTitle": {
+      "message": "Быстрый поиск"
+   },
+   "recommended": {
+      "message": "Мы создали пару новых плиток, ведущих на известные сайты. Хотите их добавить?"
+   },
+   "search": {
+      "message": "поиск..."
+   },
+   "share": {
+      "message": "Расскажите о нас"
+   },
+   "shopping": {
+      "message": "ПОКУПКА"
+   },
+   "show_scrollbar": {
+      "message": "Скрыть полосы прокрутки"
+   },
+   "sistema_ingles": {
+      "message": "Имперская"
+   },
+   "sistema_metrico": {
+      "message": "Метрическая"
+   },
+   "successRestoreDefault": {
+      "message": "Сброс настроек прошел успешно!"
+   },
+   "titulo_apariencia": {
+      "message": "Изменить внешний вид"
+   },
+   "ubicacion_anadir": {
+      "message": "Добавить местоположение"
+   },
+   "ubicacion_buscar": {
+      "message": "Поиск местоположения"
+   },
+   "username": {
+      "message": "Имя пользователя"
+   },
+   "vistaprevia": {
+      "message": "Предпросмотор"
+   },
+   "warn_manytabs": {
+      "message": "Вы собираетесь открыть \u003Cnum> вкладок. Вы действительно хотите продолжить?"
+   },
+   "weatherAppTitle": {
+      "message": "погода"
+   }
+}

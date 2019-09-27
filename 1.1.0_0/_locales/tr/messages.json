@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "kurmak"
+   },
+   "Installed": {
+      "message": "yüklü"
+   },
+   "RestoreDefault": {
+      "message": "Default bərpa"
+   },
+   "acerca_agradece": {
+      "message": "Teşekkürler"
+   },
+   "acerca_apoyo": {
+      "message": "Destek Olun"
+   },
+   "acerca_contact": {
+      "message": "Herhangi bir sorunuz varsa, bizimle temas kurmaktan lütfen e-posta:"
+   },
+   "acerca_idiompers": {
+      "message": "new metroTab'ın tercümesini yapan kişiler:"
+   },
+   "acerca_infoapi": {
+      "message": "Kendi Canlı Kutucuklarınızı yapmak için API'yi kullanabilirsiniz."
+   },
+   "acerca_informar": {
+      "message": "Yardım"
+   },
+   "acerca_informarinstr": {
+      "message": "Sorun bildirmek veya yeni özellik önermek için aşağıdaki formu kullanabilirsiniz:"
+   },
+   "action_cambiarss": {
+      "message": "RSS beslemesi değiştirmek"
+   },
+   "action_changebgcolor": {
+      "message": "Arkaplan rengini değiştir"
+   },
+   "action_changeicon": {
+      "message": "Simgeyi değiştir"
+   },
+   "action_changesize": {
+      "message": "Boyutu değiştir"
+   },
+   "action_colorpick": {
+      "message": "Renk seç..."
+   },
+   "action_copylink": {
+      "message": "URL'yi kopyala"
+   },
+   "action_delete": {
+      "message": "Silmek"
+   },
+   "action_deselect": {
+      "message": "Vazgeç"
+   },
+   "action_editurl": {
+      "message": "URL'yi Düzenle"
+   },
+   "action_icondeletion": {
+      "message": "Simgesini Kaldır"
+   },
+   "action_incsscolor": {
+      "message": "CSS rengi girin..."
+   },
+   "action_liveactiv": {
+      "message": "Canlı kutucuğu etkinleştir"
+   },
+   "action_livedesac": {
+      "message": "Canlı kutucuğu kapat"
+   },
+   "action_opennewtab": {
+      "message": "Açık bağlantı içinde yeni etiket"
+   },
+   "action_opennewwin": {
+      "message": "Yeni bir pencerede aç"
+   },
+   "action_rename": {
+      "message": "Başlığı değiştir"
+   },
+   "action_sizelarge": {
+      "message": "Büyük"
+   },
+   "action_sizenormal": {
+      "message": "Normal"
+   },
+   "action_sizesmall": {
+      "message": "Küçük"
+   },
+   "action_sizewide": {
+      "message": "Geniş"
+   },
+   "action_transparent": {
+      "message": "Transparan Yap"
+   },
+   "action_uninstallapp": {
+      "message": "Uygulamayı sil"
+   },
+   "activar": {
+      "message": "Etkinleştir"
+   },
+   "addt_avisoxhr": {
+      "message": "Bilgileri siteden yüklemeye çalışacağım."
+   },
+   "addt_bgcolor": {
+      "message": "Arkaplan rengi"
+   },
+   "addt_crear": {
+      "message": "Kutucuk Oluştur"
+   },
+   "addt_customico": {
+      "message": "İkon Yükle"
+   },
+   "addt_etiqueta": {
+      "message": "Başlık"
+   },
+   "addt_link": {
+      "message": "Link"
+   },
+   "addt_rssurl": {
+      "message": "RSS Besleme URL'si"
+   },
+   "addt_tamano": {
+      "message": "Genişlik"
+   },
+   "addt_tipxhrico": {
+      "message": "Tiyo: .ong uzantılı bir iconu şeffaf bir arkaplan ile kullanın"
+   },
+   "aext_descr": {
+      "message": "Metro UI.It ile özel yeni sekme sayfası, hızlı arama,e-posta facebook twitter haber,saat,hava durumu gibi çeşitli özellikler sunar."
+   },
+   "aext_name": {
+      "message": "yeni metroTab"
+   },
+   "aext_short_name": {
+      "message": "yeni metroTab"
+   },
+   "allsites": {
+      "message": "TÜM SİTELER"
+   },
+   "apar_ajustbg": {
+      "message": "Arkaplan resmini ekran boyutuna uyarla"
+   },
+   "apar_ajustbgwarn": {
+      "message": "Arkaplanı ayarlamak animasyonların düzgünlüğünü etkileyebilir."
+   },
+   "apar_animarapertura": {
+      "message": "Kutucuğa tıkladığımda animasyon göster"
+   },
+   "apar_animartiles": {
+      "message": "Yeni sekme açtığımda kutucukları animasyonla göster"
+   },
+   "apar_animartileswarn": {
+      "message": "Uyarı: Bazen garip durumlar oluşabilir."
+   },
+   "apar_h3anim": {
+      "message": "Animasyonlar"
+   },
+   "apar_h3customcss": {
+      "message": "Kişisel CSS"
+   },
+   "apar_h3detalles": {
+      "message": "Ayrıntılar"
+   },
+   "apar_h3tiles": {
+      "message": "Renkler"
+   },
+   "apar_h3usuario": {
+      "message": "Kullanıcı"
+   },
+   "apar_miniscrollbar": {
+      "message": "Küçük kaydırma çubuğu kullan"
+   },
+   "apar_newtabh1": {
+      "message": "Ana Başlık"
+   },
+   "apar_opennewtab": {
+      "message": "Çini tüm bağlantıları yeni sekmelerde açmak."
+   },
+   "apar_opennewtabwarn": {
+      "message": "Bu animasyon fayans açarken devreden çıkarır."
+   },
+   "apar_parallaxbg": {
+      "message": "Arka plan görüntüsü kaydırmayı etkinleştir"
+   },
+   "apar_smoothscroll": {
+      "message": "Yumuşak kaydırmayı kullan"
+   },
+   "apar_tambase": {
+      "message": "Kutucuğun temel büyüklüğü"
+   },
+   "apar_tambasehelp": {
+      "message": "Geniş kutucuklar 4x2 temel büyüklüğe eşittir. Varsayılan değer 60 ' dir."
+   },
+   "apar_tilegrad": {
+      "message": "Kutucuklarda sabit renk kullan(Yoğunluksuz,Eğimsiz)"
+   },
+   "apar_usuariobig": {
+      "message": "Ad"
+   },
+   "apar_usuarioimg": {
+      "message": "Kullanıcı Resmi"
+   },
+   "apar_usuariosmall": {
+      "message": "Kullanıcı Adı"
+   },
+   "auth_approved": {
+      "message": "Yetkilendirme Onaylı"
+   },
+   "auth_denied": {
+      "message": "Yetkilendirme reddedildi, Kullanıcı adı ve parolanızı kontrol edin."
+   },
+   "auth_required": {
+      "message": "Yetkilendirme gerekli"
+   },
+   "autorizar": {
+      "message": "Yetkilendir"
+   },
+   "back": {
+      "message": "geri"
+   },
+   "camara_ajustes": {
+      "message": "Ayarlamalar"
+   },
+   "camara_captura": {
+      "message": "Çek"
+   },
+   "clima_actualcondic": {
+      "message": "Mevcut durum"
+   },
+   "clima_actualhumeda": {
+      "message": "Bağıl Nem"
+   },
+   "clima_actualprecip": {
+      "message": "Yağış"
+   },
+   "clima_actualpresio": {
+      "message": "Atmosfer basıncı"
+   },
+   "clima_actualradiac": {
+      "message": "UV Radyasyonu"
+   },
+   "clima_actualviento": {
+      "message": "Rüzgar"
+   },
+   "clima_proveedor": {
+      "message": "Hava bilgilerini sağlayan:"
+   },
+   "ctxbloque_nombBloque": {
+      "message": "Grup adını düzenle"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "Yeni RSS akışının URL'sini girin"
+   },
+   "ctxinstr_inputurl": {
+      "message": "Giriş yeni URL çini"
+   },
+   "ctxinstr_nombloque": {
+      "message": "Yeni grup ismini girin. Silmek için boş bırakın."
+   },
+   "data_error": {
+      "message": "Veri biçimi hatası İçe!"
+   },
+   "date_months": {
+      "message": "Ocak/Şubat/Mart/Nisan/Mayıs/Haziran/Temmuz/Ağustos/Eylül/Ekim/Kasım/Aralık"
+   },
+   "date_weekdays": {
+      "message": "Pazar/Pazartesi/Salı/Çarşamba/Perşembe/Cuma/Cumartesi"
+   },
+   "experimental": {
+      "message": "Deneysel"
+   },
+   "games": {
+      "message": "OYUNLAR"
+   },
+   "h1tile_calendario": {
+      "message": "Takvim"
+   },
+   "h1tile_camara": {
+      "message": "Kamera"
+   },
+   "h1tile_clima": {
+      "message": "Hava Durumu"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "Dünya saati"
+   },
+   "h1tile_rssfeed": {
+      "message": "RSS Besleme"
+   },
+   "hotsites": {
+      "message": "SICAK SİTELER"
+   },
+   "ingresarcolor": {
+      "message": "Kutucuğun yeni arkaplan rengini girin\u003Cnewline>Bir renk ismi, rgb(), hsl() veya  hexadecimal kodu olabilir."
+   },
+   "ingresaretiqueta": {
+      "message": "Kutucuğun yeni başlığı:"
+   },
+   "invalid_url": {
+      "message": "Geçersiz URL"
+   },
+   "ioconfig_expconfig": {
+      "message": "Renkleri ve özellikleri dışa aktarın"
+   },
+   "ioconfig_exptile": {
+      "message": "Kutucukları dışa aktarın"
+   },
+   "ioconfig_h3in": {
+      "message": "İçe aktar"
+   },
+   "ioconfig_h3out": {
+      "message": "Dışa aktar"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "Kullanıcı kolaylığı açısından renkler ve özellikler farklı dosyalarda ihraç edilmektedir."
+   },
+   "ioconfig_infoexptile": {
+      "message": "Tüm kutucukları simgeleriyle beraber dışa aktarabilirsiniz."
+   },
+   "ioconfig_infoimp": {
+      "message": "Başka bir tarayıcıdan dışa aktarılmış kutucuk listesini ve ayarlamaları yükleyebilirsiniz."
+   },
+   "listo": {
+      "message": "Tamam"
+   },
+   "livet_avisogmail": {
+      "message": "Size Gmail kullanıcı adı ve parolanızı soran bir pencere gözükürse bu Gmail canlı kutucuğu yüzünden kaynaklanır. \u003Cnewline>Gmail canlı kutucuğu varolan oturumun bilgilerini alır eğer yoksa yenisini ister. \u003Cnewline>Eğer pencereyi görmek istemiyorsanız Gmail hesabınıza giriş yapın veya canlı kutucuğu kapatın."
+   },
+   "livet_climaaddress": {
+      "message": "Yer"
+   },
+   "livet_climasist": {
+      "message": "Derece sistemi"
+   },
+   "livet_climaubic": {
+      "message": "Konum Seç"
+   },
+   "livet_climaubicph": {
+      "message": "Şehir(ABD için posta kodu)"
+   },
+   "livet_estado": {
+      "message": "Bildirimleri etkinleştir"
+   },
+   "livet_h2optgeneral": {
+      "message": "Genel Ayarlar"
+   },
+   "livet_querevisar": {
+      "message": "Bildirimini almak istediğiniz özellikler"
+   },
+   "livet_rssauthask": {
+      "message": "Bu RSS okuyucusunu doğru bir şekilde ayarlamak için yetkilendirme gereklidir. Bunun yetkilendirme için kullanıcı adı ve parola gerekli, merak etmeyin bunların hiçbiri kaydedilmez sadece yetkilendirme için kullanılır."
+   },
+   "livet_rssreader": {
+      "message": "Varsayılan okuyucu"
+   },
+   "livet_rssreaderaviso": {
+      "message": "Şimdilik RSS beslemesi sadece Digg Reader ile çalışmakta. Sonraki versiyonlarda AOL, Feedly ve diğerlerini eklemeye çalışacağım."
+   },
+   "livet_tiempo": {
+      "message": "Canlı kutucukları beklemeden önce şu kadar bekle(saniye):"
+   },
+   "load_file": {
+      "message": "Dosya yükle..."
+   },
+   "load_url": {
+      "message": "URL'den upload..."
+   },
+   "load_urlerror": {
+      "message": "Girdiğiniz URL geçerli değil. \u003Cnewline> Kontrol edin veya daha sonra tekrar deneyin."
+   },
+   "menu_addt": {
+      "message": "Kutucuk ekle"
+   },
+   "menu_bkmr": {
+      "message": "Yer işaretleri"
+   },
+   "menu_pcr": {
+      "message": "Kapatılan sekmeler"
+   },
+   "menu_rest": {
+      "message": "Cloud tiles"
+   },
+   "myapps": {
+      "message": "BENIM APPS"
+   },
+   "nav_acercade": {
+      "message": "Hakkında"
+   },
+   "nav_apariencia": {
+      "message": "Görünüm"
+   },
+   "nav_changelog": {
+      "message": "Güncellemeler"
+   },
+   "nav_ioconfig": {
+      "message": "İçe/Dışa Aktarma"
+   },
+   "nav_livetiles": {
+      "message": "Canlı Kutucuklar"
+   },
+   "nav_opcional": {
+      "message": "İsteğe Bağlı Ayarlar"
+   },
+   "newtabh1": {
+      "message": "Yeni Sekme"
+   },
+   "no": {
+      "message": "yaxın"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "opcion_aceptar": {
+      "message": "Tamam"
+   },
+   "opcion_cancelar": {
+      "message": "Vazgeç"
+   },
+   "opcional_activbkmr": {
+      "message": "Yer İşaretleri Ekranı"
+   },
+   "opcional_activpcrh2": {
+      "message": "Yeni Kapatılan Sekmeler"
+   },
+   "opcional_avisobkmr": {
+      "message": "Deneysel bir sürümdür. Eklentiyi baştan başlatmayı gerektiren kayıt sorunlarla karşılaşabilirsiniz. \u003Cnewline> Lütfen bu özellik hakkında henüz hata raporu göndermeyin."
+   },
+   "opcional_pcrnum": {
+      "message": "Hatırlanacak en fazla sayfa sayısı"
+   },
+   "opcional_pcrsesiones": {
+      "message": "Tarayıcı oturumları arasında sayfaları hatırlama"
+   },
+   "opcional_touchsupport": {
+      "message": "Dokunmatik ekran desteği"
+   },
+   "opcional_touchsupwarn": {
+      "message": "Hala deneysel olduğu için varsayılan olarak kapalıdır, Test etmek için dokunmatik ekranım yok. Şimdilik sadece kaydırma için kullanılabilir."
+   },
+   "opcionesh1": {
+      "message": "Ayarlar"
+   },
+   "password": {
+      "message": "Şifre"
+   },
+   "quickSearchAppTitle": {
+      "message": "Sadə axtarış"
+   },
+   "recommended": {
+      "message": "Biz xüsusi, siz onları əlavə etmək üçün bəzi məşhur titls istəyirsiniz?"
+   },
+   "search": {
+      "message": "arama..."
+   },
+   "share": {
+      "message": "hisse"
+   },
+   "shopping": {
+      "message": "ALIŞVERİŞ"
+   },
+   "show_scrollbar": {
+      "message": "Hide kaydırma çubukları"
+   },
+   "sistema_ingles": {
+      "message": "Fahrenhayt"
+   },
+   "sistema_metrico": {
+      "message": "Celcius"
+   },
+   "successRestoreDefault": {
+      "message": "Default Uğur bərpa!"
+   },
+   "titulo_apariencia": {
+      "message": "Görünümü düzenle"
+   },
+   "ubicacion_anadir": {
+      "message": "Konumu ekle"
+   },
+   "ubicacion_buscar": {
+      "message": "Konum ara"
+   },
+   "username": {
+      "message": "Kullanıcı adı"
+   },
+   "vistaprevia": {
+      "message": "Önizleme"
+   },
+   "warn_manytabs": {
+      "message": "Siz Nişanlar \u003Cnum> açmaq üzrəyik. Davam etmək əminsinizmi?"
+   },
+   "weatherAppTitle": {
+      "message": "hava"
+   }
+}

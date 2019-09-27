@@ -1,0 +1,7 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+ <title>frabarz.dev sprite - metro arrow left</title>
+ <g transform="rotate(180 24 24)">
+  <path shape-rendering="crispEdges" fill="#000000" id="flecha" d="m20,21l8,-8l-7,0l-11,11l11,11l7,0l-8,-8l18,0l0,-6"/>
+  <circle r="22.5" cy="24" cx="24" id="circulo" stroke-width="3" stroke="#000000" fill="none"/>
+ </g>
+</svg>

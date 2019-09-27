@@ -1,0 +1,8 @@
+﻿<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#ffffff">
+  <title>Layer 1</title>
+  <circle cx="30" cy="60" r="7" id="svg_1"/>
+  <circle cx="60" cy="60" r="7" id="svg_2"/>
+  <circle cx="90" cy="60" r="7" id="svg_3"/>
+ </g>
+</svg>

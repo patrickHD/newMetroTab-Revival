@@ -1,0 +1,91 @@
+body {
+  background-color: #b64c00;
+}
+
+#splash {
+  background-image: url('/iconos/charmap.svg');
+}
+
+#flyoutsel {
+  display: inline-block;
+  position: relative;
+  margin-left: 1em;
+  font-size: 0.75em;
+  color: #CCC;
+  -webkit-padding-end: 0.7em;
+}
+#flyoutsel:after {
+  content: '\e019';
+  font-family: Segoe UI Symbol;
+  float: right;
+  font-size: 0.6em;
+  line-height: 1em;
+  margin: 0.7em 0.4em 0;
+}
+
+#flyout {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 50px;
+  font-size: 0.5em;
+  line-height: 2em;
+  overflow: auto;
+  background: #FFF;
+  color: #000;
+  border: 3px solid #000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-property: opacity, height, visibility;
+  -webkit-transition: 0.2s ease-out;
+}
+#flyout.visible {
+  visibility: visible;
+  opacity: 1;
+  height: 356px;
+}
+#flyout div {
+  padding: 0 0.8em;
+  -webkit-padding-end: 2em;
+  font-family: "Segoe UI", "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+#flyout div:hover {
+  background: #b64c00;
+  color: #FFF;
+}
+
+.bloque {
+  display: inline-block;
+  position: relative;
+  padding: 0px 50px 0 0;
+  height: 100%;
+  width: 240px;
+  vertical-align: top;
+  white-space: normal;
+}
+.bloque::before {
+  content: attr(data-titulo);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 4px;
+  display: block;
+  font-size: 25px;
+  line-height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tile {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Segoe UI Symbol', 'Segoe UI', "Meiryo UI", "Meiryo", "Microsoft YaHei UI", "Microsoft YaHei", "Microsoft JhengHei UI", "Microsoft JhengHei", "Malgun Gothic", Ebrima, "Khmer UI", Latha, "Nirmala UI", Tunga, "Lao UI", Lao, Leelawadee, Verdana, Arial, Helvetica, 'Lucida Sans Unicode', sans-serif;
+  line-height: 56px;
+  text-align: center;
+  background-color: #612800;
+  cursor: pointer;
+}

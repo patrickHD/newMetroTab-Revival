@@ -1,0 +1,497 @@
+{
+   "Install": {
+      "message": "felszerel"
+   },
+   "Installed": {
+      "message": "telepített"
+   },
+   "RestoreDefault": {
+      "message": "Alapbeállítások visszaállítása"
+   },
+   "acerca_agradece": {
+      "message": "Köszönetnyilvánítás"
+   },
+   "acerca_apoyo": {
+      "message": "Támogatás"
+   },
+   "acerca_contact": {
+      "message": "Ha bármilyen kérdése van, kérjük, írjon, írjon nekünk:"
+   },
+   "acerca_idiompers": {
+      "message": "Fordításokat készítették a new metroTab-hez:"
+   },
+   "acerca_infoapi": {
+      "message": "Magad is készíthetsz élő csempéket az API-val."
+   },
+   "acerca_informar": {
+      "message": "Hibajelentés és támogatás"
+   },
+   "acerca_informarinstr": {
+      "message": "Hibajelentéshez,vagy újdononság bejelentéséhez, használd ezt a linket:"
+   },
+   "action_cambiarss": {
+      "message": "RSS Csatorna megváltoztatása"
+   },
+   "action_changebgcolor": {
+      "message": "Háttér szín változtatása"
+   },
+   "action_changeicon": {
+      "message": "Ikon cseréje"
+   },
+   "action_changesize": {
+      "message": "Méret változtatása"
+   },
+   "action_colorpick": {
+      "message": "Válasszon színt..."
+   },
+   "action_copylink": {
+      "message": "URL másolása"
+   },
+   "action_delete": {
+      "message": "Töröl"
+   },
+   "action_deselect": {
+      "message": "Kijelölés törlése"
+   },
+   "action_editurl": {
+      "message": "URL-cím módosítása"
+   },
+   "action_icondeletion": {
+      "message": "Ikon eltávolítása"
+   },
+   "action_incsscolor": {
+      "message": "CSS színkód"
+   },
+   "action_liveactiv": {
+      "message": "Élő csempe aktiválása"
+   },
+   "action_livedesac": {
+      "message": "Élő csempe kikapcsolása"
+   },
+   "action_opennewtab": {
+      "message": "Hivatkozás megnyitása új lapon"
+   },
+   "action_opennewwin": {
+      "message": "Megnyitás új ablakban"
+   },
+   "action_rename": {
+      "message": "Címke cseréje"
+   },
+   "action_sizelarge": {
+      "message": "Nagy"
+   },
+   "action_sizenormal": {
+      "message": "Normál"
+   },
+   "action_sizesmall": {
+      "message": "Kis"
+   },
+   "action_sizewide": {
+      "message": "Széles"
+   },
+   "action_transparent": {
+      "message": "Átlátszóság"
+   },
+   "action_uninstallapp": {
+      "message": "Alkalmazás törlése"
+   },
+   "activar": {
+      "message": "Aktiválás"
+   },
+   "addt_avisoxhr": {
+      "message": "Információk betöltése a weboldalról."
+   },
+   "addt_bgcolor": {
+      "message": "Háttérszín"
+   },
+   "addt_crear": {
+      "message": "Csempe készítése"
+   },
+   "addt_customico": {
+      "message": "Egyéni ikon"
+   },
+   "addt_etiqueta": {
+      "message": "Címke"
+   },
+   "addt_link": {
+      "message": "Hivatkozás"
+   },
+   "addt_rssurl": {
+      "message": "RSS Csatorna hivatkozás"
+   },
+   "addt_tamano": {
+      "message": "Szélesség"
+   },
+   "addt_tipxhrico": {
+      "message": "Tipp: Használj .png formátumot az átlátszó háttérhez."
+   },
+   "aext_descr": {
+      "message": "Egyéni új lap oldalt Metro UI.It kínál számos funkciók, mint például a gyorstárcsázási,facebook twitter értesítést, óra, időjárás."
+   },
+   "aext_name": {
+      "message": "új metroTab"
+   },
+   "aext_short_name": {
+      "message": "új metroTab"
+   },
+   "allsites": {
+      "message": "MINDEN TELEK"
+   },
+   "apar_ajustbg": {
+      "message": "Háttér igazítása a képernyő méretéhez"
+   },
+   "apar_ajustbgwarn": {
+      "message": "Az igazítás befolyásolhatja az animációk mozgását."
+   },
+   "apar_animarapertura": {
+      "message": "Animáció csempére kattintáskor"
+   },
+   "apar_animartiles": {
+      "message": "Csempék animálása új lap nyitásakor"
+   },
+   "apar_animartileswarn": {
+      "message": "Vigyázat: néha furcsán viselkedhet."
+   },
+   "apar_h3anim": {
+      "message": "Animációk"
+   },
+   "apar_h3customcss": {
+      "message": "Egyéni CSS"
+   },
+   "apar_h3detalles": {
+      "message": "Részletek"
+   },
+   "apar_h3tiles": {
+      "message": "Színek"
+   },
+   "apar_h3usuario": {
+      "message": "Felhasználó"
+   },
+   "apar_miniscrollbar": {
+      "message": "Görgetősáv használata"
+   },
+   "apar_newtabh1": {
+      "message": "Főcím"
+   },
+   "apar_opennewtab": {
+      "message": "Csempék hivatkozásainak megnyitása új lapon."
+   },
+   "apar_opennewtabwarn": {
+      "message": "Ez kikapcsolja az animációt, amikor a csempék megnyílnak."
+   },
+   "apar_parallaxbg": {
+      "message": "A háttér kép görgetés aktiválása"
+   },
+   "apar_smoothscroll": {
+      "message": "Finom görgetés használata"
+   },
+   "apar_tambase": {
+      "message": "Csempe alap méret"
+   },
+   "apar_tambasehelp": {
+      "message": "A széles csempe mérete megegyezik a 4 x 2 alap mérettel. Alapértelmezett érték 60."
+   },
+   "apar_tilegrad": {
+      "message": "Egy szín használata (színáttűnés nélkül) a csempéken"
+   },
+   "apar_usuariobig": {
+      "message": "Név"
+   },
+   "apar_usuarioimg": {
+      "message": "Avatár"
+   },
+   "apar_usuariosmall": {
+      "message": "Becenév"
+   },
+   "auth_approved": {
+      "message": "Hozzáférés elfogadva."
+   },
+   "auth_denied": {
+      "message": "Hozzáférés megtagadva, ellenőrizze a felhasználónevét, és jelszavát"
+   },
+   "auth_required": {
+      "message": "Engedélyezés szükséges"
+   },
+   "autorizar": {
+      "message": "Engedélyezés"
+   },
+   "back": {
+      "message": "vissza"
+   },
+   "camara_ajustes": {
+      "message": "Beállítások"
+   },
+   "camara_captura": {
+      "message": "Rögzítés"
+   },
+   "clima_actualcondic": {
+      "message": "Jelenlegi állapot"
+   },
+   "clima_actualhumeda": {
+      "message": "Relatív páratartalom"
+   },
+   "clima_actualprecip": {
+      "message": "Csapadék"
+   },
+   "clima_actualpresio": {
+      "message": "Légköri nyomás"
+   },
+   "clima_actualradiac": {
+      "message": "UV Sugárzás"
+   },
+   "clima_actualviento": {
+      "message": "Szél"
+   },
+   "clima_proveedor": {
+      "message": "Időjárási információkat szolgáltatja a(z)"
+   },
+   "ctxbloque_nombBloque": {
+      "message": "Csoport-név módosítása"
+   },
+   "ctxinstr_cambiarss": {
+      "message": "Adja meg az új RSS hírcsatorna URL címét"
+   },
+   "ctxinstr_inputurl": {
+      "message": "Adja meg a csempe új URL címét"
+   },
+   "ctxinstr_nombloque": {
+      "message": "Írja be a csoport nevét. A törléshez, hagyja üresen."
+   },
+   "data_error": {
+      "message": "Importálása Adatok format error!"
+   },
+   "date_months": {
+      "message": "Január/Február/Március/Április/Lehet/Június/Július/Augusztus/Szeptember/Október/November/December"
+   },
+   "date_weekdays": {
+      "message": "Vasárnap/Hétfőn/Kedd/Szerda/Csütörtök/Péntek/Szombat"
+   },
+   "experimental": {
+      "message": "Kísérleti"
+   },
+   "games": {
+      "message": "JÁTÉKOK"
+   },
+   "h1tile_calendario": {
+      "message": "Naptár"
+   },
+   "h1tile_camara": {
+      "message": "Kamera"
+   },
+   "h1tile_clima": {
+      "message": "Időjárás"
+   },
+   "h1tile_originalntp": {
+      "message": "Chrome Newtab"
+   },
+   "h1tile_reloj": {
+      "message": "Világóra"
+   },
+   "h1tile_rssfeed": {
+      "message": "RSS Csatorna"
+   },
+   "hotsites": {
+      "message": "MELEG OLDALAK"
+   },
+   "ingresarcolor": {
+      "message": "Írja be az új háttérszínt. \u003Cnewline>Lehet egy szín neve, rgb() vagy hsl() érték, vagy egy hexadecimalis szám."
+   },
+   "ingresaretiqueta": {
+      "message": "Írja be az új címkét"
+   },
+   "invalid_url": {
+      "message": "Érvénytelen URL-cím"
+   },
+   "ioconfig_expconfig": {
+      "message": "Szín és beállítások exportálása"
+   },
+   "ioconfig_exptile": {
+      "message": "Csempék listájának exportálása"
+   },
+   "ioconfig_h3in": {
+      "message": "Beállítások importálása"
+   },
+   "ioconfig_h3out": {
+      "message": "Beállítások exportálása"
+   },
+   "ioconfig_infoexpconfig": {
+      "message": "A használat megkönnyítésehez, a színek és a beállítások exportálás külön fájlba történik."
+   },
+   "ioconfig_infoexptile": {
+      "message": "A jelenlegi csempék exportálhatóak az ikonokkal együtt."
+   },
+   "ioconfig_infoimp": {
+      "message": "Csempék és beállításainak betöltése."
+   },
+   "listo": {
+      "message": "Rendben"
+   },
+   "livet_avisogmail": {
+      "message": "Ha egy párbeszédpanel jelenik meg a Gmail jelszavát kérve, az azért van, mert a Gmail csempe fut. \u003Cnewline>Ez a funkció kezeli a Gmail szolgáltatással kapcsolatos információkat. \u003Cnewline>Ha nem akarja, hogy felvillanjon a párbeszédpanel újra, akkor jelentkezzen be a Gmail szolgáltatásba, illetve a csempét ki is kapcsolhatja."
+   },
+   "livet_climaaddress": {
+      "message": "elhelyezkedés"
+   },
+   "livet_climasist": {
+      "message": "Mérési rendszer"
+   },
+   "livet_climaubic": {
+      "message": "Tartózkodási hely kiválasztása"
+   },
+   "livet_climaubicph": {
+      "message": "Város (vagy irányítószám ha USA)"
+   },
+   "livet_estado": {
+      "message": "Értesítések aktiválása"
+   },
+   "livet_h2optgeneral": {
+      "message": "Általános beállítások"
+   },
+   "livet_querevisar": {
+      "message": "Elemek ellenőrzése"
+   },
+   "livet_rssauthask": {
+      "message": "Ahhoz, hogy az RSS olvasó helyesen legyen beállítva, az új metro tab-nak engedélyre van szüksége. "
+   },
+   "livet_rssreader": {
+      "message": "Alapértelmezett olvasó"
+   },
+   "livet_rssreaderaviso": {
+      "message": "Az RSS Feeds csak Digg Reader szolgáltatással muködik. A jövoben támogatni fogja az Aol Reader-t, Feedly-t is."
+   },
+   "livet_tiempo": {
+      "message": "Várakozás(másodpercben) mielőtt betöltenek az élő csempék"
+   },
+   "load_file": {
+      "message": "Fájl betöltése..."
+   },
+   "load_url": {
+      "message": "Feltöltés URL..."
+   },
+   "load_urlerror": {
+      "message": "A beírt cím nem létezik. \u003Cnewline>Ellenőrizd vagy próbáld később."
+   },
+   "menu_addt": {
+      "message": "Csempe hozzáadása"
+   },
+   "menu_bkmr": {
+      "message": "Könyvjelzők"
+   },
+   "menu_pcr": {
+      "message": "Bezárt lapok"
+   },
+   "menu_rest": {
+      "message": "Cloud tiles"
+   },
+   "myapps": {
+      "message": "MY APPS"
+   },
+   "nav_acercade": {
+      "message": "Információ"
+   },
+   "nav_apariencia": {
+      "message": "Megjelenés"
+   },
+   "nav_changelog": {
+      "message": "Változások"
+   },
+   "nav_ioconfig": {
+      "message": "Importálás/Exportálás beállítások"
+   },
+   "nav_livetiles": {
+      "message": "Élő csempék"
+   },
+   "nav_opcional": {
+      "message": "Opcionális funkciók"
+   },
+   "newtabh1": {
+      "message": "új lap"
+   },
+   "no": {
+      "message": "szorosan"
+   },
+   "ok": {
+      "message": "rendben"
+   },
+   "opcion_aceptar": {
+      "message": "Rendben"
+   },
+   "opcion_cancelar": {
+      "message": "Kilépés"
+   },
+   "opcional_activbkmr": {
+      "message": "Könyvjelzok"
+   },
+   "opcional_activpcrh2": {
+      "message": "Nemrég bezárt lapok"
+   },
+   "opcional_avisobkmr": {
+      "message": "Kísérleti funkció. Használat közben megtelhet a memória, ilyenkor újra kell indítani a böngészot.\u003Cnewline>Kérem ne küldjön hibajelentést ezzel a funkcióval kapcsolatban."
+   },
+   "opcional_pcrnum": {
+      "message": "Oldalak maximális száma melyeket jegyezzen meg"
+   },
+   "opcional_pcrsesiones": {
+      "message": "Ne emlékezzen azokra az oldalakra melyek külön ablakban nyiltak meg"
+   },
+   "opcional_touchsupport": {
+      "message": "Érintőképernyő támogatása"
+   },
+   "opcional_touchsupwarn": {
+      "message": "Alapértelmezés szerint ki van kapcsolva, mivel ez még egy kísérleti funkció."
+   },
+   "opcionesh1": {
+      "message": "Beállítások"
+   },
+   "password": {
+      "message": "Jelszó"
+   },
+   "quickSearchAppTitle": {
+      "message": "Gyors keresés"
+   },
+   "recommended": {
+      "message": "Azt szokás néhány népszerű titls, akarsz adni nekik?"
+   },
+   "search": {
+      "message": "keresés..."
+   },
+   "share": {
+      "message": "részvény"
+   },
+   "shopping": {
+      "message": "VÁSÁRLÁS"
+   },
+   "show_scrollbar": {
+      "message": "Hide görgetősáv"
+   },
+   "sistema_ingles": {
+      "message": "Angol"
+   },
+   "sistema_metrico": {
+      "message": "Metrikus"
+   },
+   "successRestoreDefault": {
+      "message": "Restore Default sikerhez!"
+   },
+   "titulo_apariencia": {
+      "message": "Megjelenés szerkesztése"
+   },
+   "ubicacion_anadir": {
+      "message": "Hely hozzáadása"
+   },
+   "ubicacion_buscar": {
+      "message": "Hely keresése"
+   },
+   "username": {
+      "message": "Felhasználói név"
+   },
+   "vistaprevia": {
+      "message": "Előnézet"
+   },
+   "warn_manytabs": {
+      "message": "Te \u003Cnum> tabs nyit. Biztosan folytatja?"
+   },
+   "weatherAppTitle": {
+      "message": "időjárás"
+   }
+}
