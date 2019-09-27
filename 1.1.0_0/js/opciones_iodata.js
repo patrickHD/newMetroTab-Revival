@@ -1,15 +1,6 @@
 var $ = window.jQuery;
 $(function() {
     console.log('jqgood');
-    $("#ioconfig_outbtntiles").click(function() {
-        $("<a />", {
-                "download": "data.json",
-                "href": "data:application/json," + encodeURIComponent(JSON.stringify($(this).data().obj))
-            }).appendTo("body")
-            .click(function() {
-                $(this).remove()
-            })[0].click()
-    })
 });
 (function() {
 
@@ -34,7 +25,18 @@ $(function() {
         return salida;
     }
 
+    function downloadfile(output, name) {
+        $("<a/>", {
+                "download": name,
+                "href": "data:application/json," + encodeURIComponent(JSON.stringify(output))
+            }).appendTo("body")
+            .click(function() {
+                $(this).remove()
+            })[0].click()
+    }
+
     function bajarArchivo(salida, nombre) {
+        downloadfile(salida, nombre);
         var a = document.createElement('a'),
             event = new CustomEvent('click'),
             contenido = new Blob([JSON.stringify(salida, null, 2)], { type: 'text/plain;charset=UTF-8' });
