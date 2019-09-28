@@ -3,7 +3,12 @@ Adding fixes and features to the new metroTab Chrome Extension
 
 Original Chrome Web Store listing: https://chrome.google.com/webstore/detail/new-metrotab/oogmkbpkoblajkomflhkkdmbfggdmefd?hl=en
 
-I don't think I'll be listing this on the store so if you want to download it:
+Twitter: https://twitter.com/pjams7
+
+Ko-Fi: https://ko-fi.com/patrickhd
+
+
+I don't think I'll be listing this on the store so if you want to download and use it:
 
 1: Download the repository and place it a static location 
 (you can't move the folder after adding it to Chrome)
