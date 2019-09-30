@@ -7,7 +7,7 @@
 >
 >Better CSS editor ✖
 >
->More visualization settings ✖
+>More visualization settings ✖ (Gradient option for tiles so far)
 >
 >Remove broken 'live tiles' features ✖
 
