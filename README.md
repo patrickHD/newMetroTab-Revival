@@ -14,7 +14,7 @@
 ---
 Original Chrome Web Store listing: https://chrome.google.com/webstore/detail/new-metrotab/oogmkbpkoblajkomflhkkdmbfggdmefd?hl=en
 
-Twitter: https://twitter.com/pjams7
+Twitter: https://twitter.com/patrick__daniel
 
 Ko-Fi: https://ko-fi.com/patrickhd
 
